@@ -253,11 +253,11 @@ const leaksData = [
   },
   {
     id: 22,
-    organization: "Toplina",
+    organization: "pod-toplina.bg",
     type: "private",
     description: {
-      en: "Heating company breach",
-      bg: "Пробив на топлофикационна компания"
+      en: "Pension insurance company breach",
+      bg: "Пробив в информационната система на пенсионно осигурително дружество"
     },
     source: "https://breachforums.hn",
     images: ["images/toplina.png"],
