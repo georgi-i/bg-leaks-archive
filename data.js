@@ -440,7 +440,7 @@ const leaksData = [
       bg: "Компания за човешки ресурси - Funksec ransomware атака"
     },
     source: "https://www.ransomware.live/id/aHJldS5ldUBmdW5rc2Vj",
-    images: [],
+    images: ["https://images.ransomware.live/victims/018444382cb13aadb7f41fda1abff3e6.png"],
     
   },
   {
@@ -464,23 +464,11 @@ const leaksData = [
       bg: "Рекламна компания - Sarcoma ransomware групова атака"
     },
     source: "https://www.ransomware.live/id/U21hcnQgTWVkaWEgR3JvdXAgQnVsZ2FyaWFAc2FyY29tYQ==",
-    images: [],
+    images: ["images/smartd.bg.png"],
     
   },
   {
     id: 40,
-    organization: "EasyPay",
-    type: "private",
-    description: {
-      en: "Payment services company - Sarcoma ransomware attack, leak size: 5GB",
-      bg: "Компания за платежни услуги - Sarcoma ransomware атака, размер на изтичането: 5GB"
-    },
-    source: "https://www.ransomware.live/id/RWFzeVBheUBzYXJjb21h",
-    images: [],
-    
-  },
-  {
-    id: 41,
     organization: "intrama-bg.com",
     type: "private",
     description: {
@@ -488,11 +476,11 @@ const leaksData = [
       bg: "Производствена компания - Stormous ransomware атака"
     },
     source: "https://www.ransomware.live/id/aW50cmFtYS1iZ0BzdG9ybW91cw==",
-    images: [],
+    images: ["images/intrama-bg.png"],
     
   },
   {
-    id: 42,
+    id: 41,
     organization: "Regas Energy (regasenergy.com)",
     type: "private",
     description: {
@@ -500,11 +488,11 @@ const leaksData = [
       bg: "Енергийна компания (Електричество, петрол и газ) - Monti ransomware атака"
     },
     source: "https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=",
-    images: [],
+    images: ["https://images.ransomware.live/victims/c1fd85be2ef64fa62605918e48ce825d.png"],
     
   },
   {
-    id: 43,
+    id: 42,
     organization: "GERB Political Party (gerb.bg)",
     type: "public",
     description: {
@@ -512,10 +500,10 @@ const leaksData = [
       bg: "Политическа партия, ръководена от бившия министър-председател Бойко Борисов - LockBit3 ransomware атака"
     },
     source: "https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==",
-    images: [],
+    images: ["https://images.ransomware.live/victims/8c6504b4a9b54bd9ec67edd306bbcb34.png"],
   },
   {
-    id: 44,
+    id: 43,
     organization: "varnabroker.com",
     type: "private",
     description: {
