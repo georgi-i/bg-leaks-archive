@@ -54,7 +54,6 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | hreu.eu                    | Human resources company - Funksec ransomware attack   | https://www.ransomware.live/id/aHJldS5ldUBmdW5rc2Vj                     |
 | Supreme Administrative Court| Ransomhouse attack (January 2025)                     | https://www.ransomware.live/id/U3VwcmVtZSBBZG1pbmlzdHJhdGl2ZSBDb3VydCBvZiBCdWxnYXJpYUByYW5zb21ob3VzZQ== |
 | Smart Media Group Bulgaria | Advertising services company - Sarcoma ransomware attack | https://www.ransomware.live/id/U21hcnQgTWVkaWEgR3JvdXAgQnVsZ2FyaWFAc2FyY29tYQ== |
-| EasyPay                    | Payment services company - Sarcoma ransomware attack  | https://www.ransomware.live/id/RWFzeVBheUBzYXJjb21h                       |
 | intrama-bg.com             | Manufacturing company - Stormous ransomware attack    | https://www.ransomware.live/id/aW50cmFtYS1iZ0BzdG9ybW91cw==              |
 | Regas Energy (regasenergy.com)| Energy sector company - Monti ransomware attack       | https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=  |
 | GERB Political Party (gerb.bg) | Political party - LockBit3 ransomware attack           | https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==                  |
