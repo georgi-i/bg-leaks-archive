@@ -512,5 +512,292 @@ const leaksData = [
     },
     source: "https://leakbase.la/threads/varnabroker-com.877/",
     images: ["images/varnabroker.png"],
+  },
+    {
+    id: 44,
+    organization: "bulgarianpropertyuk.com",
+    type: "private",
+    description: {
+      en: "A real estate agency specializing in Bulgarian property sales to UK clients, offering apartments, houses, and hotels primarily in Black Sea resorts like Sunny Beach and Nessebar.",
+      bg: "Агенция за недвижими имоти, специализирана в продажбата на български имоти на клиенти от Великобритания, предлагаща апартаменти, къщи и хотели предимно в черноморски курорти като Слънчев бряг и Несебър."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/bulgarianpropertyuk.com.png"],
+  },
+  {
+    id: 45,
+    organization: "autocatalog.bg",
+    type: "private",
+    description: {
+      en: "An automotive news and information website covering car brands, models, specifications, and motorsports in Bulgarian.",
+      bg: "Уебсайт за автомобилни новини и информация, обхващащ марки автомобили, модели, спецификации и моторни спортове на български."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/autocatalog.bg.png"],
+  },
+  {
+    id: 46,
+    organization: "arenabg.com",
+    type: "private",
+    description: {
+      en: "A Bulgarian torrent tracker website for downloading movies, TV series, and other digital content.",
+      bg: "Български торент тракер уебсайт за изтегляне на филми, телевизионни сериали и друго цифрово съдържание."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/arenabg.com.png"],
+  },
+  {
+    id: 47,
+    organization: "ipmart-bg.com",
+    type: "private",
+    description: {
+      en: "Old bulgarian forum for IT stuff.",
+      bg: "Стар български форум за IT."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/ipmart-bg.com.png"],
+  },
+  {
+    id: 48,
+    organization: "assoc.pension.bg",
+    type: "private",
+    description: {
+      en: "Related to the Bulgarian Association of Supplementary Pension Security Companies, dealing with pension fund information.",
+      bg: "Свързана с Българската асоциация на дружествата за допълнително пенсионно осигуряване, занимаваща се с информация за пенсионни фондове."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/pension.bg.png"],
+  },
+  {
+    id: 49,
+    organization: "bgpochivka.eu",
+    type: "private",
+    description: {
+      en: "A Bulgarian vacation and holiday booking website.",
+      bg: "Български уебсайт за резервация на ваканции и почивки."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 50,
+    organization: "blog.bg",
+    type: "private",
+    description: {
+      en: "A free Bulgarian blog hosting platform and portal where users can create and maintain personal blogs.",
+      bg: "Безплатна българска платформа за блогове и портал, където потребителите могат да създават и поддържат лични блогове."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 51,
+    organization: "games.portokal-bg.net",
+    type: "private",
+    description: {
+      en: "An online gaming portal offering free flash games in various categories including puzzles, action, sports, and card games.",
+      bg: "Онлайн игрален портал, предлагащ безплатни флаш игри в различни категории, включително пъзели, екшън, спортни и карти игри."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 52,
+    organization: "ironmaiden-bg.com",
+    type: "private",
+    description: {
+      en: "The official Bulgarian Iron Maiden fan club website featuring band news, discography information, and local concert announcements.",
+      bg: "Официалният български фен клуб на Iron Maiden с новини за групата, дискография и обявления за местни концерти."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 53,
+    organization: "sopko.tu-sofia.bg",
+    type: "private",
+    description: {
+      en: "An e-learning platform (\"SOPKO\") for Technical University Sofia providing distance education courses.",
+      bg: "Платформа за електронно обучение (\"СОПКО\") на Технически университет София, предоставяща курсове за дистанционно обучение."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 54,
+    organization: "carpbg.com",
+    type: "private",
+    description: {
+      en: "A Bulgarian fishing website focused on carp fishing, equipment, and angling community.",
+      bg: "Български уебсайт за риболов, фокусиран върху шаранджийство, оборудване и риболовна общност."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 55,
+    organization: "ebcbrakes.bg",
+    type: "private",
+    description: {
+      en: "A Bulgarian distributor and online shop for EBC Brakes automotive braking systems and parts.",
+      bg: "Български дистрибутор и онлайн магазин за EBC Brakes автомобилни спирачни системи и части."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 56,
+    organization: "rabota.bg",
+    type: "private",
+    description: {
+      en: "A major Bulgarian job search website featuring employment listings, resume creation, and recruitment services across Bulgaria.",
+      bg: "Голям български сайт за търсене на работа с обяви за заетост, създаване на автобиография и услуги за набиране на персонал в България."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 57,
+    organization: "walkersbg.org",
+    type: "private",
+    description: {
+      en: "Website of the Bulgarian Pedestrian Foundation.",
+      bg: "Уебсайт на Българската фондация за пешеходци."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 58,
+    organization: "fagor.bg",
+    type: "private",
+    description: {
+      en: "The official Bulgarian importer and distributor of Fagor, Edesa, and Cata household appliances from Spain.",
+      bg: "Официален български вносител и дистрибутор на домакински уреди Fagor, Edesa и Cata от Испания."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 59,
+    organization: "meloman-bg.com",
+    type: "private",
+    description: {
+      en: "Sofia's oldest music store selling vinyl records, CDs, turntables, with thousands of titles available and custom ordering services.",
+      bg: "Най-старият музикален магазин в София, продаващ винилови плочи, CD-та, грамофони с хиляди налични заглавия и услуги за поръчка по желание."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 60,
+    organization: "patient.bg",
+    type: "private",
+    description: {
+      en: "A healthcare-related website for Bulgarian patients.",
+      bg: "Уебсайт, свързан със здравеопазването за български пациенти."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 61,
+    organization: "trimonium-bg.com",
+    type: "private",
+    description: {
+      en: "An international recruitment agency specializing in placing Bulgarian professionals in jobs abroad.",
+      bg: "Международна агенция за набиране на персонал, специализирана в наемането на български професионалисти на работа в чужбина."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 62,
+    organization: "knigabg.com",
+    type: "private",
+    description: {
+      en: "An online Bulgarian bookstore selling books, educational materials, games, and gifts.",
+      bg: "Онлайн българска книжарница, продаваща книги, образователни материали, игри и подаръци."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 63,
+    organization: "esistore.bg",
+    type: "private",
+    description: {
+      en: "e-commerce for office supplies.",
+      bg: "Електронна търговия за офис консумативи."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 64,
+    organization: "seajobs.bg",
+    type: "private",
+    description: {
+      en: "A maritime employment website focused on seafaring and shipping industry jobs.",
+      bg: "Уебсайт за морска заетост, фокусиран върху мореплавателни и корабоплавателни професии."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 65,
+    organization: "dnt.bg",
+    type: "private",
+    description: {
+      en: "Financial Services.",
+      bg: "Финансови услуги."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 66,
+    organization: "linkstar.bg",
+    type: "private",
+    description: {
+      en: "Online store and importer of mobile phone accessories.",
+      bg: "Онлайн магазин и вносител на аксесоари за мобилни телефони."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 67,
+    organization: "ski.bg",
+    type: "private",
+    description: {
+      en: "A comprehensive Bulgarian skiing and snowboarding information portal covering resorts like Bansko, Borovets, and Pamporovo with booking services.",
+      bg: "Изчерпателен български информационен портал за ски и сноуборд, обхващащ курорти като Банско, Боровец и Пампорово с услуги за резервация."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 68,
+    organization: "smc-bg.com",
+    type: "public",
+    description: {
+      en: "Оld website of the Sofia Military Court.",
+      bg: "Стар уебсайт на Софийския военен съд."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
+  },
+  {
+    id: 69,
+    organization: "superphone.bg",
+    type: "private",
+    description: {
+      en: "A Bulgarian mobile phone and accessories retailer offering various smartphone brands and related products.",
+      bg: "Български търговец на дребно за мобилни телефони и аксесоари, предлагащ различни марки смартфони и свързани продукти."
+    },
+    source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+    images: ["images/oldbigdbs.png"],
   }
+];
 ];
