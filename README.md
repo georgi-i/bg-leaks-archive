@@ -84,3 +84,45 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | ski.bg | Bulgarian skiing and snowboarding information portal | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
 | smc-bg.com | Old website of the Sofia Military Court | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
 | superphone.bg | Bulgarian mobile phone and accessories retailer | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| 5kmrun.bg | Bulgaria's biggest free weekly running community | https://bezbedanbalkan.net/thread-1311.html |
+| avtomagazin.bg | Bulgarian automotive magazine and news website | https://bezbedanbalkan.net/thread-1311.html |
+| bg-planet.com | Bulgarian web portal and community platform | https://bezbedanbalkan.net/thread-1311.html |
+| bg-sail.org | Bulgarian sailing community and yacht club website | https://bezbedanbalkan.net/thread-1311.html |
+| bgben.co.uk | UK-based Bulgarian media and information service | https://bezbedanbalkan.net/thread-1311.html |
+| bis.bg | Bulgarian social networking platform | https://bezbedanbalkan.net/thread-1311.html |
+| boxoffice.bg | Bulgarian cinema and movie theater ticket booking platform | https://bezbedanbalkan.net/thread-1311.html |
+| bulgaria-shop.de | German-based online shop selling Bulgarian products | https://bezbedanbalkan.net/thread-1311.html |
+| cabinet.bg | Bulgarian business services and consulting platform | https://bezbedanbalkan.net/thread-1311.html |
+| careers.unwe.bg | Career services portal of UNWE in Sofia | https://bezbedanbalkan.net/thread-1311.html |
+| classroom.bg | Bulgarian educational technology platform | https://bezbedanbalkan.net/thread-1311.html |
+| daxy.com | Bulgarian website | https://bezbedanbalkan.net/thread-1311.html |
+| detelina-bg.com | Bulgarian online store for seeds and agricultural products | https://bezbedanbalkan.net/thread-1311.html |
+| e-uard.bg | Bulgarian electronic security and monitoring services | https://bezbedanbalkan.net/thread-1311.html |
+| en.journey.bg | Bulgarian travel and tourism website | https://bezbedanbalkan.net/thread-1311.html |
+| forum.investor.bg | Bulgarian investment and financial discussion forum | https://bezbedanbalkan.net/thread-1311.html |
+| forumold.adv-bulgaria.com | Bulgarian advertising and marketing industry forum | https://bezbedanbalkan.net/thread-1311.html |
+| fpleague.bg | Bulgarian fantasy sports league for football predictions | https://bezbedanbalkan.net/thread-1311.html |
+| gss.bg | Bulgarian IT services and technology solutions provider | https://bezbedanbalkan.net/thread-1311.html |
+| inoxbulgaria.com | Bulgarian stainless steel products manufacturer | https://bezbedanbalkan.net/thread-1311.html |
+| jelezaria.bg | Bulgarian online hardware store | https://bezbedanbalkan.net/thread-1311.html |
+| lsbg.net | Bulgarian lifeboat and maritime safety organization | https://bezbedanbalkan.net/thread-1311.html |
+| market.bg | Bulgarian online marketplace and classifieds platform | https://bezbedanbalkan.net/thread-1311.html |
+| metal.best.bg | Bulgarian metal industry and metalworking services | https://bezbedanbalkan.net/thread-1311.html |
+| mining.bg | Bulgarian mining industry news and information portal | https://bezbedanbalkan.net/thread-1311.html |
+| mushroom-bulgaria.com | Bulgarian restaurant for mushroom cuisine | https://bezbedanbalkan.net/thread-1311.html |
+| naedro.bg | Bulgarian wholesale marketplace and B2B trading platform | https://bezbedanbalkan.net/thread-1311.html |
+| nfp-drugs.bg | Bulgarian National Framework for Pricing of Medicinal Products | https://bezbedanbalkan.net/thread-1311.html |
+| offnews.bg | Bulgarian news and media website | https://bezbedanbalkan.net/thread-1311.html |
+| pcmania.bg | Bulgarian computer gaming community and forum | https://bezbedanbalkan.net/thread-1311.html |
+| pigeon-bg.com | Bulgarian pigeon breeding and racing community | https://bezbedanbalkan.net/thread-1311.html |
+| portal-bg.com | Bulgarian web portal with search engine services | https://bezbedanbalkan.net/thread-1311.html |
+| rechnik-bg.com | Bulgarian online dictionary and translation service | https://bezbedanbalkan.net/thread-1311.html |
+| shop.karta.bg | Online shop selling maps, atlases, and travel guides | https://bezbedanbalkan.net/thread-1311.html |
+| snimkionline.bg | Bulgarian online photo printing services | https://bezbedanbalkan.net/thread-1311.html |
+| svatba-bg.net | Bulgarian wedding planning and services portal | https://bezbedanbalkan.net/thread-1311.html |
+| techn0.eu.server12.host.bg | Bulgarian hosting server or technology service | https://bezbedanbalkan.net/thread-1311.html |
+| theatre.art.bg | Bulgarian theater and performing arts portal | https://bezbedanbalkan.net/thread-1311.html |
+| v2.offroad-bulgaria.com | Bulgarian off-road and 4x4 vehicles community | https://bezbedanbalkan.net/thread-1311.html |
+| vestnikreklama.bg | Bulgarian advertising newspaper and classifieds | https://bezbedanbalkan.net/thread-1311.html |
+| vipoferta.bg | Bulgarian VIP deals and special offers platform | https://bezbedanbalkan.net/thread-1311.html |
+| vsu.bg | Website of Higher School - Lyuben Karavelov | https://bezbedanbalkan.net/thread-1311.html |
