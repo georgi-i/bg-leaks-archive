@@ -58,3 +58,29 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | Regas Energy (regasenergy.com)| Energy sector company - Monti ransomware attack       | https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=  |
 | GERB Political Party (gerb.bg) | Political party - LockBit3 ransomware attack           | https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==                  |
 | varnabroker.com | Bulgarian insurance company           | https://leakbase.la/threads/varnabroker-com.877/                 |
+| bulgarianpropertyuk.com | Real estate agency specializing in Bulgarian property sales to UK clients | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| autocatalog.bg | Automotive news and information website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| arenabg.com | Bulgarian torrent tracker website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| ipmart-bg.com | Old Bulgarian forum for IT stuff | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| assoc.pension.bg | Bulgarian Association of Supplementary Pension Security Companies | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| bgpochivka.eu | Bulgarian vacation and holiday booking website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| blog.bg | Free Bulgarian blog hosting platform and portal | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| games.portokal-bg.net | Online gaming portal offering free flash games | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| ironmaiden-bg.com | Official Bulgarian Iron Maiden fan club website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| sopko.tu-sofia.bg | E-learning platform for Technical University Sofia | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| carpbg.com | Bulgarian fishing website focused on carp fishing | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| ebcbrakes.bg | Bulgarian distributor and online shop for EBC Brakes | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| rabota.bg | Major Bulgarian job search website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| walkersbg.org | Website of the Bulgarian Pedestrian Foundation | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| fagor.bg | Official Bulgarian importer of Fagor household appliances | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| meloman-bg.com | Sofia's oldest music store selling vinyl records and CDs | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| patient.bg | Healthcare-related website for Bulgarian patients | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| trimonium-bg.com | International recruitment agency for Bulgarian professionals | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| knigabg.com | Online Bulgarian bookstore | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| esistore.bg | E-commerce for office supplies | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| seajobs.bg | Maritime employment website | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| dnt.bg | Financial services | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| linkstar.bg | Online store and importer of mobile phone accessories | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| ski.bg | Bulgarian skiing and snowboarding information portal | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| smc-bg.com | Old website of the Sofia Military Court | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
+| superphone.bg | Bulgarian mobile phone and accessories retailer | https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB |
