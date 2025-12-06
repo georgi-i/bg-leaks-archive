@@ -1,13 +1,13 @@
 {
   "meta": {
-    "version": "2.0",
+    "version": "1.0",
     "generated": "2025-12-06T00:00:00Z",
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 69,
-    "public_sector": 6,
-    "private_sector": 62,
+    "total_breaches": 111,
+    "public_sector": 7,
+    "private_sector": 103,
     "mixed_sector": 1
   },
   "breaches": [
@@ -769,6 +769,468 @@
       },
       "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": ["images/oldbigdbs.png"]
+    },
+    {
+      "id": 70,
+      "organization": "5kmrun.bg",
+      "type": "private",
+      "description": {
+        "en": "5kmrun.bg is Bulgaria's biggest free weekly running community, organizing timed 5 km runs every Saturday in parks across the country.",
+        "bg": "5kmrun.bg е най-голямата безплатна седмична общност за бягане в България, която организира 5 км пробези с време всяка събота в паркове из страната."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 71,
+      "organization": "avtomagazin.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian automotive magazine and news website covering car reviews, auto industry news, and vehicle specifications.",
+        "bg": "Български автомобилен журнал и новинарски уебсайт, обхващащ рецензии на коли, новини от автоиндустрията и спецификации на превозни средства."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 72,
+      "organization": "bg-planet.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian web portal and community platform.",
+        "bg": "Български уеб портал и общностна платформа."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 73,
+      "organization": "bg-sail.org",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian sailing community and yacht club website featuring sailing events, training, and water sports activities.",
+        "bg": "Уебсайт на българската общност за ветроходство и яхт клуб с ветроходни събития, обучение и водни спортни дейности."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 74,
+      "organization": "bgben.co.uk",
+      "type": "private",
+      "description": {
+        "en": "UK-based Bulgarian media and information service providing news and content for the Bulgarian community in Britain.",
+        "bg": "Базирана в Обединеното кралство българска медийна и информационна услуга, предоставяща новини и съдържание за българската общност в Британия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 75,
+      "organization": "bis.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian social networking platform and community website.",
+        "bg": "Българска платформа за социални мрежи и общностен уебсайт."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 76,
+      "organization": "boxoffice.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian cinema and movie theater ticket booking platform with film schedules and entertainment information.",
+        "bg": "Българска платформа за резервация на билети за кино и кинозали с филмови програми и развлекателна информация."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 77,
+      "organization": "bulgaria-shop.de",
+      "type": "private",
+      "description": {
+        "en": "German-based online shop selling Bulgarian products and foods to customers in Germany.",
+        "bg": "Базиран в Германия онлайн магазин, продаващ български продукти и храни на клиенти в Германия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 78,
+      "organization": "cabinet.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian business services and consulting platform.",
+        "bg": "Българска платформа за бизнес услуги и консултации."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 79,
+      "organization": "careers.unwe.bg",
+      "type": "private",
+      "description": {
+        "en": "Career services portal of the University of National and World Economy (UNWE) in Sofia, connecting students with employers.",
+        "bg": "Портал за кариерни услуги на Университета за национално и световно стопанство (УНСС) в София, свързващ студенти с работодатели."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 80,
+      "organization": "classroom.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian educational technology platform for online learning and classroom management.",
+        "bg": "Българска образователна технологична платформа за онлайн обучение и управление на класни стаи."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 81,
+      "organization": "daxy.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian website (specific services unclear from available information).",
+        "bg": "Български уебсайт (конкретните услуги не са ясни от наличната информация)."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 82,
+      "organization": "detelina-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online store for seeds, agricultural products, and gardening supplies.",
+        "bg": "Български онлайн магазин за семена, селскостопански продукти и градински принадлежности."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 83,
+      "organization": "e-uard.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian electronic security and monitoring services platform.",
+        "bg": "Българска платформа за електронни услуги за сигурност и мониторинг."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 84,
+      "organization": "en.journey.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian travel and tourism website offering vacation packages, hotel bookings, and travel information.",
+        "bg": "Български уебсайт за пътувания и туризъм, предлагащ ваканционни пакети, резервации на хотели и информация за пътувания."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 85,
+      "organization": "forum.investor.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian investment and financial discussion forum for stock market, trading, and personal finance topics.",
+        "bg": "Български форум за инвестиции и финанси, обсъждащ фондовия пазар, търговия и лични финанси."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 86,
+      "organization": "forumold.adv-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian advertising and marketing industry forum (old version).",
+        "bg": "Български форум за рекламната и маркетингова индустрия (стара версия)."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 87,
+      "organization": "fpleague.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian fantasy sports league and gaming platform for football predictions.",
+        "bg": "Българска платформа за фантази спортни лиги и игри за футболни прогнози."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 88,
+      "organization": "gss.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian IT services and technology solutions provider.",
+        "bg": "Български доставчик на IT услуги и технологични решения."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 89,
+      "organization": "inoxbulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian stainless steel products manufacturer and supplier.",
+        "bg": "Български производител и доставчик на продукти от неръждаема стомана."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 90,
+      "organization": "jelezaria.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online hardware store selling construction materials and tools.",
+        "bg": "Български онлайн магазин за железария, продаващ строителни материали и инструменти."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 91,
+      "organization": "lsbg.net",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian lifeboat and maritime safety organization website.",
+        "bg": "Уебсайт на българска организация за спасителни лодки и морска безопасност."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 92,
+      "organization": "market.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online marketplace and classifieds platform for buying and selling goods.",
+        "bg": "Българска онлайн платформа за пазар и обяви за покупка и продажба на стоки."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 93,
+      "organization": "metal.best.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian metal industry and metalworking services website.",
+        "bg": "Български уебсайт за металната индустрия и услуги по металообработка."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 94,
+      "organization": "mining.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian mining industry news and information portal.",
+        "bg": "Български новинарски и информационен портал за минната индустрия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 95,
+      "organization": "mushroom-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian restaurant or food service related to mushroom cuisine.",
+        "bg": "Български ресторант или хранителна услуга, свързана с гъбена кухня."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 96,
+      "organization": "naedro.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian wholesale marketplace and B2B trading platform.",
+        "bg": "Българска платформа за търговия на едро и B2B търговия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 97,
+      "organization": "nfp-drugs.bg",
+      "type": "public",
+      "description": {
+        "en": "Bulgarian National Framework for Pricing of Medicinal Products - government pharmaceutical database.",
+        "bg": "Национална рамка за ценообразуване на лекарствени продукти - правителствена фармацевтична база данни."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 98,
+      "organization": "offnews.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian news and media website.",
+        "bg": "Български новинарски и медиен уебсайт."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 99,
+      "organization": "pcmania.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian computer gaming community and forum for PC gamers.",
+        "bg": "Българска общност за компютърни игри и форум за PC геймъри."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 100,
+      "organization": "pigeon-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian pigeon breeding and racing community website.",
+        "bg": "Уебсайт на българската общност за развъждане и състезания с гълъби."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 101,
+      "organization": "portal-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian web portal providing search engine and various online services.",
+        "bg": "Български уеб портал, предоставящ търсачка и различни онлайн услуги."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 102,
+      "organization": "rechnik-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online dictionary and translation service for multiple languages.",
+        "bg": "Български онлайн речник и преводаческа услуга за множество езици."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 103,
+      "organization": "shop.karta.bg",
+      "type": "private",
+      "description": {
+        "en": "Online shop of Karta.bg map and publishing company selling maps, atlases, and travel guides.",
+        "bg": "Онлайн магазин на картографска и издателска компания Karta.bg, продаващ карти, атласи и пътеводители."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 104,
+      "organization": "snimkionline.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online photo printing and photography services.",
+        "bg": "Български онлайн услуги за печат на снимки и фотография."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 105,
+      "organization": "svatba-bg.net",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian wedding planning and services portal connecting couples with wedding vendors.",
+        "bg": "Български портал за планиране на сватби и услуги, свързващ двойки с доставчици на сватбени услуги."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 106,
+      "organization": "techn0.eu.server12.host.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian hosting server or technology service platform.",
+        "bg": "Български хостинг сървър или технологична сервизна платформа."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 107,
+      "organization": "theatre.art.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian theater and performing arts information portal with show schedules and ticket sales.",
+        "bg": "Български информационен портал за театър и сценични изкуства с програми за представления и продажба на билети."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 108,
+      "organization": "v2.offroad-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian off-road and 4x4 vehicles community and forum.",
+        "bg": "Българска общност и форум за офроуд и 4x4 превозни средства."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 109,
+      "organization": "vestnikreklama.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian advertising newspaper and classifieds publication.",
+        "bg": "Български рекламен вестник и издание с обяви."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 110,
+      "organization": "vipoferta.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian VIP deals and special offers platform.",
+        "bg": "Българска платформа за VIP оферти и специални предложения."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
+    },
+    {
+      "id": 111,
+      "organization": "vsu.bg",
+      "type": "private",
+      "description": {
+        "en": "Website of Higher School - Lyuben Karavelov.",
+        "bg": "Уебсайт на Висше строително училище - Любен Каравелов."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": ["images/380BulgarianDatabases.png"]
     }
   ]
 }
