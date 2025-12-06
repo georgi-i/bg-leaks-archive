@@ -513,7 +513,7 @@ const leaksData = [
     source: "https://leakbase.la/threads/varnabroker-com.877/",
     images: ["images/varnabroker.png"],
   },
-    {
+  {
     id: 44,
     organization: "bulgarianpropertyuk.com",
     type: "private",
@@ -799,5 +799,4 @@ const leaksData = [
     source: "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
     images: ["images/oldbigdbs.png"],
   }
-];
 ];
