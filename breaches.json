@@ -5,10 +5,9 @@
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 111,
-    "public_sector": 7,
-    "private_sector": 103,
-    "mixed_sector": 1
+    "total_breaches": 119,
+    "public_sector": 9,
+    "private_sector": 110
   },
   "breaches": [
     {
@@ -267,7 +266,7 @@
     {
       "id": 24,
       "organization": "BGTOLL",
-      "type": "public/private",
+      "type": "public",
       "description": {
         "en": "Toll system database breach",
         "bg": "Пробив в база данни на тол система"
@@ -1231,6 +1230,94 @@
       },
       "source": "https://bezbedanbalkan.net/thread-1311.html",
       "images": ["images/380BulgarianDatabases.png"]
-    }
+    },
+    {
+    "id": 112,
+    "organization": "shtora.bg",
+    "type": "private",
+    "description": {
+      "en": "Online store for blinds.",
+      "bg": "Онлайн магазин за щори."
+    },
+    "source": "https://www.ransomlook.io/leaks",
+    "images": ["images/shtora.bg.png"]
+   },
+   {
+    "id": 113,
+    "organization": "bania.bg",
+    "type": "private",
+    "description": {
+      "en": "Store for bathroom and kitchen offering hydromassage bathtubs, cabins, sinks, and faucets.",
+      "bg": "Магазин за баня и кухня, предлагащ хидромасажни вани и кабини, мивки и смесители."
+    },
+    "source": "https://data-wells.niamonx.io/?search=.bg",
+    "images": ["images/bania_and_dentstore.bg.png"]
+   },
+   {
+    "id": 114,
+    "organization": "dentstore.bg",
+    "type": "private",
+    "description": {
+      "en": "Specialized professional store for dentistry and dental technology.",
+      "bg": "Специализиран професионален магазин за стоматология и зъботехника."
+    },
+    "source": "https://data-wells.niamonx.io/?search=.bg",
+    "images": ["images/bania_and_dentstore.bg.png"]
+   },
+   {
+    "id": 115,
+    "organization": "sladur.bg",
+    "type": "private",
+    "description": {
+      "en": "An old bulgarian website for dating.",
+      "bg": "Стар български уебсайт за онлайн запознанства."
+    },
+    "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+    "images": ["images/sladur.bg.png"]
+   },
+   {
+    "id": 116,
+    "organization": "estore.sbs.bg",
+    "type": "private",
+    "description": {
+      "en": "Online store of Specialized Business Systems (SBS), a Bulgarian company that imports, exports, distributes and services PC components, systems and office equipment.",
+      "bg": "Oнлайн магазинът на Специализирани бизнес системи (SBS), българска компания, която внася, изнася, дистрибутира и обслужва PC компоненти, системи и офис оборудване."
+    },
+    "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+    "images": ["images/estore.sbs.bg.png"]
+   },
+   {
+    "id": 117,
+    "organization": "freelance.bg",
+    "type": "private",
+    "description": {
+      "en": "Bulgarian platform for remote work job postings for freelance specialists, project assignments and execution, and work from home opportunities.",
+      "bg": "Българска платформа за обяви за дистанционна работа за специалисти на свободна практика, възлагане и изпълнение на freelance проекти и отдалечена работа от вкъщи."
+    },
+    "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+    "images": ["images/freelance.bg.png"]
+   },
+   {
+    "id": 118,
+    "organization": "dell-bg.net",
+    "type": "private",
+    "description": {
+      "en": "Bulgarian retailer selling Dell computers, laptops, hardware, software, monitors, processors, memory, accessories and other technology products.",
+      "bg": "Български търговец, продаващ Dell компютри, лаптопи, хардуер, софтуер, монитори, процесори, памети, аксесоари и други технологични продукти."
+    },
+    "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+    "images": ["images/dell-bg.net.png"]
+   },
+   {
+    "id": 119,
+    "organization": "forcom-bg.com",
+    "type": "private",
+    "description": {
+      "en": "ForCom Publishing House, founded in 1989, specializing in graphic design of high-density information forms prepared for matrix and laser printer completion and optical reading.",
+      "bg": "Издателство ФорКом, създадено през 1989 г., специализирано в графично проектиране на формуляри с висока информационна плътност, подготвени за попълване с матрични и лазерни принтери и за оптическо четене на информацията."
+    },
+    "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+    "images": ["images/forcom-bg.com.png"]
+   }
   ]
 }
