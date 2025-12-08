@@ -1281,7 +1281,7 @@ const leaksData = [
        bg: "Магазин за баня и кухня, предлагащ хидромасажни вани и кабини, мивки и смесители."
      },
      source: "https://data-wells.niamonx.io/?search=.bg",
-     images: ["images/bania_and_dentstore.bg.png"],
+     images: ["images/bania_and_dentstore.bg.png", "images/bania.bg.2.png"],
  },
  {
      id: 114,
