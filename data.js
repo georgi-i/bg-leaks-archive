@@ -344,7 +344,7 @@ const leaksData = [
       bg: "Пробив в данни на логистична компания"
     },
     source: "https://leakbase.la",
-    images: ["images/econt.jpeg"],
+    images: ["images/econt.jpeg", "images/z10n_econt.bg.png"],
     
   },
   {
