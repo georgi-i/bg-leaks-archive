@@ -1348,5 +1348,115 @@ const leaksData = [
      },
      source: "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
      images: ["images/forcom-bg.com.png"],
+ },
+ {
+  id: 120,
+  organization: "bamf.bg",
+  type: "private",
+  description: {
+    en: "The leading mini-football organization in Bulgaria, an official member of WMF and EMF, with tournaments throughout the country and participation at the world level.",
+    bg: "Водещата организация по минифутбол в България, официален член на WMF и EMF, с турнири в цялата страна и участие на световно ниво."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/bamf.bg.png"],
+ },
+ {
+  id: 121,
+  organization: "corporate.offex.bg",
+  type: "private",
+  description: {
+    en: "Corporate office furniture and equipment supplier in Bulgaria, providing complete office solutions and furnishings for businesses.",
+    bg: "Доставчик на корпоративно офис обзавеждане и оборудване в България, предоставящ цялостни решения и обзавеждане за офиси на фирми."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/corporate.offex.bg.png"],
+ },
+ {
+  id: 122,
+  organization: "forum.bg",
+  type: "private",
+  description: {
+    en: "One of the largest and most popular online forums in Bulgaria, covering diverse topics from technology and entertainment to daily life discussions.",
+    bg: "Един от най-големите и популярни онлайн форуми в България, обхващащ разнообразни теми от технологии и развлечения до дискусии за ежедневието."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/forum.bg.png"],
+ },
+ {
+  id: 123,
+  organization: "lukoil.bg",
+  type: "private",
+  description: {
+    en: "Major oil and gas company operating in Bulgaria, part of the international LUKOIL Group, managing refining, distribution, and retail fuel stations.",
+    bg: "Голяма нефтена и газова компания, операираща в България, част от международната група LUKOIL, управляваща рафиниране, дистрибуция и мрежа от бензиностанции."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/lukoil.bg.jpeg"],
+ },
+ {
+  id: 124,
+  organization: "notino.bg",
+  type: "private",
+  description: {
+    en: "Leading online retailer of perfumes, cosmetics, and beauty products in Bulgaria, part of the European Notino network offering authentic branded products.",
+    bg: "Водещ онлайн търговец на парфюми, козметика и продукти за красота в България, част от европейската мрежа Notino, предлагаща автентични марков продукти."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/notino.bg.jpeg"],
+ },
+ {
+  id: 125,
+  organization: "pangratz.bg",
+  type: "private",
+  description: {
+    en: "Construction and building materials company in Bulgaria, specializing in construction supplies, tools, and building solutions for professionals and consumers.",
+    bg: "Компания за строителни материали в България, специализирана в строителни материали, инструменти и строителни решения за професионалисти и потребители."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/pangratz.bg.jpeg"],
+ },
+ {
+  id: 126,
+  organization: "inspectorat-so.org",
+  type: "government",
+  description: {
+    en: "Regional Inspectorate of Sofia-city, a government body responsible for overseeing and monitoring institutions in Sofia municipality.",
+    bg: "Регионален инспекторат на София-град, правителствена институция, отговорна за надзор и мониторинг на институциите в столична община."
+  },
+  source: "https://breachforums.hn",
+  images: ["images/sofia_municipality.jpeg"],
+ },
+ {
+  id: 127,
+  organization: "superdoc.bg",
+  type: "private",
+  description: {
+    en: "Medical and healthcare services platform in Bulgaria, providing online doctor consultations, medical appointments, and healthcare information services.",
+    bg: "Платформа за медицински и здравни услуги в България, предоставяща онлайн консултации с лекари, записване на прегледи и информационни здравни услуги."
+  },
+  source: "https://breachforums.st",
+  images: ["images/superdoc.bg.jpeg"],
+ },
+ {
+  id: 128,
+  organization: "yavor.bg",
+  type: "private",
+  description: {
+    en: "Bulgarian furniture company.",
+    bg: "Българска компания за мебели."
+  },
+  source: "https://x.com/elenaultras/status/1957856379743404363",
+  images: ["images/yavor.bg.png"],
+ },
+ {
+  id: 129,
+  organization: "tu-sofia.bg",
+  type: "public",
+  description: {
+    en: "Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs.",
+    bg: "Технически университет София, най-голямото техническо учебно заведение в България, предлагащо инженерно, технологично образование и програми за приложни науки и изследвания."
+  },
+  source: "https://x.com/elenaultras/status/1957856379743404363",
+  images: ["images/yavor.bg.png"],
  }
 ];
