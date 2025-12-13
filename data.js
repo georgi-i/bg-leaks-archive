@@ -901,7 +901,7 @@ const leaksData = [
  {
      id: 79,
      organization: "careers.unwe.bg",
-     type: "private",
+     type: "public",
      description: {
        en: "Career services portal of the University of National and World Economy (UNWE) in Sofia, connecting  students with employers.",
        bg: "Портал за кариерни услуги на Университета за национално и световно стопанство (УНСС) в София, свързващ  студенти с работодатели."
@@ -1418,7 +1418,7 @@ const leaksData = [
  {
   id: 126,
   organization: "inspectorat-so.org",
-  type: "government",
+  type: "public",
   description: {
     en: "Regional Inspectorate of Sofia-city, a government body responsible for overseeing and monitoring institutions in Sofia municipality.",
     bg: "Регионален инспекторат на София-град, правителствена институция, отговорна за надзор и мониторинг на институциите в столична община."
