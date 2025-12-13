@@ -126,3 +126,21 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | vestnikreklama.bg | Bulgarian advertising newspaper and classifieds | https://bezbedanbalkan.net/thread-1311.html |
 | vipoferta.bg | Bulgarian VIP deals and special offers platform | https://bezbedanbalkan.net/thread-1311.html |
 | vsu.bg | Website of Higher School - Lyuben Karavelov | https://bezbedanbalkan.net/thread-1311.html |
+| shtora.bg | Online store for blinds | https://www.ransomlook.io/leaks |
+| bania.bg | Store for bathroom and kitchen offering hydromassage bathtubs, cabins, sinks, and faucets | https://data-wells.niamonx.io/?search=.bg |
+| dentstore.bg | Specialized professional store for dentistry and dental technology | https://data-wells.niamonx.io/?search=.bg |
+| sladur.bg | An old bulgarian website for dating | https://www.techsolvency.com/passwords/hashes-org/leaks.txt |
+| estore.sbs.bg | Online store of Specialized Business Systems (SBS), a Bulgarian company that imports, exports, distributes and services PC components, systems and office equipment | https://www.techsolvency.com/passwords/hashes-org/leaks.txt |
+| freelance.bg | Bulgarian platform for remote work job postings for freelance specialists, project assignments and execution, and work from home opportunities | https://www.techsolvency.com/passwords/hashes-org/leaks.txt |
+| dell-bg.net | Bulgarian retailer selling Dell computers, laptops, hardware, software, monitors, processors, memory, accessories and other technology products | https://www.techsolvency.com/passwords/hashes-org/leaks.txt |
+| forcom-bg.com | ForCom Publishing House, founded in 1989, specializing in graphic design of high-density information forms prepared for matrix and laser printer completion and optical reading | https://www.techsolvency.com/passwords/hashes-org/leaks.txt |
+| bamf.bg | The leading mini-football organization in Bulgaria, an official member of WMF and EMF, with tournaments throughout the country and participation at the world level | https://breachforums.hn |
+| corporate.offex.bg | Corporate office furniture and equipment supplier in Bulgaria, providing complete office solutions and furnishings for businesses | https://breachforums.hn |
+| forum.bg | One of the largest and most popular online forums in Bulgaria, covering diverse topics from technology and entertainment to daily life discussions | https://breachforums.hn |
+| lukoil.bg | Major oil and gas company operating in Bulgaria, part of the international LUKOIL Group, managing refining, distribution, and retail fuel stations | https://breachforums.hn |
+| notino.bg | Leading online retailer of perfumes, cosmetics, and beauty products in Bulgaria, part of the European Notino network offering authentic branded products | https://breachforums.hn |
+| pangratz.bg | Construction and building materials company in Bulgaria, specializing in construction supplies, tools, and building solutions for professionals and consumers | https://breachforums.hn |
+| inspectorat-so.org | Regional Inspectorate of Sofia-city, a government body responsible for overseeing and monitoring institutions in Sofia municipality | https://breachforums.hn |
+| superdoc.bg | Medical and healthcare services platform in Bulgaria, providing online doctor consultations, medical appointments, and healthcare information services | https://breachforums.st |
+| yavor.bg | Bulgarian furniture company | https://x.com/elenaultras/status/1957856379743404363 |
+| tu-sofia.bg | Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs | https://x.com/elenaultras/status/1957856379743404363 |
