@@ -5,9 +5,9 @@
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 119,
-    "public_sector": 9,
-    "private_sector": 110
+    "total_breaches": 129,
+    "public_sector": 11,
+    "private_sector": 118
   },
   "breaches": [
     {
