@@ -13,7 +13,7 @@ Data breaches pose serious risks to individuals and institutions by exposing sen
 Legal Disclaimer: This website does not engage in the acquisition, exfiltration, downloading, possession, hosting, access, consultation, redistribution, or disclosure of unlawfully obtained data. This platform indexes only publicly visible information posted by ransomware operators and open web sources without accessing or obtaining the underlying stolen content. The service is provided to support public awareness, legitimate research, and cyber-resilience. No stolen personal or confidential data is collected or distributed via this site.
 ## Leaked Domains
 
-| Organization / Domain*           | Description (English)                                | Source URL                                                      |
+| Organization / Domain            | Description                                       | Source URL                                                      |
 |---------------------------------|----------------------------------------------------|----------------------------------------------------------------|
 | STENIK Group                    | eCommerce development company database breach      | https://darkforums.st/Thread-Selling-STENIK-Group-Bulgaria-Company-2M               |
 | Unknown Bulgarian Database      | Comprehensive Bulgarian database breach             | https://darkforums.st/Thread-Selling-Bulgaria-Database                      |
@@ -144,3 +144,6 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | superdoc.bg | Medical and healthcare services platform in Bulgaria, providing online doctor consultations, medical appointments, and healthcare information services | https://breachforums.st |
 | yavor.bg | Bulgarian furniture company | https://x.com/elenaultras/status/1957856379743404363 |
 | tu-sofia.bg | Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs | https://x.com/elenaultras/status/1957856379743404363 |
+| fastfood.bg | An online food delivery platform offering 24-hour delivery from restaurants across Bulgaria. | https://breachforums.is |
+| solarpro.bg | A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe. | https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion |
+| blitz.bg | A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news. | https://breachforums.bf |
