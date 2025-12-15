@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0",
-    "generated": "2025-12-06T00:00:00Z",
+    "generated": "2025-12-15T00:00:00Z",
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
     "total_breaches": 132,
-    "public_sector": 11,
-    "private_sector": 121
+    "public_sector": 12,
+    "private_sector": 120
   },
   "breaches": [
     {
@@ -871,7 +871,7 @@
     {
       "id": 79,
       "organization": "careers.unwe.bg",
-      "type": "private",
+      "type": "public",
       "description": {
         "en": "Career services portal of the University of National and World Economy (UNWE) in Sofia, connecting students with employers.",
         "bg": "Портал за кариерни услуги на Университета за национално и световно стопанство (УНСС) в София, свързващ студенти с работодатели."
