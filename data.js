@@ -392,7 +392,7 @@ const leaksData = [
       bg: "Пробив в телекомуникационна компания"
     },
     source: "https://breachforums.is",
-    images: ["images/a1.bg.png"],
+    images: ["images/a1.bg.png", "images/a1.bg.2.png"],
     
   },
   {
@@ -1458,5 +1458,16 @@ const leaksData = [
   },
   source: "https://x.com/elenaultras/status/1957856379743404363",
   images: ["images/yavor.bg.png"],
- }
+ },
+ {
+  id: 130,
+  organization: "solarpro.bg",
+  type: "private",
+  description: {
+    en: "A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe.",
+    bg: "Водеща компания за възобновяема енергия, специализирана в проектирането, изграждането и интегрирането на соларни електроцентрали и системи за съхранение на енергия в батerii в Централна и Източна Европа."
+   },
+  source: "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/",
+  images: ["images/solarpro.bg.png", "images/solarpro.bg.2.png"],
+  }
 ];
