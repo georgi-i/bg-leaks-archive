@@ -1467,7 +1467,29 @@ const leaksData = [
     en: "A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe.",
     bg: "Водеща компания за възобновяема енергия, специализирана в проектирането, изграждането и интегрирането на соларни електроцентрали и системи за съхранение на енергия в батerii в Централна и Източна Европа."
    },
-  source: "http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/",
+  source: "https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/",
   images: ["images/solarpro.bg.png", "images/solarpro.bg.2.png"],
+  },
+  {
+  id: 131,
+  organization: "fastfood.bg",
+  type: "private",
+  description: {
+    en: "An online food delivery platform offering 24-hour delivery from restaurants across Bulgaria.",
+    bg: "Онлайн платформа за доставка на храна, предлагаща 24-часова доставка от ресторанти в цяла България."
+   },
+  source: "https://breachforums.is",
+  images: ["images/fastfood.bg.png"],
+  },
+  {
+  id: 132,
+  organization: "blitz.bg",
+  type: "private",
+  description: {
+    en: "A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news.",
+    bg: "Български новинарски портал, предоставящ актуална информация в реално време за политика, спорт, икономика, lifestyle и развлечения."
+   },
+  source: "https://breachforums.bf",
+  images: ["images/blitz.bg.png"],
   }
 ];
