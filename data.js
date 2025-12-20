@@ -1491,5 +1491,27 @@ const leaksData = [
    },
   source: "https://breachforums.bf",
   images: ["images/blitz.bg.png"],
+  },
+  {
+  id: 133,
+  organization: "intime.bg",
+  type: "private",
+  description: {
+    en: "Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria.",
+    bg: "Куриерска и логистична компания, предлагаща вътрешни и международни услуги за доставка като оторизиран сервизен партньор на UPS за България."
+   },
+  source: "https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap",
+  images: ["images/intime.bg.png", "images/intime.bg.2.png"],
+  },
+  {
+  id: 134,
+  organization: "ozone.bg",
+  type: "private",
+  description: {
+    en: "Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products.",
+    bg: "Български онлайн магазин за забавление, специализиран в компютърни игри, книги, играчки, геймърски аксесоари, пъзели, електроника и хоби продукти."
+   },
+  source: "https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1",
+  images: ["images/ozone.bg.png", "images/ozone.bg.2.png"],
   }
 ];
