@@ -145,5 +145,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | yavor.bg | Bulgarian furniture company | https://x.com/elenaultras/status/1957856379743404363 |
 | tu-sofia.bg | Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs | https://x.com/elenaultras/status/1957856379743404363 |
 | fastfood.bg | An online food delivery platform offering 24-hour delivery from restaurants across Bulgaria. | https://breachforums.is |
-| solarpro.bg | A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe. | https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion |
-| blitz.bg | A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news. | https://breachforums.bf |
+| solarpro.bg | A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe | https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion |
+| blitz.bg | A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news | https://breachforums.bf |
+| intime.bg | Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria | https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap |
+| ozone.bg | Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products | https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1 |
