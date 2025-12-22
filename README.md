@@ -149,3 +149,4 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | blitz.bg | A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news | https://breachforums.bf |
 | intime.bg | Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria | https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap |
 | ozone.bg | Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products | https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1 |
+| interlogistica.bg | Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally. | https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL |
