@@ -1513,5 +1513,16 @@ const leaksData = [
    },
   source: "https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1",
   images: ["images/ozone.bg.png", "images/ozone.bg.2.png"],
+  },
+  {
+  id: 135,
+  organization: "interlogistica.bg",
+  type: "private",
+  description: {
+    en: "Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally.",
+    bg: "Транспортна и логистична компания, която предоставя куриерски услуги и услуги за доставка както в България, така и международно."
+   },
+  source: "https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL",
+  images: ["images/interlogistica.bg.png"],
   }
 ];
