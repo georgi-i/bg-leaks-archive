@@ -5,9 +5,9 @@
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 132,
+    "total_breaches": 135,
     "public_sector": 12,
-    "private_sector": 120
+    "private_sector": 123
   },
   "breaches": [
     {
@@ -1461,6 +1461,39 @@
     },
     "source": "https://breachforums.bf",
     "images": ["images/blitz.bg.png"]
+   },
+   {
+    "id": 133,
+    "organization": "intime.bg",
+    "type": "private",
+    "description": {
+      "en": "Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria.",
+      "bg": "Куриерска и логистична компания, предлагаща вътрешни и международни услуги за доставка като оторизиран сервизен партньор на UPS за България."
+    },
+    "source": "https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap",
+    "images": ["images/intime.bg.png", "images/intime.bg.2.png"]
+   },
+   {
+    "id": 134,
+    "organization": "ozone.bg",
+    "type": "private",
+    "description": {
+      "en": "Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products.",
+      "bg": "Български онлайн магазин за забавление, специализиран в компютърни игри, книги, играчки, геймърски аксесоари, пъзели, електроника и хоби продукти."
+    },
+    "source": "https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1",
+    "images": ["images/ozone.bg.png", "images/ozone.bg.2.png"]
+   },
+   {
+    "id": 135,
+    "organization": "interlogistica.bg",
+    "type": "private",
+    "description": {
+      "en": "Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally.",
+      "bg": "Транспортна и логистична компания, която предоставя куриерски услуги и услуги за доставка както в България, така и международно."
+    },
+    "source": "https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL",
+    "images": ["images/interlogistica.bg.png"]
    }
   ]
 }
