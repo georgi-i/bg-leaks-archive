@@ -131,6 +131,9 @@ function renderLeaks(searchTerm = '') {
         });
     }
     
+    // Reverse the leaks list
+    filteredLeaks = [...filteredLeaks].reverse();
+    
     // Render filtered leaks
     filteredLeaks.forEach(leak => {
         const card = createLeakCard(leak);
