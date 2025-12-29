@@ -3,15 +3,46 @@ let currentLanguage = 'en';
 let currentFilter = 'all';
 let currentImageSet = [];
 let currentImageIndex = 0;
+let leaksData = [];
+
+// Load data from breaches.json
+async function loadBreachesData() {
+    try {
+        const response = await fetch('breaches.json');
+        if (!response.ok) {
+            throw new Error(`Failed to load breaches.json: ${response.status}`);
+        }
+        const data = await response.json();
+        leaksData = data.breaches;
+        return true;
+    } catch (error) {
+        console.error('Error loading breaches data:', error);
+        showErrorMessage();
+        return false;
+    }
+}
+
+// Show error message if data fails to load
+function showErrorMessage() {
+    const container = document.getElementById('leaks-container');
+    container.innerHTML = `
+        <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--danger);">
+            Failed to load breach data. Please try refreshing the page.
+        </div>
+    `;
+}
 
 // Initialize app
-document.addEventListener('DOMContentLoaded', () => {
-    initializeLanguageToggle();
-    initializeFilters();
-    initializeSearch();
-    initializeModal();
-    renderLeaks();
-    updateStats();
+document.addEventListener('DOMContentLoaded', async () => {
+    const dataLoaded = await loadBreachesData();
+    if (dataLoaded) {
+        initializeLanguageToggle();
+        initializeFilters();
+        initializeSearch();
+        initializeModal();
+        renderLeaks();
+        updateStats();
+    }
 });
 
 // Language Toggle
@@ -130,10 +161,7 @@ function renderLeaks(searchTerm = '') {
             return searchableText.includes(searchTerm);
         });
     }
-    
-    // Reverse the leaks list
-    filteredLeaks = [...filteredLeaks].reverse();
-    
+
     // Render filtered leaks
     filteredLeaks.forEach(leak => {
         const card = createLeakCard(leak);
