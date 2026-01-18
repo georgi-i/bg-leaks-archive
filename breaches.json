@@ -1773,6 +1773,19 @@
         "images/stenik2.png",
         "images/stenik3.png"
       ]
+    },
+    {
+      "id": 136,
+      "organization": "virginiarecords.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists.",
+        "bg": "Първата музикална издателска компания в България, основана през 1992 г., предоставяща услуги на звукозаписна компания, дигитална дистрибуция, мениджмънт на артисти и музикално издаване за български и международни изпълнители."
+      },
+      "source": "https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/",
+      "images": [
+        "images/virginiarecords.com.png"
+      ]
     }
   ]
 }
