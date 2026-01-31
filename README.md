@@ -15,7 +15,8 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
-| virginiarecords.com |Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists. | https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/ |
+| consento.bg | Consento is a digital healthcare platform in Bulgaria offering telemedicine, online medical consultations, and electronic health records. The platform allows patients to book appointments online, consult remotely with doctors, and store all their medical documentation in one secure place. | https://breachforums.bf/Thread-SELLING-Bulgaria-Consento-32-6k |
+| virginiarecords.com | Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists. | https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/ |
 | interlogistica.bg | Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally. | https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL |
 | ozone.bg | Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products. | https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1 |
 | intime.bg | Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria. | https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap |
