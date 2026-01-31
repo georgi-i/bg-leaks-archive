@@ -1786,6 +1786,19 @@
       "images": [
         "images/virginiarecords.com.png"
       ]
+    },
+        {
+      "id": 137,
+      "organization": "consento.bg",
+      "type": "private",
+      "description": {
+        "en": "Consento is a digital healthcare platform in Bulgaria offering telemedicine, online medical consultations, and electronic health records. The platform allows patients to book appointments online, consult remotely with doctors, and store all their medical documentation in one secure place.",
+        "bg": "Консенто е дигитална платформа за здравни услуги в България, която предлага телемедицина, онлайн консултации с лекари и електронно здравно досие. Платформата позволява на пациентите да записват часове за прегледи онлайн, да се консултират дистанционно и да съхраняват медицинската си документация на едно място."
+      },
+      "source": "https://breachforums.bf/Thread-SELLING-Bulgaria-Consento-32-6k",
+      "images": [
+        "images/consento.bg.png"
+      ]
     }
   ]
 }
