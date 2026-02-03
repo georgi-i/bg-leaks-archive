@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| vitoshaparkhotel.com | Vitоsha Park Hotel is a leading four-star hotel in Sofia's Studentski Grad district, offering 175 comfortable rooms, multiple restaurants and bars, a modern sports center with pool and fitness facilities, a relaxation zone with sauna park, and comprehensive conference facilities ideal for both business and leisure travelers. | https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw== |
 | consento.bg | Consento is a digital healthcare platform in Bulgaria offering telemedicine, online medical consultations, and electronic health records. The platform allows patients to book appointments online, consult remotely with doctors, and store all their medical documentation in one secure place. | https://breachforums.bf/Thread-SELLING-Bulgaria-Consento-32-6k |
 | virginiarecords.com | Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists. | https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/ |
 | interlogistica.bg | Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally. | https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL |
