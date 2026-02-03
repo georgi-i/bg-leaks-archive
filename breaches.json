@@ -1799,6 +1799,20 @@
       "images": [
         "images/consento.bg.png"
       ]
+    },
+    }
+        {
+      "id": 138,
+      "organization": "vitoshaparkhotel.com",
+      "type": "private",
+      "description": {
+        "en": "Vitоsha Park Hotel is a leading four-star hotel in Sofia's Studentski Grad district, offering 175 comfortable rooms, multiple restaurants and bars, a modern sports center with pool and fitness facilities, a relaxation zone with sauna park, and comprehensive conference facilities ideal for both business and leisure travelers.",
+        "bg": "Парк Хотел Витоша е един от водещите четиризвездни хотели в Студентски град, София, предлагащ 175 комфортни стаи, няколко ресторанта и бара, модерен спортен център с басейн и фитнес, релакс зона със сауна парк и отлични конферентни възможности, подходящи както за бизнес, така и за личен туризъм."
+      },
+      "source": "https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw==",
+      "images": [
+        "images/vitoshaparkhotel.com.png"
+      ]
     }
   ]
 }
