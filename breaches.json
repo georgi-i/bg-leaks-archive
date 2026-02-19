@@ -1812,6 +1812,19 @@
       "images": [
         "images/vitoshaparkhotel.com.png", "images/vitoshaparkhotel.com.2.png"
       ]
+    },
+    {    
+      "id": 139,
+      "organization": "store.bg",
+      "type": "private",
+      "description": {
+        "en": "Store.bg is a leading Bulgarian e-commerce platform offering a wide range of products, from electronics and appliances to fashion and home goods.",
+        "bg": "Store.bg е водеща българска платформа за онлайн пазаруване, която предлага богат асортимент от продукти — от електроника и уреди до мода и стоки за дома."
+      },
+      "source": "https://breachforums.as/Thread-SELLING-store-bg-Bulgaria--188435",
+      "images": [
+        "images/store.bg.png"
+      ]
     }
   ]
 }
