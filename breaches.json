@@ -1825,6 +1825,19 @@
       "images": [
         "images/store.bg.png"
       ]
+    },
+        {    
+      "id": 140,
+      "organization": "remington.bg",
+      "type": "private",
+      "description": {
+        "en": "Remington.bg is an online store specializing in a wide range of personal care appliances, including hair straighteners, dryers, trimmers, shavers, and epilators.",
+        "bg": "Remington.bg е онлайн магазин, специализиран в широка гама от уреди за лична грижа, включително преси за коса, сешоари, тримери, самобръсначки и епилатори."
+      },
+      "source": "https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows",
+      "images": [
+        "images/remington.bg.png"
+      ]
     }
   ]
 }
