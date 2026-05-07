@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| robusta.bg | Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria. | https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta |
 | remington.bg | Remington.bg is an online store specializing in a wide range of personal care appliances, including hair straighteners, dryers, trimmers, shavers, and epilators. | https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows |
 | store.bg | Store.bg is a leading Bulgarian e-commerce platform offering a wide range of products, from electronics and appliances to fashion and home goods. | https://breachforums.as/Thread-SELLING-store-bg-Bulgaria--188435 |
 | vitoshaparkhotel.com | Vitоsha Park Hotel is a leading four-star hotel in Sofia's Studentski Grad district, offering 175 comfortable rooms, multiple restaurants and bars, a modern sports center with pool and fitness facilities, a relaxation zone with sauna park, and comprehensive conference facilities ideal for both business and leisure travelers. | https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw== |
