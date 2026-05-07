@@ -1826,7 +1826,7 @@
         "images/store.bg.png"
       ]
     },
-        {    
+    {    
       "id": 140,
       "organization": "remington.bg",
       "type": "private",
@@ -1837,6 +1837,19 @@
       "source": "https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows",
       "images": [
         "images/remington.bg.png"
+      ]
+    },
+    {    
+      "id": 141,
+      "organization": "robusta.bg",
+      "type": "private",
+      "description": {
+        "en": "Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria.",
+        "bg": "Robusta.bg е цялостна платформа за доставка, проектиране и поддръжка на професионално кухненско, бар и ресторантско оборудване за Хорека сектора в България."
+      },
+      "source": "https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta",
+      "images": [
+        "images/robusta.bg.png"
       ]
     }
   ]
