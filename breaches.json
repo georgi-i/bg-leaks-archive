@@ -1851,6 +1851,33 @@
       "images": [
         "images/robusta.bg.png"
       ]
+    },
+    {    
+      "id": 142,
+      "organization": "kupi-chasovnik.com",
+      "type": "private",
+      "description": {
+        "en": "Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices.",
+        "bg": "Kupi-chasovnik.com е български онлайн магазин, който предлага голямо разнообразие от мъжки, дамски и смарт часовници на достъпни цени."
+      },
+      "source": "https://x.com/DailyDarkWeb/status/2042243013347360988",
+      "images": [
+        "images/kupi-chasovnik.com.png",
+        "images/kupi-chasovnik.com-2.png"
+      ]
+    },
+    {    
+      "id": 143,
+      "organization": "imot.bg",
+      "type": "private",
+      "description": {
+        "en": "Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties.",
+        "bg": "Imot.bg е най-големият сайт за недвижими имоти в България, който предлага огромно разнообразие от обяви за покупка, продажба и наем на жилища, парцели и търговски обекти."
+      },
+      "source": "https://x.com/DailyDarkWeb/status/2058744773586932224",
+      "images": [
+        "images/imot.bg.png"
+      ]
     }
   ]
 }
