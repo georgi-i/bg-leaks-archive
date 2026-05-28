@@ -15,6 +15,8 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| imot.bg | Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties. | https://x.com/DailyDarkWeb/status/2058744773586932224 |
+| kupi-chasovnik.com | Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices. | https://www.brinztech.com/breach-alerts/brinztech-alert-kupi-chasovnik-com-280000-records-hashed-passwords-on-sale/ |
 | robusta.bg | Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria. | https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta |
 | remington.bg | Remington.bg is an online store specializing in a wide range of personal care appliances, including hair straighteners, dryers, trimmers, shavers, and epilators. | https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows |
 | store.bg | Store.bg is a leading Bulgarian e-commerce platform offering a wide range of products, from electronics and appliances to fashion and home goods. | https://breachforums.as/Thread-SELLING-store-bg-Bulgaria--188435 |
