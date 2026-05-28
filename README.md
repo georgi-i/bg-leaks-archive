@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| vp-brands.com | Vp-brands.com is the corporate website of VP Brands International (formerly Vinprom Peshtera), a leading Bulgarian producer and exporter of wines and spirits such as rakia, vodka, and whiskey. | http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/68fbef4827ab8de327f2455229e94953 |
 | imot.bg | Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties. | https://x.com/DailyDarkWeb/status/2058744773586932224 |
 | kupi-chasovnik.com | Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices. | https://www.brinztech.com/breach-alerts/brinztech-alert-kupi-chasovnik-com-280000-records-hashed-passwords-on-sale/ |
 | robusta.bg | Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria. | https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta |
