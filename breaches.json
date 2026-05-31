@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0",
-    "generated": "2026-05-28T00:00:00Z",
+    "generated": "2026-05-31T00:00:00Z",
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 144,
+    "total_breaches": 146,
     "public_sector": 12,
-    "private_sector": 132
+    "private_sector": 134
   },
   "breaches": [
     {
@@ -1893,6 +1893,34 @@
         "images/vp-brands.com-2.png",
         "images/vp-brands.com-3.png",
         "images/vp-brands.com-4.png"
+      ]
+    },
+    {    
+      "id": 145,
+      "organization": "bright-eng.com",
+      "type": "private",
+      "description": {
+        "en": "Bright-eng.com is the website of Bright Engineering Ltd., a leading Bulgarian engineering company specializing in the design, implementation, and maintenance of industrial automation systems, instrumentation, and process equipment.",
+        "bg": "Bright-eng.com (Брайт Инженеринг ООД) е уебсайтът на водеща българска инженерингова компания, специализирана в проектирането, внедряването и поддръжката на системи за индустриална автоматизация, контролно-измервателни уреди и технологично оборудване."
+      },
+      "source": "https://x.com/FalconFeedsio/status/1906946662263914620",
+      "images": [
+        "images/bright-eng.com.png",
+        "images/bright-eng.com-2.png"
+      ]
+    },
+    {    
+      "id": 146,
+      "organization": "yourcebulgaria.cc",
+      "type": "private",
+      "description": {
+        "en": "Yourcebulgaria.cc is the official website of Yource Bulgaria, a company providing business process outsourcing (BPO) and multichannel contact center services—including customer care, sales, and support—for international clients.",
+        "bg": "Yourcebulgaria.cc е официалният сайт на Yource Bulgaria – компания, която предоставя изнесени бизнес процеси (BPO) и мултиканални контактни център услуги (обслужване на клиенти, продажби и поддръжка) за международни клиенти."
+      },
+      "source": "https://j5o5y2feotmhvr7cbcp2j2ewayv5mn5zenl3joqwx67gtfchhezjznad.onion",
+      "images": [
+        "images/yourcebulgaria.cc.png",
+        "images/yourcebulgaria.cc-2.png"
       ]
     }
   ]
