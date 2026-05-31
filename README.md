@@ -15,6 +15,8 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| yourcebulgaria.cc | Yourcebulgaria.cc is the official website of Yource Bulgaria, a company providing business process outsourcing (BPO) and multichannel contact center services—including customer care, sales, and support—for international clients. | http://j5o5y2feotmhvr7cbcp2j2ewayv5mn5zenl3joqwx67gtfchhezjznad.onion |
+| bright-eng.com | Bright-eng.com is the website of Bright Engineering Ltd., a leading Bulgarian engineering company specializing in the design, implementation, and maintenance of industrial automation systems, instrumentation, and process equipment. | https://x.com/FalconFeedsio/status/1906946662263914620 |
 | vp-brands.com | Vp-brands.com is the corporate website of VP Brands International (formerly Vinprom Peshtera), a leading Bulgarian producer and exporter of wines and spirits such as rakia, vodka, and whiskey. | http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/68fbef4827ab8de327f2455229e94953 |
 | imot.bg | Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties. | https://x.com/DailyDarkWeb/status/2058744773586932224 |
 | kupi-chasovnik.com | Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices. | https://www.brinztech.com/breach-alerts/brinztech-alert-kupi-chasovnik-com-280000-records-hashed-passwords-on-sale/ |
