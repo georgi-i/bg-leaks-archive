@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0",
-    "generated": "2025-12-15T00:00:00Z",
+    "generated": "2026-05-28T00:00:00Z",
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 135,
+    "total_breaches": 144,
     "public_sector": 12,
-    "private_sector": 123
+    "private_sector": 132
   },
   "breaches": [
     {
