@@ -1876,7 +1876,8 @@
       },
       "source": "https://x.com/DailyDarkWeb/status/2058744773586932224",
       "images": [
-        "images/imot.bg.png"
+        "images/imot.bg.png",
+        "images/imot.bg.2.png"
       ]
     },
     {    
@@ -1922,6 +1923,18 @@
         "images/yourcebulgaria.cc.png",
         "images/yourcebulgaria.cc-2.png"
       ]
+    },
+    {    
+      "id": 147,
+      "organization": "beautyexpert.bg",
+      "type": "private",
+      "description": {
+        "en": "beautyexpert.bg is a Bulgarian online store specialized in the sale of professional cosmetics, makeup, and hairdressing products for facial, hair, and body care.",
+        "bg": "beautyexpert.bg е български онлайн магазин, специализиран в продажбата на професионална козметика, грим и фризьорски продукти за грижа за лицето, косата и тялото."
+      },
+      "source": "https://darkforums.su/Thread-DATABASE-Bulgaria-Free-DB-beautyexpert-bg",
+      "images": [
+        "images/beautyexpert.bg"      ]
     }
   ]
 }
