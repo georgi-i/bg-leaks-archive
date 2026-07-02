@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| uctm.edu | UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science. | https://x.com/VECERTRadar/status/2065061658939048239 |
 | beautyexpert.bg | beautyexpert.bg is a Bulgarian online store specialized in the sale of professional cosmetics, makeup, and hairdressing products for facial, hair, and body care. | https://darkforums.su/Thread-DATABASE-Bulgaria-Free-DB-beautyexpert-bg |
 | yourcebulgaria.cc | Yourcebulgaria.cc is the official website of Yource Bulgaria, a company providing business process outsourcing (BPO) and multichannel contact center services—including customer care, sales, and support—for international clients. | http://j5o5y2feotmhvr7cbcp2j2ewayv5mn5zenl3joqwx67gtfchhezjznad.onion |
 | bright-eng.com | Bright-eng.com is the website of Bright Engineering Ltd., a leading Bulgarian engineering company specializing in the design, implementation, and maintenance of industrial automation systems, instrumentation, and process equipment. | https://x.com/FalconFeedsio/status/1906946662263914620 |
