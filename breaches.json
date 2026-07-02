@@ -1936,6 +1936,20 @@
       "images": [
         "images/beautyexpert.bg.png"      
       ]
+    },
+    {    
+      "id": 148,
+      "organization": "uctm.edu",
+      "type": "public",
+      "description": {
+        "en": "UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science.",
+        "bg": "ХТМУ (uctm.edu) е водещ български университет, специализиран в обучението на висококвалифицирани специалисти в областта на химичните технологии, металургията и материалознанието."
+      },
+      "source": "https://x.com/VECERTRadar/status/2065061658939048239",
+      "images": [
+        "images/uctm.edu.png",
+        "images/uctm.edu.2.png"
+      ]
     }
   ]
 }
