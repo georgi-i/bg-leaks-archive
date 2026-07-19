@@ -1950,6 +1950,20 @@
         "images/uctm.edu.png",
         "images/uctm.edu.2.png"
       ]
+    },
+    {    
+      "id": 149,
+      "organization": "euroins.bg",
+      "type": "private",
+      "description": {
+        "en": "Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services.",
+        "bg": "Euroins.bg е официалният уебсайт на една от водещите застрахователни компании в България, където потребителите могат да сключват полици онлайн и да управляват своите застрахователни услуги."
+      },
+      "source": "https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ",
+      "images": [
+        "images/euroins.bg.png",
+        "images/euroins.bg.2.png"
+      ]
     }
   ]
 }
