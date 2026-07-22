@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| bers.bg | bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution. | https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw |
 | euroins.bg | Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services. | https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ |
 | uctm.edu | UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science. | https://x.com/VECERTRadar/status/2065061658939048239 |
 | beautyexpert.bg | beautyexpert.bg is a Bulgarian online store specialized in the sale of professional cosmetics, makeup, and hairdressing products for facial, hair, and body care. | https://darkforums.su/Thread-DATABASE-Bulgaria-Free-DB-beautyexpert-bg |
