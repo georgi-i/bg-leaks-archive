@@ -1964,6 +1964,19 @@
         "images/euroins.bg.png",
         "images/euroins.bg.2.png"
       ]
+    },
+    {    
+      "id": 150,
+      "organization": "bers.bg",
+      "type": "private",
+      "description": {
+        "en": "bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution.",
+        "bg": "bERS Logistics (bers.bg) е българска компания, която предоставя интегрирани 3PL (трета страна) логистични услуги, включително складиране, фулфилмънт, вътрешен и международен транспорт и дистрибуция."
+      },
+      "source": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw",
+      "images": [
+        "images/bers.bg.png"
+      ]
     }
   ]
 }
