@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| subra.bg | Subra.bg is a leading Bulgarian chain of over 60 pharmacies and health stores with an online shop, offering pharmaceuticals, cosmetics, and wellness products. | https://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-8 |
 | bers.bg | bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution. | https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw |
 | euroins.bg | Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services. | https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ |
 | uctm.edu | UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science. | https://x.com/VECERTRadar/status/2065061658939048239 |
