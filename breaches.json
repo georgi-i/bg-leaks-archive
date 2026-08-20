@@ -1977,6 +1977,20 @@
       "images": [
         "images/bers.bg.png"
       ]
+    },
+    {    
+      "id": 151,
+      "organization": "subra.bg",
+      "type": "private",
+      "description": {
+        "en": "Subra.bg is a leading Bulgarian chain of over 60 pharmacies and health stores with an online shop, offering pharmaceuticals, cosmetics, and wellness products.",
+        "bg": "Subra.bg е водеща верига от над 60 аптеки и дрогерии в България с онлайн магазин, предлагаща лекарства, козметика и здравословни продукти."
+      },
+      "source": "https://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-8",
+      "images": [
+        "images/subra.bg.png",
+        "images/subra.bg.2.png"
+      ]
     }
   ]
 }
