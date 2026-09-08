@@ -15,6 +15,9 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| phoenixpharma.bg | PHOENIX Pharma Bulgaria (phoenixpharma.bg) is a leading pharmaceutical wholesaler and integrated healthcare provider in Bulgaria, distributing medicines and healthcare products to pharmacies and hospitals nationwide. | https://pwnforums.st/Thread-PHOENIX-Pharma-RS-BG |
+| dzi.bg | DZI (dzi.bg) is one of the leading insurance companies in Bulgaria, part of the Belgian KBC Group, offering life and non-life insurance, health, property, and motor insurance products. | https://pwnforums.st/Thread-SELLING-DZI-Insurance-3-1M-Records |
+| air.bg | Bulgaria Air (air.bg) is the national airline of Bulgaria, headquartered in Sofia, providing scheduled and charter passenger flights domestically and internationally. | https://pwnforums.st/Thread-air-bg-internal-personnel |
 | subra.bg | Subra.bg is a leading Bulgarian chain of over 60 pharmacies and health stores with an online shop, offering pharmaceuticals, cosmetics, and wellness products. | https://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-8 |
 | bers.bg | bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution. | https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw |
 | euroins.bg | Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services. | https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ |
