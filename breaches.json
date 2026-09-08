@@ -1991,6 +1991,45 @@
         "images/subra.bg.png",
         "images/subra.bg.2.png"
       ]
+    },
+    {
+      "id": 152,
+      "organization": "air.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgaria Air (air.bg) is the national airline of Bulgaria, headquartered in Sofia, providing scheduled and charter passenger flights domestically and internationally.",
+        "bg": "България Ер (air.bg) е националният авиопревозвач на България със седалище в София, който предоставя редовни и чартърни пътнически полети във вътрешен и международен план."
+    },
+      "source": "https://pwnforums.st/Thread-air-bg-internal-personnel",
+      "images": [
+        "images/air.bg.png"
+      ]
+    },
+    {
+      "id": 153,
+      "organization": "dzi.bg",
+      "type": "private",
+      "description": {
+        "en": "DZI (dzi.bg) is one of the leading insurance companies in Bulgaria, part of the Belgian KBC Group, offering life and non-life insurance, health, property, and motor insurance products.",
+        "bg": "ДЗИ (dzi.bg) е една от водещите застрахователни компании в България, част от белгийската група KBC, предлагаща продукти в областта на живото и общото застраховане, здравно, имуществено и автомобилно застраховане."
+      },
+      "source": "https://pwnforums.st/Thread-SELLING-DZI-Insurance-3-1M-Records",
+      "images": [
+        "images/dzi.bg.png"
+      ]
+    },
+    {
+      "id": 154,
+      "organization": "phoenixpharma.bg",
+      "type": "private",
+      "description": {
+        "en": "PHOENIX Pharma Bulgaria (phoenixpharma.bg) is a leading pharmaceutical wholesaler and integrated healthcare provider in Bulgaria, distributing medicines and healthcare products to pharmacies and hospitals nationwide.",
+        "bg": "PHOENIX Pharma България (phoenixpharma.bg) е водещ фармацевтичен дистрибутор и интегриран доставчик на здравни услуги в България, който доставя лекарства и здравни продукти на аптеки и болници в цялата страна."
+      },
+      "source": "https://pwnforums.st/Thread-PHOENIX-Pharma-RS-BG?highlight=bulgaria",
+      "images": [
+        "images/phoenixpharma.bg.png"
+      ]
     }
   ]
 }
