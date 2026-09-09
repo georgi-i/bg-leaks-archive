@@ -5,1883 +5,148 @@
     "source": "https://github.com/georgi-i/bg-leaks-archive",
     "website": "https://bg-leaks.xyz",
     "description": "Bulgarian data breach archive - machine-readable format",
-    "total_breaches": 146,
-    "public_sector": 12,
-    "private_sector": 134
+    "total_breaches": 154,
+    "public_sector": 13,
+    "private_sector": 141
   },
   "breaches": [
     {
       "id": 1,
-      "organization": "interlogistica.bg",
+      "organization": "phoenixpharma.bg",
       "type": "private",
       "description": {
-        "en": "Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally.",
-        "bg": "Транспортна и логистична компания, която предоставя куриерски услуги и услуги за доставка както в България, така и международно."
+        "en": "PHOENIX Pharma Bulgaria (phoenixpharma.bg) is a leading pharmaceutical wholesaler and integrated healthcare provider in Bulgaria, distributing medicines and healthcare products to pharmacies and hospitals nationwide.",
+        "bg": "PHOENIX Pharma България (phoenixpharma.bg) е водещ фармацевтичен дистрибутор и интегриран доставчик на здравни услуги в България, който доставя лекарства и здравни продукти на аптеки и болници в цялата страна."
       },
-      "source": "https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL",
+      "source": "https://pwnforums.st/Thread-PHOENIX-Pharma-RS-BG",
       "images": [
-        "images/interlogistica.bg.png"
+        "images/phoenixpharma.bg.png"
       ]
     },
     {
       "id": 2,
-      "organization": "ozone.bg",
+      "organization": "dzi.bg",
       "type": "private",
       "description": {
-        "en": "Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products.",
-        "bg": "Български онлайн магазин за забавление, специализиран в компютърни игри, книги, играчки, геймърски аксесоари, пъзели, електроника и хоби продукти."
+        "en": "DZI (dzi.bg) is one of the leading insurance companies in Bulgaria, part of the Belgian KBC Group, offering life and non-life insurance, health, property, and motor insurance products.",
+        "bg": "ДЗИ (dzi.bg) е една от водещите застрахователни компании в България, част от белгийската група KBC, предлагаща продукти в областта на живото и общото застраховане, здравно, имуществено и автомобилно застраховане."
       },
-      "source": "https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1",
+      "source": "https://pwnforums.st/Thread-SELLING-DZI-Insurance-3-1M-Records",
       "images": [
-        "images/ozone.bg.png",
-        "images/ozone.bg.2.png"
+        "images/dzi.bg.png"
       ]
     },
     {
       "id": 3,
-      "organization": "intime.bg",
+      "organization": "air.bg",
       "type": "private",
       "description": {
-        "en": "Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria.",
-        "bg": "Куриерска и логистична компания, предлагаща вътрешни и международни услуги за доставка като оторизиран сервизен партньор на UPS за България."
+        "en": "Bulgaria Air (air.bg) is the national airline of Bulgaria, headquartered in Sofia, providing scheduled and charter passenger flights domestically and internationally.",
+        "bg": "България Ер (air.bg) е националният авиопревозвач на България със седалище в София, който предоставя редовни и чартърни пътнически полети във вътрешен и международен план."
       },
-      "source": "https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap",
+      "source": "https://pwnforums.st/Thread-air-bg-internal-personnel",
       "images": [
-        "images/intime.bg.png",
-        "images/intime.bg.2.png"
+        "images/air.bg.png"
       ]
     },
     {
       "id": 4,
-      "organization": "blitz.bg",
+      "organization": "subra.bg",
       "type": "private",
       "description": {
-        "en": "A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news.",
-        "bg": "Български новинарски портал, предоставящ актуална информация в реално време за политика, спорт, икономика, lifestyle и развлечения."
+        "en": "Subra.bg is a leading Bulgarian chain of over 60 pharmacies and health stores with an online shop, offering pharmaceuticals, cosmetics, and wellness products.",
+        "bg": "Subra.bg е водеща верига от над 60 аптеки и дрогерии в България с онлайн магазин, предлагаща лекарства, козметика и здравословни продукти."
       },
-      "source": "https://breachforums.bf",
+      "source": "https://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-8",
       "images": [
-        "images/blitz.bg.png"
+        "images/subra.bg.png",
+        "images/subra.bg.2.png"
       ]
     },
     {
       "id": 5,
-      "organization": "fastfood.bg",
+      "organization": "bers.bg",
       "type": "private",
       "description": {
-        "en": "An online food delivery platform offering 24-hour delivery from restaurants across Bulgaria.",
-        "bg": "Онлайн платформа за доставка на храна, предлагаща 24-часова доставка от ресторанти в цяла България."
+        "en": "bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution.",
+        "bg": "bERS Logistics (bers.bg) е българска компания, която предоставя интегрирани 3PL (трета страна) логистични услуги, включително складиране, фулфилмънт, вътрешен и международен транспорт и дистрибуция."
       },
-      "source": "https://breachforums.is",
+      "source": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw",
       "images": [
-        "images/fastfood.bg.png"
+        "images/bers.bg.png"
       ]
     },
     {
       "id": 6,
-      "organization": "solarpro.bg",
+      "organization": "euroins.bg",
       "type": "private",
       "description": {
-        "en": "A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe.",
-        "bg": "Водеща компания за възобновяема енергия, специализирана в проектирането, изграждането и интегрирането на соларни електроцентрали и системи за съхранение на енергия в батerii в Централна и Източна Европа."
+        "en": "Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services.",
+        "bg": "Euroins.bg е официалният уебсайт на една от водещите застрахователни компании в България, където потребителите могат да сключват полици онлайн и да управляват своите застрахователни услуги."
       },
-      "source": "https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/",
+      "source": "https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ",
       "images": [
-        "images/solarpro.bg.png",
-        "images/solarpro.bg.2.png"
+        "images/euroins.bg.png",
+        "images/euroins.bg.2.png"
       ]
     },
     {
       "id": 7,
-      "organization": "tu-sofia.bg",
+      "organization": "uctm.edu",
       "type": "public",
       "description": {
-        "en": "Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs.",
-        "bg": "Технически университет София, най-голямото техническо учебно заведение в България, предлагащо инженерно, технологично образование и програми за приложни науки и изследвания."
+        "en": "UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science.",
+        "bg": "ХТМУ (uctm.edu) е водещ български университет, специализиран в обучението на висококвалифицирани специалисти в областта на химичните технологии, металургията и материалознанието."
       },
-      "source": "https://x.com/elenaultras/status/1957856379743404363",
+      "source": "https://x.com/VECERTRadar/status/2065061658939048239",
       "images": [
-        "images/yavor.bg.png"
+        "images/uctm.edu.png",
+        "images/uctm.edu.2.png"
       ]
     },
     {
       "id": 8,
-      "organization": "yavor.bg",
+      "organization": "beautyexpert.bg",
       "type": "private",
       "description": {
-        "en": "Bulgarian furniture company.",
-        "bg": "Българска компания за мебели."
+        "en": "beautyexpert.bg is a Bulgarian online store specialized in the sale of professional cosmetics, makeup, and hairdressing products for facial, hair, and body care.",
+        "bg": "beautyexpert.bg е български онлайн магазин, специализиран в продажбата на професионална козметика, грим и фризьорски продукти за грижа за лицето, косата и тялото."
       },
-      "source": "https://x.com/elenaultras/status/1957856379743404363",
+      "source": "https://darkforums.su/Thread-DATABASE-Bulgaria-Free-DB-beautyexpert-bg",
       "images": [
-        "images/yavor.bg.png"
+        "images/beautyexpert.bg.png"
       ]
     },
     {
       "id": 9,
-      "organization": "superdoc.bg",
+      "organization": "yourcebulgaria.cc",
       "type": "private",
       "description": {
-        "en": "Medical and healthcare services platform in Bulgaria, providing online doctor consultations, medical appointments, and healthcare information services.",
-        "bg": "Платформа за медицински и здравни услуги в България, предоставяща онлайн консултации с лекари, записване на прегледи и информационни здравни услуги."
+        "en": "Yourcebulgaria.cc is the official website of Yource Bulgaria, a company providing business process outsourcing (BPO) and multichannel contact center services—including customer care, sales, and support—for international clients.",
+        "bg": "Yourcebulgaria.cc е официалният сайт на Yource Bulgaria – компания, която предоставя изнесени бизнес процеси (BPO) и мултиканални контактни център услуги (обслужване на клиенти, продажби и поддръжка) за международни клиенти."
       },
-      "source": "https://breachforums.st",
+      "source": "https://j5o5y2feotmhvr7cbcp2j2ewayv5mn5zenl3joqwx67gtfchhezjznad.onion",
       "images": [
-        "images/superdoc.bg.jpeg"
+        "images/yourcebulgaria.cc.png",
+        "images/yourcebulgaria.cc-2.png"
       ]
     },
     {
       "id": 10,
-      "organization": "inspectorat-so.org",
-      "type": "public",
+      "organization": "bright-eng.com",
+      "type": "private",
       "description": {
-        "en": "Regional Inspectorate of Sofia-city, a government body responsible for overseeing and monitoring institutions in Sofia municipality.",
-        "bg": "Регионален инспекторат на София-град, правителствена институция, отговорна за надзор и мониторинг на институциите в столична община."
+        "en": "Bright-eng.com is the website of Bright Engineering Ltd., a leading Bulgarian engineering company specializing in the design, implementation, and maintenance of industrial automation systems, instrumentation, and process equipment.",
+        "bg": "Bright-eng.com (Брайт Инженеринг ООД) е уебсайтът на водеща българска инженерингова компания, специализирана в проектирането, внедряването и поддръжката на системи за индустриална автоматизация, контролно-измервателни уреди и технологично оборудване."
       },
-      "source": "https://breachforums.hn",
+      "source": "https://x.com/FalconFeedsio/status/1906946662263914620",
       "images": [
-        "images/sofia_municipality.jpeg"
+        "images/bright-eng.com.png",
+        "images/bright-eng.com-2.png"
       ]
     },
     {
       "id": 11,
-      "organization": "pangratz.bg",
-      "type": "private",
-      "description": {
-        "en": "Construction and building materials company in Bulgaria, specializing in construction supplies, tools, and building solutions for professionals and consumers.",
-        "bg": "Компания за строителни материали в България, специализирана в строителни материали, инструменти и строителни решения за професионалисти и потребители."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/pangratz.bg.jpeg"
-      ]
-    },
-    {
-      "id": 12,
-      "organization": "notino.bg",
-      "type": "private",
-      "description": {
-        "en": "Leading online retailer of perfumes, cosmetics, and beauty products in Bulgaria, part of the European Notino network offering authentic branded products.",
-        "bg": "Водещ онлайн търговец на парфюми, козметика и продукти за красота в България, част от европейската мрежа Notino, предлагаща автентични марков продукти."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/notino.bg.jpeg"
-      ]
-    },
-    {
-      "id": 13,
-      "organization": "lukoil.bg",
-      "type": "private",
-      "description": {
-        "en": "Major oil and gas company operating in Bulgaria, part of the international LUKOIL Group, managing refining, distribution, and retail fuel stations.",
-        "bg": "Голяма нефтена и газова компания, операираща в България, част от международната група LUKOIL, управляваща рафиниране, дистрибуция и мрежа от бензиностанции."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/lukoil.bg.jpeg"
-      ]
-    },
-    {
-      "id": 14,
-      "organization": "forum.bg",
-      "type": "private",
-      "description": {
-        "en": "One of the largest and most popular online forums in Bulgaria, covering diverse topics from technology and entertainment to daily life discussions.",
-        "bg": "Един от най-големите и популярни онлайн форуми в България, обхващащ разнообразни теми от технологии и развлечения до дискусии за ежедневието."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/forum.bg.png"
-      ]
-    },
-    {
-      "id": 15,
-      "organization": "corporate.offex.bg",
-      "type": "private",
-      "description": {
-        "en": "Corporate office furniture and equipment supplier in Bulgaria, providing complete office solutions and furnishings for businesses.",
-        "bg": "Доставчик на корпоративно офис обзавеждане и оборудване в България, предоставящ цялостни решения и обзавеждане за офиси на фирми."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/corporate.offex.bg.png"
-      ]
-    },
-    {
-      "id": 16,
-      "organization": "bamf.bg",
-      "type": "private",
-      "description": {
-        "en": "The leading mini-football organization in Bulgaria, an official member of WMF and EMF, with tournaments throughout the country and participation at the world level.",
-        "bg": "Водещата организация по минифутбол в България, oficiален член на WMF и EMF, с турнири в цялата страна и участие на световно ниво."
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/bamf.bg.png"
-      ]
-    },
-    {
-      "id": 17,
-      "organization": "forcom-bg.com",
-      "type": "private",
-      "description": {
-        "en": "ForCom Publishing House, founded in 1989, specializing in graphic design of high-density information forms prepared for matrix and laser printer completion and optical reading.",
-        "bg": "Издателство ФорКом, създадено през 1989 г., специализирано в графично проектиране на формуляри с висока информационна плътност, подготвени за попълване с матрични и лазерни принтери и за оптическо четене на информацията."
-      },
-      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
-      "images": [
-        "images/forcom-bg.com.png"
-      ]
-    },
-    {
-      "id": 18,
-      "organization": "dell-bg.net",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian retailer selling Dell computers, laptops, hardware, software, monitors, processors, memory, accessories and other technology products.",
-        "bg": "Български търговец, продаващ Dell компютри, лаптопи, хардуер, софтуер, монитори, процесори, памети, аксесоари и други технологични продукти."
-      },
-      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
-      "images": [
-        "images/dell-bg.net.png"
-      ]
-    },
-    {
-      "id": 19,
-      "organization": "freelance.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian platform for remote work job postings for freelance specialists, project assignments and execution, and work from home opportunities.",
-        "bg": "Българска платформа за обяви за дистанционна работа за специалисти на свободна практика, възлагане и изпълнение на freelance проекти и отдалечена работа от вкъщи."
-      },
-      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
-      "images": [
-        "images/freelance.bg.png"
-      ]
-    },
-    {
-      "id": 20,
-      "organization": "estore.sbs.bg",
-      "type": "private",
-      "description": {
-        "en": "Online store of Specialized Business Systems (SBS), a Bulgarian company that imports, exports, distributes and services PC components, systems and office equipment.",
-        "bg": "Oнлайн магазинът на Специализирани бизнес системи (SBS), българска компания, която внася, изнася, дистрибутира и обслужва PC компоненти, системи и офис оборудване."
-      },
-      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
-      "images": [
-        "images/estore.sbs.bg.png"
-      ]
-    },
-    {
-      "id": 21,
-      "organization": "sladur.bg",
-      "type": "private",
-      "description": {
-        "en": "An old bulgarian website for dating.",
-        "bg": "Стар български уебсайт за онлайн запознанства."
-      },
-      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
-      "images": [
-        "images/sladur.bg.png"
-      ]
-    },
-    {
-      "id": 22,
-      "organization": "dentstore.bg",
-      "type": "private",
-      "description": {
-        "en": "Specialized professional store for dentistry and dental technology.",
-        "bg": "Специализиран професионален магазин за стоматология и зъботехника."
-      },
-      "source": "https://data-wells.niamonx.io/?search=.bg",
-      "images": [
-        "images/bania_and_dentstore.bg.png"
-      ]
-    },
-    {
-      "id": 23,
-      "organization": "bania.bg",
-      "type": "private",
-      "description": {
-        "en": "Store for bathroom and kitchen offering hydromassage bathtubs, cabins, sinks, and faucets.",
-        "bg": "Магазин за баня и кухня, предлагащ хидромасажни вани и кабини, мивки и смесители."
-      },
-      "source": "https://data-wells.niamonx.io/?search=.bg",
-      "images": [
-        "images/bania_and_dentstore.bg.png"
-      ]
-    },
-    {
-      "id": 24,
-      "organization": "shtora.bg",
-      "type": "private",
-      "description": {
-        "en": "Online store for blinds.",
-        "bg": "Онлайн магазин за щори."
-      },
-      "source": "https://www.ransomlook.io/leaks",
-      "images": [
-        "images/shtora.bg.png"
-      ]
-    },
-    {
-      "id": 25,
-      "organization": "vsu.bg",
-      "type": "private",
-      "description": {
-        "en": "Website of Higher School - Lyuben Karavelov.",
-        "bg": "Уебсайт на Висше строително училище - Любен Каравелов."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 26,
-      "organization": "vipoferta.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian VIP deals and special offers platform.",
-        "bg": "Българска платформа за VIP оферти и специални предложения."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 27,
-      "organization": "vestnikreklama.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian advertising newspaper and classifieds publication.",
-        "bg": "Български рекламен вестник и издание с обяви."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 28,
-      "organization": "v2.offroad-bulgaria.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian off-road and 4x4 vehicles community and forum.",
-        "bg": "Българска общност и форум за офроуд и 4x4 превозни средства."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 29,
-      "organization": "theatre.art.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian theater and performing arts information portal with show schedules and ticket sales.",
-        "bg": "Български информационен портал за театър и сценични изкуства с програми за представления и продажба на билети."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 30,
-      "organization": "techn0.eu.server12.host.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian hosting server or technology service platform.",
-        "bg": "Български хостинг сървър или технологична сервизна платформа."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 31,
-      "organization": "svatba-bg.net",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian wedding planning and services portal connecting couples with wedding vendors.",
-        "bg": "Български портал за планиране на сватби и услуги, свързващ двойки с доставчици на сватбени услуги."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 32,
-      "organization": "snimkionline.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian online photo printing and photography services.",
-        "bg": "Български онлайн услуги за печат на снимки и фотография."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 33,
-      "organization": "shop.karta.bg",
-      "type": "private",
-      "description": {
-        "en": "Online shop of Karta.bg map and publishing company selling maps, atlases, and travel guides.",
-        "bg": "Онлайн магазин на картографска и издателска компания Karta.bg, продаващ карти, атласи и пътеводители."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 34,
-      "organization": "rechnik-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian online dictionary and translation service for multiple languages.",
-        "bg": "Български онлайн речник и преводаческа услуга за множество езици."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 35,
-      "organization": "portal-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian web portal providing search engine and various online services.",
-        "bg": "Български уеб портал, предоставящ търсачка и различни онлайн услуги."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 36,
-      "organization": "pigeon-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian pigeon breeding and racing community website.",
-        "bg": "Уебсайт на българската общност за развъждане и състезания с гълъби."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 37,
-      "organization": "pcmania.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian computer gaming community and forum for PC gamers.",
-        "bg": "Българска общност за компютърни игри и форум за PC геймъри."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 38,
-      "organization": "offnews.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian news and media website.",
-        "bg": "Български новинарски и медиен уебсайт."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 39,
-      "organization": "nfp-drugs.bg",
-      "type": "public",
-      "description": {
-        "en": "Bulgarian National Framework for Pricing of Medicinal Products - government pharmaceutical database.",
-        "bg": "Национална рамка за ценообразуване на лекарствени продукти - правителствена фармацевтична база данни."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 40,
-      "organization": "naedro.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian wholesale marketplace and B2B trading platform.",
-        "bg": "Българска платформа за търговия на едро и B2B търговия."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 41,
-      "organization": "mushroom-bulgaria.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian restaurant or food service related to mushroom cuisine.",
-        "bg": "Български ресторант или хранителна услуга, свързана с гъбена кухня."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 42,
-      "organization": "mining.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian mining industry news and information portal.",
-        "bg": "Български новинарски и информационен портал за минната индустрия."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 43,
-      "organization": "metal.best.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian metal industry and metalworking services website.",
-        "bg": "Български уебсайт за металната индустрия и услуги по металообработка."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 44,
-      "organization": "market.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian online marketplace and classifieds platform for buying and selling goods.",
-        "bg": "Българска онлайн платформа за пазар и обяви за покупка и продажба на стоки."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 45,
-      "organization": "lsbg.net",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian lifeboat and maritime safety organization website.",
-        "bg": "Уебсайт на българска организация за спасителни лодки и морска безопасност."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 46,
-      "organization": "jelezaria.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian online hardware store selling construction materials and tools.",
-        "bg": "Български онлайн магазин за железария, продаващ строителни материали и инструменти."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 47,
-      "organization": "inoxbulgaria.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian stainless steel products manufacturer and supplier.",
-        "bg": "Български производител и доставчик на продукти от неръждаема стомана."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 48,
-      "organization": "gss.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian IT services and technology solutions provider.",
-        "bg": "Български доставчик на IT услуги и технологични решения."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 49,
-      "organization": "fpleague.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian fantasy sports league and gaming platform for football predictions.",
-        "bg": "Българска платформа за фантази спортни лиги и игри за футболни прогнози."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 50,
-      "organization": "forumold.adv-bulgaria.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian advertising and marketing industry forum (old version).",
-        "bg": "Български форум за рекламната и маркетингова индустрия (стара версия)."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 51,
-      "organization": "forum.investor.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian investment and financial discussion forum for stock market, trading, and personal finance topics.",
-        "bg": "Български форум за инвестиции и финанси, обсъждащ фондовия пазар, търговия и лични финанси."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 52,
-      "organization": "en.journey.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian travel and tourism website offering vacation packages, hotel bookings, and travel information.",
-        "bg": "Български уебсайт за пътувания и туризъм, предлагащ ваканционни пакети, резервации на хотели и информация за пътувания."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 53,
-      "organization": "e-uard.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian electronic security and monitoring services platform.",
-        "bg": "Българска платформа за електронни услуги за сигурност и мониторинг."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 54,
-      "organization": "detelina-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian online store for seeds, agricultural products, and gardening supplies.",
-        "bg": "Български онлайн магазин за семена, селскостопански продукти и градински принадлежности."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 55,
-      "organization": "daxy.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian website (specific services unclear from available information).",
-        "bg": "Български уебсайт (конкретните услуги не са ясни от наличната информация)."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 56,
-      "organization": "classroom.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian educational technology platform for online learning and classroom management.",
-        "bg": "Българска образователна технологична платформа за онлайн обучение и управление на класни стаи."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 57,
-      "organization": "careers.unwe.bg",
-      "type": "public",
-      "description": {
-        "en": "Career services portal of the University of National and World Economy (UNWE) in Sofia, connecting students with employers.",
-        "bg": "Портал за кариерни услуги на Университета за национално и световно стопанство (УНСС) в София, свързващ студенти с работодатели."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 58,
-      "organization": "cabinet.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian business services and consulting platform.",
-        "bg": "Българска платформа за бизнес услуги и консултации."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 59,
-      "organization": "bulgaria-shop.de",
-      "type": "private",
-      "description": {
-        "en": "German-based online shop selling Bulgarian products and foods to customers in Germany.",
-        "bg": "Базиран в Германия онлайн магазин, продаващ български продукти и храни на клиенти в Германия."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 60,
-      "organization": "boxoffice.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian cinema and movie theater ticket booking platform with film schedules and entertainment information.",
-        "bg": "Българска платформа за резервация на билети за кино и кинозали с филмови програми и развлекателна информация."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 61,
-      "organization": "bis.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian social networking platform and community website.",
-        "bg": "Българска платформа за социални мрежи и общностен уебсайт."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 62,
-      "organization": "bgben.co.uk",
-      "type": "private",
-      "description": {
-        "en": "UK-based Bulgarian media and information service providing news and content for the Bulgarian community in Britain.",
-        "bg": "Базирана в Обединеното кралство българска медийна и информационна услуга, предоставяща новини и съдържание за българската общност в Британия."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 63,
-      "organization": "bg-sail.org",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian sailing community and yacht club website featuring sailing events, training, and water sports activities.",
-        "bg": "Уебсайт на българската общност за ветроходство и яхт клуб с ветроходни събития, обучение и водни спортни дейности."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 64,
-      "organization": "bg-planet.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian web portal and community platform.",
-        "bg": "Български уеб портал и общностна платформа."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 65,
-      "organization": "avtomagazin.bg",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian automotive magazine and news website covering car reviews, auto industry news, and vehicle specifications.",
-        "bg": "Български автомобилен журнал и новинарски уебсайт, обхващащ рецензии на коли, новини от автоиндустрията и спецификации на превозни средства."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 66,
-      "organization": "5kmrun.bg",
-      "type": "private",
-      "description": {
-        "en": "5kmrun.bg is Bulgaria's biggest free weekly running community, organizing timed 5 km runs every Saturday in parks across the country.",
-        "bg": "5kmrun.bg е най-голямата безплатна седмична общност за бягане в България, която организира 5 км пробези с време всяка събота в паркове из страната."
-      },
-      "source": "https://bezbedanbalkan.net/thread-1311.html",
-      "images": [
-        "images/380BulgarianDatabases.png"
-      ]
-    },
-    {
-      "id": 67,
-      "organization": "superphone.bg",
-      "type": "private",
-      "description": {
-        "en": "A Bulgarian mobile phone and accessories retailer offering various smartphone brands and related products.",
-        "bg": "Български търговец на дребно за мобилни телефони и аксесоари, предлагащ различни марки смартфони и свързани продукти."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 68,
-      "organization": "smc-bg.com",
-      "type": "public",
-      "description": {
-        "en": "Old website of the Sofia Military Court.",
-        "bg": "Стар уебсайт на Софийския военен съд."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 69,
-      "organization": "ski.bg",
-      "type": "private",
-      "description": {
-        "en": "A comprehensive Bulgarian skiing and snowboarding information portal covering resorts like Bansko, Borovets, and Pamporovo with booking services.",
-        "bg": "Изчерпателен български информационен портал за ски и сноуборд, обхващащ курорти като Банско, Боровец и Пампорово с услуги за резервация."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 70,
-      "organization": "linkstar.bg",
-      "type": "private",
-      "description": {
-        "en": "Online store and importer of mobile phone accessories.",
-        "bg": "Онлайн магазин и вносител на аксесоари за мобилни телефони."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 71,
-      "organization": "dnt.bg",
-      "type": "private",
-      "description": {
-        "en": "Financial Services.",
-        "bg": "Финансови услуги."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 72,
-      "organization": "seajobs.bg",
-      "type": "private",
-      "description": {
-        "en": "A maritime employment website focused on seafaring and shipping industry jobs.",
-        "bg": "Уебсайт за морска заетост, фокусиран върху мореплавателни и корабоплавателни професии."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 73,
-      "organization": "esistore.bg",
-      "type": "private",
-      "description": {
-        "en": "e-commerce for office supplies.",
-        "bg": "Електронна търговия за офис консумативи."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 74,
-      "organization": "knigabg.com",
-      "type": "private",
-      "description": {
-        "en": "An online Bulgarian bookstore selling books, educational materials, games, and gifts.",
-        "bg": "Онлайн българска книжарница, продаваща книги, образователни материали, игри и подаръци."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 75,
-      "organization": "trimonium-bg.com",
-      "type": "private",
-      "description": {
-        "en": "An international recruitment agency specializing in placing Bulgarian professionals in jobs abroad.",
-        "bg": "Международна агенция за набиране на персонал, специализирана в наемането на български професионалисти на работа в чужбина."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 76,
-      "organization": "patient.bg",
-      "type": "private",
-      "description": {
-        "en": "A healthcare-related website for Bulgarian patients.",
-        "bg": "Уебсайт, свързан със здравеопазването за български пациенти."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 77,
-      "organization": "meloman-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Sofia's oldest music store selling vinyl records, CDs, turntables, with thousands of titles available and custom ordering services.",
-        "bg": "Най-старият музикален магазин в София, продаващ винилови плочи, CD-та, грамофони с хиляди налични заглавия и услуги за поръчка по желание."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 78,
-      "organization": "fagor.bg",
-      "type": "private",
-      "description": {
-        "en": "The official Bulgarian importer and distributor of Fagor, Edesa, and Cata household appliances from Spain.",
-        "bg": "Официален български вносител и дистрибутор на домакински уреди Fagor, Edesa и Cata от Испания."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 79,
-      "organization": "walkersbg.org",
-      "type": "private",
-      "description": {
-        "en": "Website of the Bulgarian Pedestrian Foundation.",
-        "bg": "Уебсайт на Българската фондация за пешеходци."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 80,
-      "organization": "rabota.bg",
-      "type": "private",
-      "description": {
-        "en": "A major Bulgarian job search website featuring employment listings, resume creation, and recruitment services across Bulgaria.",
-        "bg": "Голям български сайт за търсене на работа с обяви за заетост, създаване на автобиография и услуги за набиране на персонал в България."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 81,
-      "organization": "ebcbrakes.bg",
-      "type": "private",
-      "description": {
-        "en": "A Bulgarian distributor and online shop for EBC Brakes automotive braking systems and parts.",
-        "bg": "Български дистрибутор и онлайн магазин за EBC Brakes автомобилни спирачни системи и части."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 82,
-      "organization": "carpbg.com",
-      "type": "private",
-      "description": {
-        "en": "A Bulgarian fishing website focused on carp fishing, equipment, and angling community.",
-        "bg": "Български уебсайт за риболов, фокусиран върху шаранджийство, оборудване и риболовна общност."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 83,
-      "organization": "sopko.tu-sofia.bg",
-      "type": "private",
-      "description": {
-        "en": "An e-learning platform (\"SOPKO\") for Technical University Sofia providing distance education courses.",
-        "bg": "Платформа за електронно обучение (\"СОПКО\") на Технически университет София, предоставяща курсове за дистанционно обучение."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 84,
-      "organization": "ironmaiden-bg.com",
-      "type": "private",
-      "description": {
-        "en": "The official Bulgarian Iron Maiden fan club website featuring band news, discography information, and local concert announcements.",
-        "bg": "Официалният български фен клуб на Iron Maiden с новини за групата, дискография и обявления за местни концерти."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 85,
-      "organization": "games.portokal-bg.net",
-      "type": "private",
-      "description": {
-        "en": "An online gaming portal offering free flash games in various categories including puzzles, action, sports, and card games.",
-        "bg": "Онлайн игрален портал, предлагащ безплатни флаш игри в различни категории, включително пъзели, екшън, спортни и карти игри."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 86,
-      "organization": "blog.bg",
-      "type": "private",
-      "description": {
-        "en": "A free Bulgarian blog hosting platform and portal where users can create and maintain personal blogs.",
-        "bg": "Безплатна българска платформа за блогове и портал, където потребителите могат да създават и поддържат лични блогове."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 87,
-      "organization": "bgpochivka.eu",
-      "type": "private",
-      "description": {
-        "en": "A Bulgarian vacation and holiday booking website.",
-        "bg": "Български уебсайт за резервация на ваканции и почивки."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/oldbigdbs.png"
-      ]
-    },
-    {
-      "id": 88,
-      "organization": "assoc.pension.bg",
-      "type": "private",
-      "description": {
-        "en": "Related to the Bulgarian Association of Supplementary Pension Security Companies, dealing with pension fund information.",
-        "bg": "Свързана с Българската асоциация на дружествата за допълнително пенсионно осигуряване, занимаваща се с информация за пенсионни фондове."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/pension.bg.png"
-      ]
-    },
-    {
-      "id": 89,
-      "organization": "ipmart-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Old bulgarian forum for IT stuff.",
-        "bg": "Стар български форум за IT."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/ipmart-bg.com.png"
-      ]
-    },
-    {
-      "id": 90,
-      "organization": "arenabg.com",
-      "type": "private",
-      "description": {
-        "en": "A Bulgarian torrent tracker website for downloading movies, TV series, and other digital content.",
-        "bg": "Български торент тракер уебсайт за изтегляне на филми, телевизионни сериали и друго цифрово съдържание."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/arenabg.com.png"
-      ]
-    },
-    {
-      "id": 91,
-      "organization": "autocatalog.bg",
-      "type": "private",
-      "description": {
-        "en": "An automotive news and information website covering car brands, models, specifications, and motorsports in Bulgarian.",
-        "bg": "Уебсайт за автомобилни новини и информация, обхващащ марки автомобили, модели, спецификации и моторни спортове на български."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/autocatalog.bg.png"
-      ]
-    },
-    {
-      "id": 92,
-      "organization": "bulgarianpropertyuk.com",
-      "type": "private",
-      "description": {
-        "en": "A real estate agency specializing in Bulgarian property sales to UK clients, offering apartments, houses, and hotels primarily in Black Sea resorts like Sunny Beach and Nessebar.",
-        "bg": "Агенция за недвижими имоти, специализирана в продажбата на български имоти на клиенти от Великобритания, предлагаща апартаменти, къщи и хотели предимно в черноморски курорти като Слънчев бряг и Несебър."
-      },
-      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
-      "images": [
-        "images/bulgarianpropertyuk.com.png"
-      ]
-    },
-    {
-      "id": 93,
-      "organization": "varnabroker.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgarian insurance company",
-        "bg": "Българска компания за застраховки"
-      },
-      "source": "https://leakbase.la/threads/varnabroker-com.877/",
-      "images": [
-        "images/varnabroker.png"
-      ]
-    },
-    {
-      "id": 94,
-      "organization": "gerb.bg",
-      "type": "public",
-      "description": {
-        "en": "Political party headed by former PM Boyko Borisov - LockBit3 ransomware attack",
-        "bg": "Политическа партия, ръководена от бивши министър-председател Бойко Борисов - LockBit3 ransomware атака"
-      },
-      "source": "https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==",
-      "images": [
-        "https://images.ransomware.live/victims/8c6504b4a9b54bd9ec67edd306bbcb34.png"
-      ]
-    },
-    {
-      "id": 95,
-      "organization": "regasenergy.com",
-      "type": "private",
-      "description": {
-        "en": "Energy sector company (Electricity, Oil & Gas) - Monti ransomware attack",
-        "bg": "Енергийна компания (Електричество, петрол и газ) - Monti ransomware атака"
-      },
-      "source": "https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=",
-      "images": [
-        "https://images.ransomware.live/victims/c1fd85be2ef64fa62605918e48ce825d.png"
-      ]
-    },
-    {
-      "id": 96,
-      "organization": "intrama-bg.com",
-      "type": "private",
-      "description": {
-        "en": "Manufacturing company - Stormous ransomware attack",
-        "bg": "Производствена компания - Stormous ransomware атака"
-      },
-      "source": "https://www.ransomware.live/id/aW50cmFtYS1iZ0BzdG9ybW91cw==",
-      "images": [
-        "images/intrama-bg.png"
-      ]
-    },
-    {
-      "id": 97,
-      "organization": "smartmediagroup.eu",
-      "type": "private",
-      "description": {
-        "en": "Advertising services company - Sarcoma ransomware group attack",
-        "bg": "Рекламна компания - Sarcoma ransomware групова атака"
-      },
-      "source": "https://www.ransomware.live/id/U21hcnQgTWVkaWEgR3JvdXAgQnVsZ2FyaWFAc2FyY29tYQ==",
-      "images": [
-        "images/smartd.bg.png"
-      ]
-    },
-    {
-      "id": 98,
-      "organization": "sac.justice.bg (sac.justice.bg)",
-      "type": "public",
-      "description": {
-        "en": "Supreme Administrative Court - Ransomhouse attack (January 2025)",
-        "bg": "Върховен административен съд - Ransomhouse атака (януари 2025)"
-      },
-      "source": "https://www.ransomware.live/id/U3VwcmVtZSBBZG1pbmlzdHJhdGl2ZSBDb3VydCBvZiBCdWxnYXJpYUByYW5zb21ob3VzZQ==",
-      "images": [
-        "images/vas_leak_ransomhouse.png"
-      ]
-    },
-    {
-      "id": 99,
-      "organization": "hreu.eu",
-      "type": "private",
-      "description": {
-        "en": "Human resources solutions company - Funksec ransomware attack",
-        "bg": "Компания за човешки ресурси - Funksec ransomware атака"
-      },
-      "source": "https://www.ransomware.live/id/aHJldS5ldUBmdW5rc2Vj",
-      "images": [
-        "https://images.ransomware.live/victims/018444382cb13aadb7f41fda1abff3e6.png"
-      ]
-    },
-    {
-      "id": 100,
-      "organization": "Multiple Websites by 'crime'",
-      "type": "private",
-      "description": {
-        "en": "Multiple Bulgarian breaches by threat actor 'crime'",
-        "bg": "Множество български пробиви от заплахата 'crime'"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/crime_selling.png"
-      ]
-    },
-    {
-      "id": 101,
-      "organization": "culture-mfa.bg",
-      "type": "public",
-      "description": {
-        "en": "Ministry of Culture and Foreign Affairs breach",
-        "bg": "Пробив в Министерството на културата и външните работи"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/culture-mfa.bg.png"
-      ]
-    },
-    {
-      "id": 102,
-      "organization": "mvr.bg (Ministry of Interior)",
-      "type": "public",
-      "description": {
-        "en": "Ministry of Interior database breach by 'crime'",
-        "bg": "Пробив в база данни на МВР от потребител 'crime'"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/mvr.bg.png"
-      ]
-    },
-    {
-      "id": 103,
-      "organization": "a1.bg",
-      "type": "private",
-      "description": {
-        "en": "Telecommunications company breach",
-        "bg": "Пробив в телекомуникационна компания"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/a1.bg.png"
-      ]
-    },
-    {
-      "id": 104,
-      "organization": "Multiple Websites by 'Soni'",
-      "type": "private",
-      "description": {
-        "en": "Multiple Bulgarian e-commerce breaches by threat actor 'Soni'",
-        "bg": "Множество пробиви в български сайтове за електронна търговия от заплахата 'Soni'"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/soni_selling.png"
-      ]
-    },
-    {
-      "id": 105,
-      "organization": "Multiple BreachForums Leaks",
-      "type": "private",
-      "description": {
-        "en": "A1 Telecom, baumit.bg, kasida.bg, pilini.bg, airelec.bg, bnm.bg, punto.bg, footshop.bg, districtshoes.bg, ecco.bg, myshoes.bg, ardes.bg, andrews.bg, popolo.bg, ebag.bg, mango.bg, dallbogg.bg, ilife.bg",
-        "bg": "A1 Telecom, baumit.bg, kasida.bg, pilini.bg, airelec.bg, bnm.bg, punto.bg, footshop.bg, districtshoes.bg, ecco.bg, myshoes.bg, ardes.bg, andrews.bg, popolo.bg, ebag.bg, mango.bg, dallbogg.bg, ilife.bg"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/ransomed.vc_bulgarian_breaches.png"
-      ]
-    },
-    {
-      "id": 106,
-      "organization": "Multiple Bulgarian Websites",
-      "type": "private",
-      "description": {
-        "en": "bezplatno.bg, bg.elmarkstore.eu, brigadiri.com, casioshop.bg, investclub.bg, comfort.bg, bgtime.tv, address.bg, stylewish.bg",
-        "bg": "bezplatno.bg, bg.elmarkstore.eu, brigadiri.com, casioshop.bg, investclub.bg, comfort.bg, bgtime.tv, address.bg, stylewish.bg"
-      },
-      "source": "https://predpriemach.com",
-      "images": [
-        "images/predpriemach.com.png"
-      ]
-    },
-    {
-      "id": 107,
-      "organization": "econt.com (econt.bg)",
-      "type": "private",
-      "description": {
-        "en": "Logistics company data breach",
-        "bg": "Пробив в данни на логистична компания"
-      },
-      "source": "https://leakbase.la",
-      "images": [
-        "images/econt.jpeg"
-      ]
-    },
-    {
-      "id": 108,
-      "organization": "lev-ins.com",
-      "type": "private",
-      "description": {
-        "en": "Insurance company breach",
-        "bg": "Пробив в застрахователна компания"
-      },
-      "source": "https://naglite.com",
-      "images": [
-        "images/levins.png"
-      ]
-    },
-    {
-      "id": 109,
-      "organization": "Prosecutor's Office (prb.bg)",
-      "type": "public",
-      "description": {
-        "en": "Government prosecutor's office breach",
-        "bg": "Пробив в прокуратурата"
-      },
-      "source": "https://darkforums.st",
-      "images": [
-        "images/prb.bg.jpeg",
-        "images/prb.bg.2.png"
-      ]
-    },
-    {
-      "id": 110,
-      "organization": "iandgbrokers.com",
-      "type": "private",
-      "description": {
-        "en": "Insurance brokers data breach",
-        "bg": "Пробив в данни на застрахователни брокери"
-      },
-      "source": "https://breachforums.is",
-      "images": [
-        "images/i&G_leak.png",
-        "images/I&G_leak_2.png"
-      ]
-    },
-    {
-      "id": 111,
-      "organization": "stingpharma.com",
-      "type": "private",
-      "description": {
-        "en": "Hunters International ransomware group attack",
-        "bg": "Атака от ransomware групата Hunters International"
-      },
-      "source": "https://huntersinternational.org",
-      "images": [
-        "images/huntersinternational.org.png"
-      ]
-    },
-    {
-      "id": 112,
-      "organization": "bgtoll.bg",
-      "type": "public",
-      "description": {
-        "en": "Toll system database breach",
-        "bg": "Пробив в база данни на тол система"
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/bgtoll.png"
-      ]
-    },
-    {
-      "id": 113,
-      "organization": "alessa.bg",
-      "type": "private",
-      "description": {
-        "en": "E-commerce platform breach",
-        "bg": "Пробив в платформа за електронна търговия"
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/alessa.png"
-      ]
-    },
-    {
-      "id": 114,
-      "organization": "pod-toplina.bg",
-      "type": "private",
-      "description": {
-        "en": "Pension insurance company breach",
-        "bg": "Пробив в информационната система на пенсионно осигурително дружество"
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/toplina.png"
-      ]
-    },
-    {
-      "id": 115,
-      "organization": "videnov.bg",
-      "type": "private",
-      "description": {
-        "en": "Seized from breachforums.st",
-        "bg": "Иззето от breachforums.st"
-      },
-      "source": "https://breachforums.hn",
-      "images": [
-        "images/videnov.png"
-      ]
-    },
-    {
-      "id": 116,
-      "organization": "nra.bg (National Revenue Agency)",
-      "type": "public",
-      "description": {
-        "en": "Major government breach affecting millions",
-        "bg": "Голям правителствен пробив, засягащ милиони"
-      },
-      "source": "https://haveibeenpwned.com/Breach/BulgarianNationalRevenueAgency",
-      "images": [
-        "images/nra.webp",
-        "images/nra2.jpeg"
-      ]
-    },
-    {
-      "id": 117,
-      "organization": "icard.bg",
-      "type": "private",
-      "description": {
-        "en": "Financial services breach - 1,800 individuals",
-        "bg": "Пробив на финансови услуги - 1,800 лица"
-      },
-      "source": "https://bird.bg/en/hacker-breached-icard-and-published-the-personal-data-of-1800-individuals/",
-      "images": [
-        "images/icard.webp"
-      ]
-    },
-    {
-      "id": 118,
-      "organization": "generali.bg",
-      "type": "private",
-      "description": {
-        "en": "Insurance company data breach",
-        "bg": "Пробив в данни на застрахователна компания"
-      },
-      "source": "https://x.com/H4ckManac/status/1760969176372421015",
-      "images": [
-        "images/generali.jpeg"
-      ]
-    },
-    {
-      "id": 119,
-      "organization": "MKB (en.mkb.bg)",
-      "type": "private",
-      "description": {
-        "en": "LockBit ransomware attack on investment company",
-        "bg": "LockBit ransomware атака"
-      },
-      "source": "https://lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion/en.mkb.bg/",
-      "images": [
-        "images/mkb.png"
-      ]
-    },
-    {
-      "id": 120,
-      "organization": "eld.bg",
-      "type": "private",
-      "description": {
-        "en": "DragonForce ransomware attack",
-        "bg": "Атака с DragonForce ransomware"
-      },
-      "source": "https://dragonforxxbp3awc7mzs5dkswrua3znqyx5roefmi4smjrsdi22xwqd.onion/eld.bg/",
-      "images": [
-        "images/eld.png"
-      ]
-    },
-    {
-      "id": 121,
-      "organization": "ilife.bg",
-      "type": "private",
-      "description": {
-        "en": "E-commerce platform breach",
-        "bg": "Пробив в платформа за електронна търговия"
-      },
-      "source": "https://darkforums.st/Thread-ilife-bg",
-      "images": [
-        "images/ilife.png"
-      ]
-    },
-    {
-      "id": 122,
-      "organization": "transcard.bg",
-      "type": "private",
-      "description": {
-        "en": "Payment card system breach",
-        "bg": "Пробив в система за платежни карти"
-      },
-      "source": "https://leakbase.la/threads/transcard-bulgaria.31367/",
-      "images": [
-        "images/transcard.png"
-      ]
-    },
-    {
-      "id": 123,
-      "organization": "lillydrogerie.bg",
-      "type": "private",
-      "description": {
-        "en": "Drugstore database breach - 413 MB",
-        "bg": "Пробив в база данни на аптека - 413 MB"
-      },
-      "source": "https://leakbase.la/threads/bulgaria-shop-llillydrogerie-bg-413-mb.27787/",
-      "images": [
-        "images/lillydrogerie.png"
-      ]
-    },
-    {
-      "id": 124,
-      "organization": "douglas.bg",
-      "type": "private",
-      "description": {
-        "en": "Retail database breach - 589 MB",
-        "bg": "Пробив в база данни на магазин - 589 MB"
-      },
-      "source": "https://leakbase.la/threads/bulgaria-douglas-bg-589-mb.27790/",
-      "images": [
-        "images/douglas.png"
-      ]
-    },
-    {
-      "id": 125,
-      "organization": "8hristo.com",
-      "type": "private",
-      "description": {
-        "en": "Database breach - 162 MB",
-        "bg": "Пробив в база данни - 162 MB"
-      },
-      "source": "https://leakbase.la/threads/bulgaria-8hristo-com-162-mb.27792/",
-      "images": [
-        "images/8hristo.png"
-      ]
-    },
-    {
-      "id": 126,
-      "organization": "B2B Bulgaria",
-      "type": "private",
-      "description": {
-        "en": "Business-to-business platform breach",
-        "bg": "Пробив в бизнес платформа"
-      },
-      "source": "https://leakbase.la/threads/16198-b2b-bulgaria.33522/",
-      "images": [
-        "images/unknown2.png"
-      ]
-    },
-    {
-      "id": 127,
-      "organization": "kasida.bg",
-      "type": "private",
-      "description": {
-        "en": "Online retail database breach",
-        "bg": "Пробив в база данни на онлайн магазин"
-      },
-      "source": "https://darkforums.st/Thread-kasida-bg",
-      "images": [
-        "images/kasida.png"
-      ]
-    },
-    {
-      "id": 128,
-      "organization": "pilini.bg",
-      "type": "private",
-      "description": {
-        "en": "E-commerce platform breach",
-        "bg": "Пробив в платформа за електронна търговия"
-      },
-      "source": "https://darkforums.st/Thread-pilini-bg",
-      "images": [
-        "images/pilini.png"
-      ]
-    },
-    {
-      "id": 129,
-      "organization": "sportvision.bg",
-      "type": "private",
-      "description": {
-        "en": "Retail database breach - 1,390,766M records",
-        "bg": "Пробив в база данни на магазин - 1,390,766М записа"
-      },
-      "source": "https://darkforums.st/Thread-Selling-SportVision-1-390-766M-Bulgaria",
-      "images": [
-        "images/sportvision.png",
-        "images/sportvision2.png"
-      ]
-    },
-    {
-      "id": 130,
-      "organization": "mkb.bg",
-      "type": "private",
-      "description": {
-        "en": "Investment company database breach - 7GB",
-        "bg": "Пробив в базата данни на инвестиционен посредник - 7GB"
-      },
-      "source": "https://darkforums.st/Thread-DATABASE-7GB-MK-Brokers-Bank-Bulgaria",
-      "images": [
-        "images/mkbrokers.png"
-      ]
-    },
-    {
-      "id": 131,
-      "organization": "lira.bg",
-      "type": "private",
-      "description": {
-        "en": "WordPress database breach",
-        "bg": "Пробив в WordPress база данни"
-      },
-      "source": "https://darkforums.st/Thread-Bulgaria-lira-bg-Wordpress-Database",
-      "images": [
-        "images/lira.png"
-      ]
-    },
-    {
-      "id": 132,
-      "organization": "spidersport.com",
-      "type": "private",
-      "description": {
-        "en": "Sports retail company database breach",
-        "bg": "Пробив в базата данни на компания за спортни стоки"
-      },
-      "source": "https://darkforums.st/Thread-Bulgaria-database%C2%A0-spidersport-com",
-      "images": [
-        "images/spidersport.png"
-      ]
-    },
-    {
-      "id": 133,
-      "organization": "dallbogg.bg",
-      "type": "private",
-      "description": {
-        "en": "20k Greek insurance identity records",
-        "bg": "20 хил. записа с гръцки застрахователни самоличности"
-      },
-      "source": "https://darkforums.st/Thread-DallBogg-bg-20k-greece-insurance-identity",
-      "images": [
-        "images/dallbogg.png"
-      ]
-    },
-    {
-      "id": 134,
-      "organization": "Unknown Bulgarian Database",
-      "type": "private",
-      "description": {
-        "en": "Comprehensive Bulgarian database breach",
-        "bg": "Цялостен пробив в българска база данни"
-      },
-      "source": "https://darkforums.st/Thread-Selling-Bulgaria-Database",
-      "images": [
-        "images/unknown.png"
-      ]
-    },
-    {
-      "id": 135,
-      "organization": "stenik.bg",
-      "type": "private",
-      "description": {
-        "en": "eCommerce development company database breach - 2M records",
-        "bg": "Пробив в базата данни на компания за уеб дизайн и eCommerce - 2М записа"
-      },
-      "source": "https://darkforums.st/Thread-Selling-STENIK-Group-Bulgaria-Company-2M",
-      "images": [
-        "images/stenik.png",
-        "images/stenik2.png",
-        "images/stenik3.png"
-      ]
-    },
-    {
-      "id": 136,
-      "organization": "virginiarecords.com",
-      "type": "private",
-      "description": {
-        "en": "Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists.",
-        "bg": "Първата музикална издателска компания в България, основана през 1992 г., предоставяща услуги на звукозаписна компания, дигитална дистрибуция, мениджмънт на артисти и музикално издаване за български и международни изпълнители."
-      },
-      "source": "https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/",
-      "images": [
-        "images/virginiarecords.com.png"
-      ]
-    },
-    {
-      "id": 137,
-      "organization": "consento.bg",
-      "type": "private",
-      "description": {
-        "en": "Consento is a digital healthcare platform in Bulgaria offering telemedicine, online medical consultations, and electronic health records. The platform allows patients to book appointments online, consult remotely with doctors, and store all their medical documentation in one secure place.",
-        "bg": "Консенто е дигитална платформа за здравни услуги в България, която предлага телемедицина, онлайн консултации с лекари и електронно здравно досие. Платформата позволява на пациентите да записват часове за прегледи онлайн, да се консултират дистанционно и да съхраняват медицинската си документация на едно място."
-      },
-      "source": "https://breachforums.bf/Thread-SELLING-Bulgaria-Consento-32-6k",
-      "images": [
-        "images/consento.bg.png"
-      ]
-    },
-    {    
-      "id": 138,
-      "organization": "vitoshaparkhotel.com",
-      "type": "private",
-      "description": {
-        "en": "Vitоsha Park Hotel is a leading four-star hotel in Sofia's Studentski Grad district, offering 175 comfortable rooms, multiple restaurants and bars, a modern sports center with pool and fitness facilities, a relaxation zone with sauna park, and comprehensive conference facilities ideal for both business and leisure travelers.",
-        "bg": "Парк Хотел Витоша е един от водещите четиризвездни хотели в Студентски град, София, предлагащ 175 комфортни стаи, няколко ресторанта и бара, модерен спортен център с басейн и фитнес, релакс зона със сауна парк и отлични конферентни възможности, подходящи както за бизнес, така и за личен туризъм."
-      },
-      "source": "https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw==",
-      "images": [
-        "images/vitoshaparkhotel.com.png", "images/vitoshaparkhotel.com.2.png"
-      ]
-    },
-    {    
-      "id": 139,
-      "organization": "store.bg",
-      "type": "private",
-      "description": {
-        "en": "Store.bg is a leading Bulgarian e-commerce platform offering a wide range of products, from electronics and appliances to fashion and home goods.",
-        "bg": "Store.bg е водеща българска платформа за онлайн пазаруване, която предлага богат асортимент от продукти — от електроника и уреди до мода и стоки за дома."
-      },
-      "source": "https://breachforums.as/Thread-SELLING-store-bg-Bulgaria--188435",
-      "images": [
-        "images/store.bg.png"
-      ]
-    },
-    {    
-      "id": 140,
-      "organization": "remington.bg",
-      "type": "private",
-      "description": {
-        "en": "Remington.bg is an online store specializing in a wide range of personal care appliances, including hair straighteners, dryers, trimmers, shavers, and epilators.",
-        "bg": "Remington.bg е онлайн магазин, специализиран в широка гама от уреди за лична грижа, включително преси за коса, сешоари, тримери, самобръсначки и епилатори."
-      },
-      "source": "https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows",
-      "images": [
-        "images/remington.bg.png"
-      ]
-    },
-    {    
-      "id": 141,
-      "organization": "robusta.bg",
-      "type": "private",
-      "description": {
-        "en": "Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria.",
-        "bg": "Robusta.bg е цялостна платформа за доставка, проектиране и поддръжка на професионално кухненско, бар и ресторантско оборудване за Хорека сектора в България."
-      },
-      "source": "https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta",
-      "images": [
-        "images/robusta.bg.png"
-      ]
-    },
-    {    
-      "id": 142,
-      "organization": "kupi-chasovnik.com",
-      "type": "private",
-      "description": {
-        "en": "Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices.",
-        "bg": "Kupi-chasovnik.com е български онлайн магазин, който предлага голямо разнообразие от мъжки, дамски и смарт часовници на достъпни цени."
-      },
-      "source": "https://x.com/DailyDarkWeb/status/2042243013347360988",
-      "images": [
-        "images/kupi-chasovnik.com.png",
-        "images/kupi-chasovnik.com-2.png"
-      ]
-    },
-    {    
-      "id": 143,
-      "organization": "imot.bg",
-      "type": "private",
-      "description": {
-        "en": "Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties.",
-        "bg": "Imot.bg е най-големият сайт за недвижими имоти в България, който предлага огромно разнообразие от обяви за покупка, продажба и наем на жилища, парцели и търговски обекти."
-      },
-      "source": "https://x.com/DailyDarkWeb/status/2058744773586932224",
-      "images": [
-        "images/imot.bg.png",
-        "images/imot.bg.2.png"
-      ]
-    },
-    {    
-      "id": 144,
       "organization": "vp-brands.com",
       "type": "private",
       "description": {
@@ -1896,139 +161,1875 @@
         "images/vp-brands.com-4.png"
       ]
     },
-    {    
-      "id": 145,
-      "organization": "bright-eng.com",
+    {
+      "id": 12,
+      "organization": "imot.bg",
       "type": "private",
       "description": {
-        "en": "Bright-eng.com is the website of Bright Engineering Ltd., a leading Bulgarian engineering company specializing in the design, implementation, and maintenance of industrial automation systems, instrumentation, and process equipment.",
-        "bg": "Bright-eng.com (Брайт Инженеринг ООД) е уебсайтът на водеща българска инженерингова компания, специализирана в проектирането, внедряването и поддръжката на системи за индустриална автоматизация, контролно-измервателни уреди и технологично оборудване."
+        "en": "Imot.bg is the largest real estate website in Bulgaria, offering a huge variety of listings for buying, selling, and renting homes, plots, and commercial properties.",
+        "bg": "Imot.bg е най-големият сайт за недвижими имоти в България, който предлага огромно разнообразие от обяви за покупка, продажба и наем на жилища, парцели и търговски обекти."
       },
-      "source": "https://x.com/FalconFeedsio/status/1906946662263914620",
+      "source": "https://x.com/DailyDarkWeb/status/2058744773586932224",
       "images": [
-        "images/bright-eng.com.png",
-        "images/bright-eng.com-2.png"
+        "images/imot.bg.png",
+        "images/imot.bg.2.png"
       ]
     },
-    {    
-      "id": 146,
-      "organization": "yourcebulgaria.cc",
+    {
+      "id": 13,
+      "organization": "kupi-chasovnik.com",
       "type": "private",
       "description": {
-        "en": "Yourcebulgaria.cc is the official website of Yource Bulgaria, a company providing business process outsourcing (BPO) and multichannel contact center services—including customer care, sales, and support—for international clients.",
-        "bg": "Yourcebulgaria.cc е официалният сайт на Yource Bulgaria – компания, която предоставя изнесени бизнес процеси (BPO) и мултиканални контактни център услуги (обслужване на клиенти, продажби и поддръжка) за международни клиенти."
+        "en": "Kupi-chasovnik.com is a Bulgarian online store that offers a wide variety of men's, women's, and smart watches at affordable prices.",
+        "bg": "Kupi-chasovnik.com е български онлайн магазин, който предлага голямо разнообразие от мъжки, дамски и смарт часовници на достъпни цени."
       },
-      "source": "https://j5o5y2feotmhvr7cbcp2j2ewayv5mn5zenl3joqwx67gtfchhezjznad.onion",
+      "source": "https://x.com/DailyDarkWeb/status/2042243013347360988",
       "images": [
-        "images/yourcebulgaria.cc.png",
-        "images/yourcebulgaria.cc-2.png"
+        "images/kupi-chasovnik.com.png",
+        "images/kupi-chasovnik.com-2.png"
       ]
     },
-    {    
-      "id": 147,
-      "organization": "beautyexpert.bg",
+    {
+      "id": 14,
+      "organization": "robusta.bg",
       "type": "private",
       "description": {
-        "en": "beautyexpert.bg is a Bulgarian online store specialized in the sale of professional cosmetics, makeup, and hairdressing products for facial, hair, and body care.",
-        "bg": "beautyexpert.bg е български онлайн магазин, специализиран в продажбата на професионална козметика, грим и фризьорски продукти за грижа за лицето, косата и тялото."
+        "en": "Robusta.bg is a comprehensive platform for the supply, design, and maintenance of professional kitchen, bar, and restaurant equipment for the HoReCa sector in Bulgaria.",
+        "bg": "Robusta.bg е цялостна платформа за доставка, проектиране и поддръжка на професионално кухненско, бар и ресторантско оборудване за Хорека сектора в България."
       },
-      "source": "https://darkforums.su/Thread-DATABASE-Bulgaria-Free-DB-beautyexpert-bg",
+      "source": "https://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/sitgroup-robusta",
       "images": [
-        "images/beautyexpert.bg.png"      
+        "images/robusta.bg.png"
       ]
     },
-    {    
-      "id": 148,
-      "organization": "uctm.edu",
+    {
+      "id": 15,
+      "organization": "remington.bg",
+      "type": "private",
+      "description": {
+        "en": "Remington.bg is an online store specializing in a wide range of personal care appliances, including hair straighteners, dryers, trimmers, shavers, and epilators.",
+        "bg": "Remington.bg е онлайн магазин, специализиран в широка гама от уреди за лична грижа, включително преси за коса, сешоари, тримери, самобръсначки и епилатори."
+      },
+      "source": "https://breachforums.as/Thread-VERIFIED-Bulgaria-Remington-BG-150-000-Rows",
+      "images": [
+        "images/remington.bg.png"
+      ]
+    },
+    {
+      "id": 16,
+      "organization": "store.bg",
+      "type": "private",
+      "description": {
+        "en": "Store.bg is a leading Bulgarian e-commerce platform offering a wide range of products, from electronics and appliances to fashion and home goods.",
+        "bg": "Store.bg е водеща българска платформа за онлайн пазаруване, която предлага богат асортимент от продукти — от електроника и уреди до мода и стоки за дома."
+      },
+      "source": "https://breachforums.as/Thread-SELLING-store-bg-Bulgaria--188435",
+      "images": [
+        "images/store.bg.png"
+      ]
+    },
+    {
+      "id": 17,
+      "organization": "vitoshaparkhotel.com",
+      "type": "private",
+      "description": {
+        "en": "Vitоsha Park Hotel is a leading four-star hotel in Sofia's Studentski Grad district, offering 175 comfortable rooms, multiple restaurants and bars, a modern sports center with pool and fitness facilities, a relaxation zone with sauna park, and comprehensive conference facilities ideal for both business and leisure travelers.",
+        "bg": "Парк Хотел Витоша е един от водещите четиризвездни хотели в Студентски град, София, предлагащ 175 комфортни стаи, няколко ресторанта и бара, модерен спортен център с басейн и фитнес, релакс зона със сауна парк и отлични конферентни възможности, подходящи както за бизнес, така и за личен туризъм."
+      },
+      "source": "https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw==",
+      "images": [
+        "images/vitoshaparkhotel.com.png",
+        "images/vitoshaparkhotel.com.2.png"
+      ]
+    },
+    {
+      "id": 18,
+      "organization": "consento.bg",
+      "type": "private",
+      "description": {
+        "en": "Consento is a digital healthcare platform in Bulgaria offering telemedicine, online medical consultations, and electronic health records. The platform allows patients to book appointments online, consult remotely with doctors, and store all their medical documentation in one secure place.",
+        "bg": "Консенто е дигитална платформа за здравни услуги в България, която предлага телемедицина, онлайн консултации с лекари и електронно здравно досие. Платформата позволява на пациентите да записват часове за прегледи онлайн, да се консултират дистанционно и да съхраняват медицинската си документация на едно място."
+      },
+      "source": "https://breachforums.bf/Thread-SELLING-Bulgaria-Consento-32-6k",
+      "images": [
+        "images/consento.bg.png"
+      ]
+    },
+    {
+      "id": 19,
+      "organization": "virginiarecords.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgaria's first music publishing company, founded in 1992, providing record label services, digital distribution, artist management, and music publishing for Bulgarian and international artists.",
+        "bg": "Първата музикална издателска компания в България, основана през 1992 г., предоставяща услуги на звукозаписна компания, дигитална дистрибуция, мениджмънт на артисти и музикално издаване за български и международни изпълнители."
+      },
+      "source": "https://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/",
+      "images": [
+        "images/virginiarecords.com.png"
+      ]
+    },
+    {
+      "id": 20,
+      "organization": "stenik.bg",
+      "type": "private",
+      "description": {
+        "en": "eCommerce development company database breach - 2M records",
+        "bg": "Пробив в базата данни на компания за уеб дизайн и eCommerce - 2М записа"
+      },
+      "source": "https://darkforums.st/Thread-Selling-STENIK-Group-Bulgaria-Company-2M",
+      "images": [
+        "images/stenik.png",
+        "images/stenik2.png",
+        "images/stenik3.png"
+      ]
+    },
+    {
+      "id": 21,
+      "organization": "Unknown Bulgarian Database",
+      "type": "private",
+      "description": {
+        "en": "Comprehensive Bulgarian database breach",
+        "bg": "Цялостен пробив в българска база данни"
+      },
+      "source": "https://darkforums.st/Thread-Selling-Bulgaria-Database",
+      "images": [
+        "images/unknown.png"
+      ]
+    },
+    {
+      "id": 22,
+      "organization": "dallbogg.bg",
+      "type": "private",
+      "description": {
+        "en": "20k Greek insurance identity records",
+        "bg": "20 хил. записа с гръцки застрахователни самоличности"
+      },
+      "source": "https://darkforums.st/Thread-DallBogg-bg-20k-greece-insurance-identity",
+      "images": [
+        "images/dallbogg.png"
+      ]
+    },
+    {
+      "id": 23,
+      "organization": "spidersport.com",
+      "type": "private",
+      "description": {
+        "en": "Sports retail company database breach",
+        "bg": "Пробив в базата данни на компания за спортни стоки"
+      },
+      "source": "https://darkforums.st/Thread-Bulgaria-database%C2%A0-spidersport-com",
+      "images": [
+        "images/spidersport.png"
+      ]
+    },
+    {
+      "id": 24,
+      "organization": "lira.bg",
+      "type": "private",
+      "description": {
+        "en": "WordPress database breach",
+        "bg": "Пробив в WordPress база данни"
+      },
+      "source": "https://darkforums.st/Thread-Bulgaria-lira-bg-Wordpress-Database",
+      "images": [
+        "images/lira.png"
+      ]
+    },
+    {
+      "id": 25,
+      "organization": "mkb.bg",
+      "type": "private",
+      "description": {
+        "en": "Investment company database breach - 7GB",
+        "bg": "Пробив в базата данни на инвестиционен посредник - 7GB"
+      },
+      "source": "https://darkforums.st/Thread-DATABASE-7GB-MK-Brokers-Bank-Bulgaria",
+      "images": [
+        "images/mkbrokers.png"
+      ]
+    },
+    {
+      "id": 26,
+      "organization": "sportvision.bg",
+      "type": "private",
+      "description": {
+        "en": "Retail database breach - 1,390,766M records",
+        "bg": "Пробив в база данни на магазин - 1,390,766М записа"
+      },
+      "source": "https://darkforums.st/Thread-Selling-SportVision-1-390-766M-Bulgaria",
+      "images": [
+        "images/sportvision.png",
+        "images/sportvision2.png"
+      ]
+    },
+    {
+      "id": 27,
+      "organization": "pilini.bg",
+      "type": "private",
+      "description": {
+        "en": "E-commerce platform breach",
+        "bg": "Пробив в платформа за електронна търговия"
+      },
+      "source": "https://darkforums.st/Thread-pilini-bg",
+      "images": [
+        "images/pilini.png"
+      ]
+    },
+    {
+      "id": 28,
+      "organization": "kasida.bg",
+      "type": "private",
+      "description": {
+        "en": "Online retail database breach",
+        "bg": "Пробив в база данни на онлайн магазин"
+      },
+      "source": "https://darkforums.st/Thread-kasida-bg",
+      "images": [
+        "images/kasida.png"
+      ]
+    },
+    {
+      "id": 29,
+      "organization": "B2B Bulgaria",
+      "type": "private",
+      "description": {
+        "en": "Business-to-business platform breach",
+        "bg": "Пробив в бизнес платформа"
+      },
+      "source": "https://leakbase.la/threads/16198-b2b-bulgaria.33522/",
+      "images": [
+        "images/unknown2.png"
+      ]
+    },
+    {
+      "id": 30,
+      "organization": "8hristo.com",
+      "type": "private",
+      "description": {
+        "en": "Database breach - 162 MB",
+        "bg": "Пробив в база данни - 162 MB"
+      },
+      "source": "https://leakbase.la/threads/bulgaria-8hristo-com-162-mb.27792/",
+      "images": [
+        "images/8hristo.png"
+      ]
+    },
+    {
+      "id": 31,
+      "organization": "douglas.bg",
+      "type": "private",
+      "description": {
+        "en": "Retail database breach - 589 MB",
+        "bg": "Пробив в база данни на магазин - 589 MB"
+      },
+      "source": "https://leakbase.la/threads/bulgaria-douglas-bg-589-mb.27790/",
+      "images": [
+        "images/douglas.png"
+      ]
+    },
+    {
+      "id": 32,
+      "organization": "lillydrogerie.bg",
+      "type": "private",
+      "description": {
+        "en": "Drugstore database breach - 413 MB",
+        "bg": "Пробив в база данни на аптека - 413 MB"
+      },
+      "source": "https://leakbase.la/threads/bulgaria-shop-llillydrogerie-bg-413-mb.27787/",
+      "images": [
+        "images/lillydrogerie.png"
+      ]
+    },
+    {
+      "id": 33,
+      "organization": "transcard.bg",
+      "type": "private",
+      "description": {
+        "en": "Payment card system breach",
+        "bg": "Пробив в система за платежни карти"
+      },
+      "source": "https://leakbase.la/threads/transcard-bulgaria.31367/",
+      "images": [
+        "images/transcard.png"
+      ]
+    },
+    {
+      "id": 34,
+      "organization": "ilife.bg",
+      "type": "private",
+      "description": {
+        "en": "E-commerce platform breach",
+        "bg": "Пробив в платформа за електронна търговия"
+      },
+      "source": "https://darkforums.st/Thread-ilife-bg",
+      "images": [
+        "images/ilife.png"
+      ]
+    },
+    {
+      "id": 35,
+      "organization": "eld.bg",
+      "type": "private",
+      "description": {
+        "en": "DragonForce ransomware attack",
+        "bg": "Атака с DragonForce ransomware"
+      },
+      "source": "https://dragonforxxbp3awc7mzs5dkswrua3znqyx5roefmi4smjrsdi22xwqd.onion/eld.bg/",
+      "images": [
+        "images/eld.png"
+      ]
+    },
+    {
+      "id": 36,
+      "organization": "MKB (en.mkb.bg)",
+      "type": "private",
+      "description": {
+        "en": "LockBit ransomware attack on investment company",
+        "bg": "LockBit ransomware атака"
+      },
+      "source": "https://lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion/en.mkb.bg/",
+      "images": [
+        "images/mkb.png"
+      ]
+    },
+    {
+      "id": 37,
+      "organization": "generali.bg",
+      "type": "private",
+      "description": {
+        "en": "Insurance company data breach",
+        "bg": "Пробив в данни на застрахователна компания"
+      },
+      "source": "https://x.com/H4ckManac/status/1760969176372421015",
+      "images": [
+        "images/generali.jpeg"
+      ]
+    },
+    {
+      "id": 38,
+      "organization": "icard.bg",
+      "type": "private",
+      "description": {
+        "en": "Financial services breach - 1,800 individuals",
+        "bg": "Пробив на финансови услуги - 1,800 лица"
+      },
+      "source": "https://bird.bg/en/hacker-breached-icard-and-published-the-personal-data-of-1800-individuals/",
+      "images": [
+        "images/icard.webp"
+      ]
+    },
+    {
+      "id": 39,
+      "organization": "nra.bg (National Revenue Agency)",
       "type": "public",
       "description": {
-        "en": "UCTM (uctm.edu) is a leading Bulgarian university specializing in the education of highly qualified specialists in the fields of chemical technology, metallurgy, and materials science.",
-        "bg": "ХТМУ (uctm.edu) е водещ български университет, специализиран в обучението на висококвалифицирани специалисти в областта на химичните технологии, металургията и материалознанието."
+        "en": "Major government breach affecting millions",
+        "bg": "Голям правителствен пробив, засягащ милиони"
       },
-      "source": "https://x.com/VECERTRadar/status/2065061658939048239",
+      "source": "https://haveibeenpwned.com/Breach/BulgarianNationalRevenueAgency",
       "images": [
-        "images/uctm.edu.png",
-        "images/uctm.edu.2.png"
+        "images/nra.webp",
+        "images/nra2.jpeg"
       ]
     },
-    {    
+    {
+      "id": 40,
+      "organization": "videnov.bg",
+      "type": "private",
+      "description": {
+        "en": "Seized from breachforums.st",
+        "bg": "Иззето от breachforums.st"
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/videnov.png"
+      ]
+    },
+    {
+      "id": 41,
+      "organization": "pod-toplina.bg",
+      "type": "private",
+      "description": {
+        "en": "Pension insurance company breach",
+        "bg": "Пробив в информационната система на пенсионно осигурително дружество"
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/toplina.png"
+      ]
+    },
+    {
+      "id": 42,
+      "organization": "alessa.bg",
+      "type": "private",
+      "description": {
+        "en": "E-commerce platform breach",
+        "bg": "Пробив в платформа за електронна търговия"
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/alessa.png"
+      ]
+    },
+    {
+      "id": 43,
+      "organization": "bgtoll.bg",
+      "type": "public",
+      "description": {
+        "en": "Toll system database breach",
+        "bg": "Пробив в база данни на тол система"
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/bgtoll.png"
+      ]
+    },
+    {
+      "id": 44,
+      "organization": "stingpharma.com",
+      "type": "private",
+      "description": {
+        "en": "Hunters International ransomware group attack",
+        "bg": "Атака от ransomware групата Hunters International"
+      },
+      "source": "https://huntersinternational.org",
+      "images": [
+        "images/huntersinternational.org.png"
+      ]
+    },
+    {
+      "id": 45,
+      "organization": "iandgbrokers.com",
+      "type": "private",
+      "description": {
+        "en": "Insurance brokers data breach",
+        "bg": "Пробив в данни на застрахователни брокери"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/i&G_leak.png",
+        "images/I&G_leak_2.png"
+      ]
+    },
+    {
+      "id": 46,
+      "organization": "Prosecutor's Office (prb.bg)",
+      "type": "public",
+      "description": {
+        "en": "Government prosecutor's office breach",
+        "bg": "Пробив в прокуратурата"
+      },
+      "source": "https://darkforums.st",
+      "images": [
+        "images/prb.bg.jpeg",
+        "images/prb.bg.2.png"
+      ]
+    },
+    {
+      "id": 47,
+      "organization": "lev-ins.com",
+      "type": "private",
+      "description": {
+        "en": "Insurance company breach",
+        "bg": "Пробив в застрахователна компания"
+      },
+      "source": "https://naglite.com",
+      "images": [
+        "images/levins.png"
+      ]
+    },
+    {
+      "id": 48,
+      "organization": "econt.com (econt.bg)",
+      "type": "private",
+      "description": {
+        "en": "Logistics company data breach",
+        "bg": "Пробив в данни на логистична компания"
+      },
+      "source": "https://leakbase.la",
+      "images": [
+        "images/econt.jpeg"
+      ]
+    },
+    {
+      "id": 49,
+      "organization": "Multiple Bulgarian Websites",
+      "type": "private",
+      "description": {
+        "en": "bezplatno.bg, bg.elmarkstore.eu, brigadiri.com, casioshop.bg, investclub.bg, comfort.bg, bgtime.tv, address.bg, stylewish.bg",
+        "bg": "bezplatno.bg, bg.elmarkstore.eu, brigadiri.com, casioshop.bg, investclub.bg, comfort.bg, bgtime.tv, address.bg, stylewish.bg"
+      },
+      "source": "https://predpriemach.com",
+      "images": [
+        "images/predpriemach.com.png"
+      ]
+    },
+    {
+      "id": 50,
+      "organization": "Multiple BreachForums Leaks",
+      "type": "private",
+      "description": {
+        "en": "A1 Telecom, baumit.bg, kasida.bg, pilini.bg, airelec.bg, bnm.bg, punto.bg, footshop.bg, districtshoes.bg, ecco.bg, myshoes.bg, ardes.bg, andrews.bg, popolo.bg, ebag.bg, mango.bg, dallbogg.bg, ilife.bg",
+        "bg": "A1 Telecom, baumit.bg, kasida.bg, pilini.bg, airelec.bg, bnm.bg, punto.bg, footshop.bg, districtshoes.bg, ecco.bg, myshoes.bg, ardes.bg, andrews.bg, popolo.bg, ebag.bg, mango.bg, dallbogg.bg, ilife.bg"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/ransomed.vc_bulgarian_breaches.png"
+      ]
+    },
+    {
+      "id": 51,
+      "organization": "Multiple Websites by 'Soni'",
+      "type": "private",
+      "description": {
+        "en": "Multiple Bulgarian e-commerce breaches by threat actor 'Soni'",
+        "bg": "Множество пробиви в български сайтове за електронна търговия от заплахата 'Soni'"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/soni_selling.png"
+      ]
+    },
+    {
+      "id": 52,
+      "organization": "a1.bg",
+      "type": "private",
+      "description": {
+        "en": "Telecommunications company breach",
+        "bg": "Пробив в телекомуникационна компания"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/a1.bg.png"
+      ]
+    },
+    {
+      "id": 53,
+      "organization": "mvr.bg (Ministry of Interior)",
+      "type": "public",
+      "description": {
+        "en": "Ministry of Interior database breach by 'crime'",
+        "bg": "Пробив в база данни на МВР от потребител 'crime'"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/mvr.bg.png"
+      ]
+    },
+    {
+      "id": 54,
+      "organization": "culture-mfa.bg",
+      "type": "public",
+      "description": {
+        "en": "Ministry of Culture and Foreign Affairs breach",
+        "bg": "Пробив в Министерството на културата и външните работи"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/culture-mfa.bg.png"
+      ]
+    },
+    {
+      "id": 55,
+      "organization": "Multiple Websites by 'crime'",
+      "type": "private",
+      "description": {
+        "en": "Multiple Bulgarian breaches by threat actor 'crime'",
+        "bg": "Множество български пробиви от заплахата 'crime'"
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/crime_selling.png"
+      ]
+    },
+    {
+      "id": 56,
+      "organization": "hreu.eu",
+      "type": "private",
+      "description": {
+        "en": "Human resources solutions company - Funksec ransomware attack",
+        "bg": "Компания за човешки ресурси - Funksec ransomware атака"
+      },
+      "source": "https://www.ransomware.live/id/aHJldS5ldUBmdW5rc2Vj",
+      "images": [
+        "https://images.ransomware.live/victims/018444382cb13aadb7f41fda1abff3e6.png"
+      ]
+    },
+    {
+      "id": 57,
+      "organization": "sac.justice.bg (sac.justice.bg)",
+      "type": "public",
+      "description": {
+        "en": "Supreme Administrative Court - Ransomhouse attack (January 2025)",
+        "bg": "Върховен административен съд - Ransomhouse атака (януари 2025)"
+      },
+      "source": "https://www.ransomware.live/id/U3VwcmVtZSBBZG1pbmlzdHJhdGl2ZSBDb3VydCBvZiBCdWxnYXJpYUByYW5zb21ob3VzZQ==",
+      "images": [
+        "images/vas_leak_ransomhouse.png"
+      ]
+    },
+    {
+      "id": 58,
+      "organization": "smartmediagroup.eu",
+      "type": "private",
+      "description": {
+        "en": "Advertising services company - Sarcoma ransomware group attack",
+        "bg": "Рекламна компания - Sarcoma ransomware групова атака"
+      },
+      "source": "https://www.ransomware.live/id/U21hcnQgTWVkaWEgR3JvdXAgQnVsZ2FyaWFAc2FyY29tYQ==",
+      "images": [
+        "images/smartd.bg.png"
+      ]
+    },
+    {
+      "id": 59,
+      "organization": "intrama-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Manufacturing company - Stormous ransomware attack",
+        "bg": "Производствена компания - Stormous ransomware атака"
+      },
+      "source": "https://www.ransomware.live/id/aW50cmFtYS1iZ0BzdG9ybW91cw==",
+      "images": [
+        "images/intrama-bg.png"
+      ]
+    },
+    {
+      "id": 60,
+      "organization": "regasenergy.com",
+      "type": "private",
+      "description": {
+        "en": "Energy sector company (Electricity, Oil & Gas) - Monti ransomware attack",
+        "bg": "Енергийна компания (Електричество, петрол и газ) - Monti ransomware атака"
+      },
+      "source": "https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=",
+      "images": [
+        "https://images.ransomware.live/victims/c1fd85be2ef64fa62605918e48ce825d.png"
+      ]
+    },
+    {
+      "id": 61,
+      "organization": "gerb.bg",
+      "type": "public",
+      "description": {
+        "en": "Political party headed by former PM Boyko Borisov - LockBit3 ransomware attack",
+        "bg": "Политическа партия, ръководена от бивши министър-председател Бойко Борисов - LockBit3 ransomware атака"
+      },
+      "source": "https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==",
+      "images": [
+        "https://images.ransomware.live/victims/8c6504b4a9b54bd9ec67edd306bbcb34.png"
+      ]
+    },
+    {
+      "id": 62,
+      "organization": "varnabroker.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian insurance company",
+        "bg": "Българска компания за застраховки"
+      },
+      "source": "https://leakbase.la/threads/varnabroker-com.877/",
+      "images": [
+        "images/varnabroker.png"
+      ]
+    },
+    {
+      "id": 63,
+      "organization": "interlogistica.bg",
+      "type": "private",
+      "description": {
+        "en": "Transport and logistics company that provides express courier and delivery services both domestically within Bulgaria and internationally.",
+        "bg": "Транспортна и логистична компания, която предоставя куриерски услуги и услуги за доставка както в България, така и международно."
+      },
+      "source": "https://breachforums.bf/Thread-DATABASE-Interlogistica-bg-Bulgaria-4MIL",
+      "images": [
+        "images/interlogistica.bg.png"
+      ]
+    },
+    {
+      "id": 64,
+      "organization": "ozone.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online entertainment retailer specializing in video games, books, toys, gaming accessories, puzzles, electronics, and hobby products.",
+        "bg": "Български онлайн магазин за забавление, специализиран в компютърни игри, книги, играчки, геймърски аксесоари, пъзели, електроника и хоби продукти."
+      },
+      "source": "https://breachstars.io/topic/ozonebg-online-retailer-qbcteb5limr1",
+      "images": [
+        "images/ozone.bg.png",
+        "images/ozone.bg.2.png"
+      ]
+    },
+    {
+      "id": 65,
+      "organization": "intime.bg",
+      "type": "private",
+      "description": {
+        "en": "Courier and logistics company offering domestic and international shipping services as an authorized UPS service contractor for Bulgaria.",
+        "bg": "Куриерска и логистична компания, предлагаща вътрешни и международни услуги за доставка като оторизиран сервизен партньор на UPS за България."
+      },
+      "source": "https://breachstars.io/topic/intimebg-courier-and-logistic-ywt06xyvfnap",
+      "images": [
+        "images/intime.bg.png",
+        "images/intime.bg.2.png"
+      ]
+    },
+    {
+      "id": 66,
+      "organization": "blitz.bg",
+      "type": "private",
+      "description": {
+        "en": "A Bulgarian news portal providing real-time coverage of politics, sports, economy, lifestyle, and entertainment news.",
+        "bg": "Български новинарски портал, предоставящ актуална информация в реално време за политика, спорт, икономика, lifestyle и развлечения."
+      },
+      "source": "https://breachforums.bf",
+      "images": [
+        "images/blitz.bg.png"
+      ]
+    },
+    {
+      "id": 67,
+      "organization": "fastfood.bg",
+      "type": "private",
+      "description": {
+        "en": "An online food delivery platform offering 24-hour delivery from restaurants across Bulgaria.",
+        "bg": "Онлайн платформа за доставка на храна, предлагаща 24-часова доставка от ресторанти в цяла България."
+      },
+      "source": "https://breachforums.is",
+      "images": [
+        "images/fastfood.bg.png"
+      ]
+    },
+    {
+      "id": 68,
+      "organization": "solarpro.bg",
+      "type": "private",
+      "description": {
+        "en": "A leading renewable energy company specializing in the design, construction, and integration of solar power plants and battery energy storage systems across Central and Eastern Europe.",
+        "bg": "Водеща компания за възобновяема енергия, специализирана в проектирането, изграждането и интегрирането на соларни електроцентрали и системи за съхранение на енергия в батerii в Централна и Източна Европа."
+      },
+      "source": "https://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/",
+      "images": [
+        "images/solarpro.bg.png",
+        "images/solarpro.bg.2.png"
+      ]
+    },
+    {
+      "id": 69,
+      "organization": "tu-sofia.bg",
+      "type": "public",
+      "description": {
+        "en": "Technical University of Sofia, the largest technical university in Bulgaria, offering engineering, technology, and applied sciences education and research programs.",
+        "bg": "Технически университет София, най-голямото техническо учебно заведение в България, предлагащо инженерно, технологично образование и програми за приложни науки и изследвания."
+      },
+      "source": "https://x.com/elenaultras/status/1957856379743404363",
+      "images": [
+        "images/yavor.bg.png"
+      ]
+    },
+    {
+      "id": 70,
+      "organization": "yavor.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian furniture company.",
+        "bg": "Българска компания за мебели."
+      },
+      "source": "https://x.com/elenaultras/status/1957856379743404363",
+      "images": [
+        "images/yavor.bg.png"
+      ]
+    },
+    {
+      "id": 71,
+      "organization": "superdoc.bg",
+      "type": "private",
+      "description": {
+        "en": "Medical and healthcare services platform in Bulgaria, providing online doctor consultations, medical appointments, and healthcare information services.",
+        "bg": "Платформа за медицински и здравни услуги в България, предоставяща онлайн консултации с лекари, записване на прегледи и информационни здравни услуги."
+      },
+      "source": "https://breachforums.st",
+      "images": [
+        "images/superdoc.bg.jpeg"
+      ]
+    },
+    {
+      "id": 72,
+      "organization": "inspectorat-so.org",
+      "type": "public",
+      "description": {
+        "en": "Regional Inspectorate of Sofia-city, a government body responsible for overseeing and monitoring institutions in Sofia municipality.",
+        "bg": "Регионален инспекторат на София-град, правителствена институция, отговорна за надзор и мониторинг на институциите в столична община."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/sofia_municipality.jpeg"
+      ]
+    },
+    {
+      "id": 73,
+      "organization": "pangratz.bg",
+      "type": "private",
+      "description": {
+        "en": "Construction and building materials company in Bulgaria, specializing in construction supplies, tools, and building solutions for professionals and consumers.",
+        "bg": "Компания за строителни материали в България, специализирана в строителни материали, инструменти и строителни решения за професионалисти и потребители."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/pangratz.bg.jpeg"
+      ]
+    },
+    {
+      "id": 74,
+      "organization": "notino.bg",
+      "type": "private",
+      "description": {
+        "en": "Leading online retailer of perfumes, cosmetics, and beauty products in Bulgaria, part of the European Notino network offering authentic branded products.",
+        "bg": "Водещ онлайн търговец на парфюми, козметика и продукти за красота в България, част от европейската мрежа Notino, предлагаща автентични марков продукти."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/notino.bg.jpeg"
+      ]
+    },
+    {
+      "id": 75,
+      "organization": "lukoil.bg",
+      "type": "private",
+      "description": {
+        "en": "Major oil and gas company operating in Bulgaria, part of the international LUKOIL Group, managing refining, distribution, and retail fuel stations.",
+        "bg": "Голяма нефтена и газова компания, операираща в България, част от международната група LUKOIL, управляваща рафиниране, дистрибуция и мрежа от бензиностанции."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/lukoil.bg.jpeg"
+      ]
+    },
+    {
+      "id": 76,
+      "organization": "forum.bg",
+      "type": "private",
+      "description": {
+        "en": "One of the largest and most popular online forums in Bulgaria, covering diverse topics from technology and entertainment to daily life discussions.",
+        "bg": "Един от най-големите и популярни онлайн форуми в България, обхващащ разнообразни теми от технологии и развлечения до дискусии за ежедневието."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/forum.bg.png"
+      ]
+    },
+    {
+      "id": 77,
+      "organization": "corporate.offex.bg",
+      "type": "private",
+      "description": {
+        "en": "Corporate office furniture and equipment supplier in Bulgaria, providing complete office solutions and furnishings for businesses.",
+        "bg": "Доставчик на корпоративно офис обзавеждане и оборудване в България, предоставящ цялостни решения и обзавеждане за офиси на фирми."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/corporate.offex.bg.png"
+      ]
+    },
+    {
+      "id": 78,
+      "organization": "bamf.bg",
+      "type": "private",
+      "description": {
+        "en": "The leading mini-football organization in Bulgaria, an official member of WMF and EMF, with tournaments throughout the country and participation at the world level.",
+        "bg": "Водещата организация по минифутбол в България, oficiален член на WMF и EMF, с турнири в цялата страна и участие на световно ниво."
+      },
+      "source": "https://breachforums.hn",
+      "images": [
+        "images/bamf.bg.png"
+      ]
+    },
+    {
+      "id": 79,
+      "organization": "forcom-bg.com",
+      "type": "private",
+      "description": {
+        "en": "ForCom Publishing House, founded in 1989, specializing in graphic design of high-density information forms prepared for matrix and laser printer completion and optical reading.",
+        "bg": "Издателство ФорКом, създадено през 1989 г., специализирано в графично проектиране на формуляри с висока информационна плътност, подготвени за попълване с матрични и лазерни принтери и за оптическо четене на информацията."
+      },
+      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+      "images": [
+        "images/forcom-bg.com.png"
+      ]
+    },
+    {
+      "id": 80,
+      "organization": "dell-bg.net",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian retailer selling Dell computers, laptops, hardware, software, monitors, processors, memory, accessories and other technology products.",
+        "bg": "Български търговец, продаващ Dell компютри, лаптопи, хардуер, софтуер, монитори, процесори, памети, аксесоари и други технологични продукти."
+      },
+      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+      "images": [
+        "images/dell-bg.net.png"
+      ]
+    },
+    {
+      "id": 81,
+      "organization": "freelance.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian platform for remote work job postings for freelance specialists, project assignments and execution, and work from home opportunities.",
+        "bg": "Българска платформа за обяви за дистанционна работа за специалисти на свободна практика, възлагане и изпълнение на freelance проекти и отдалечена работа от вкъщи."
+      },
+      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+      "images": [
+        "images/freelance.bg.png"
+      ]
+    },
+    {
+      "id": 82,
+      "organization": "estore.sbs.bg",
+      "type": "private",
+      "description": {
+        "en": "Online store of Specialized Business Systems (SBS), a Bulgarian company that imports, exports, distributes and services PC components, systems and office equipment.",
+        "bg": "Oнлайн магазинът на Специализирани бизнес системи (SBS), българска компания, която внася, изнася, дистрибутира и обслужва PC компоненти, системи и офис оборудване."
+      },
+      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+      "images": [
+        "images/estore.sbs.bg.png"
+      ]
+    },
+    {
+      "id": 83,
+      "organization": "sladur.bg",
+      "type": "private",
+      "description": {
+        "en": "An old bulgarian website for dating.",
+        "bg": "Стар български уебсайт за онлайн запознанства."
+      },
+      "source": "https://www.techsolvency.com/passwords/hashes-org/leaks.txt",
+      "images": [
+        "images/sladur.bg.png"
+      ]
+    },
+    {
+      "id": 84,
+      "organization": "dentstore.bg",
+      "type": "private",
+      "description": {
+        "en": "Specialized professional store for dentistry and dental technology.",
+        "bg": "Специализиран професионален магазин за стоматология и зъботехника."
+      },
+      "source": "https://data-wells.niamonx.io/?search=.bg",
+      "images": [
+        "images/bania_and_dentstore.bg.png"
+      ]
+    },
+    {
+      "id": 85,
+      "organization": "bania.bg",
+      "type": "private",
+      "description": {
+        "en": "Store for bathroom and kitchen offering hydromassage bathtubs, cabins, sinks, and faucets.",
+        "bg": "Магазин за баня и кухня, предлагащ хидромасажни вани и кабини, мивки и смесители."
+      },
+      "source": "https://data-wells.niamonx.io/?search=.bg",
+      "images": [
+        "images/bania_and_dentstore.bg.png"
+      ]
+    },
+    {
+      "id": 86,
+      "organization": "shtora.bg",
+      "type": "private",
+      "description": {
+        "en": "Online store for blinds.",
+        "bg": "Онлайн магазин за щори."
+      },
+      "source": "https://www.ransomlook.io/leaks",
+      "images": [
+        "images/shtora.bg.png"
+      ]
+    },
+    {
+      "id": 87,
+      "organization": "vsu.bg",
+      "type": "private",
+      "description": {
+        "en": "Website of Higher School - Lyuben Karavelov.",
+        "bg": "Уебсайт на Висше строително училище - Любен Каравелов."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 88,
+      "organization": "vipoferta.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian VIP deals and special offers platform.",
+        "bg": "Българска платформа за VIP оферти и специални предложения."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 89,
+      "organization": "vestnikreklama.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian advertising newspaper and classifieds publication.",
+        "bg": "Български рекламен вестник и издание с обяви."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 90,
+      "organization": "v2.offroad-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian off-road and 4x4 vehicles community and forum.",
+        "bg": "Българска общност и форум за офроуд и 4x4 превозни средства."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 91,
+      "organization": "theatre.art.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian theater and performing arts information portal with show schedules and ticket sales.",
+        "bg": "Български информационен портал за театър и сценични изкуства с програми за представления и продажба на билети."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 92,
+      "organization": "techn0.eu.server12.host.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian hosting server or technology service platform.",
+        "bg": "Български хостинг сървър или технологична сервизна платформа."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 93,
+      "organization": "svatba-bg.net",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian wedding planning and services portal connecting couples with wedding vendors.",
+        "bg": "Български портал за планиране на сватби и услуги, свързващ двойки с доставчици на сватбени услуги."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 94,
+      "organization": "snimkionline.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online photo printing and photography services.",
+        "bg": "Български онлайн услуги за печат на снимки и фотография."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 95,
+      "organization": "shop.karta.bg",
+      "type": "private",
+      "description": {
+        "en": "Online shop of Karta.bg map and publishing company selling maps, atlases, and travel guides.",
+        "bg": "Онлайн магазин на картографска и издателска компания Karta.bg, продаващ карти, атласи и пътеводители."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 96,
+      "organization": "rechnik-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online dictionary and translation service for multiple languages.",
+        "bg": "Български онлайн речник и преводаческа услуга за множество езици."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 97,
+      "organization": "portal-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian web portal providing search engine and various online services.",
+        "bg": "Български уеб портал, предоставящ търсачка и различни онлайн услуги."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 98,
+      "organization": "pigeon-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian pigeon breeding and racing community website.",
+        "bg": "Уебсайт на българската общност за развъждане и състезания с гълъби."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 99,
+      "organization": "pcmania.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian computer gaming community and forum for PC gamers.",
+        "bg": "Българска общност за компютърни игри и форум за PC геймъри."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 100,
+      "organization": "offnews.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian news and media website.",
+        "bg": "Български новинарски и медиен уебсайт."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 101,
+      "organization": "nfp-drugs.bg",
+      "type": "public",
+      "description": {
+        "en": "Bulgarian National Framework for Pricing of Medicinal Products - government pharmaceutical database.",
+        "bg": "Национална рамка за ценообразуване на лекарствени продукти - правителствена фармацевтична база данни."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 102,
+      "organization": "naedro.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian wholesale marketplace and B2B trading platform.",
+        "bg": "Българска платформа за търговия на едро и B2B търговия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 103,
+      "organization": "mushroom-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian restaurant or food service related to mushroom cuisine.",
+        "bg": "Български ресторант или хранителна услуга, свързана с гъбена кухня."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 104,
+      "organization": "mining.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian mining industry news and information portal.",
+        "bg": "Български новинарски и информационен портал за минната индустрия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 105,
+      "organization": "metal.best.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian metal industry and metalworking services website.",
+        "bg": "Български уебсайт за металната индустрия и услуги по металообработка."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 106,
+      "organization": "market.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online marketplace and classifieds platform for buying and selling goods.",
+        "bg": "Българска онлайн платформа за пазар и обяви за покупка и продажба на стоки."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 107,
+      "organization": "lsbg.net",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian lifeboat and maritime safety organization website.",
+        "bg": "Уебсайт на българска организация за спасителни лодки и морска безопасност."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 108,
+      "organization": "jelezaria.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online hardware store selling construction materials and tools.",
+        "bg": "Български онлайн магазин за железария, продаващ строителни материали и инструменти."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 109,
+      "organization": "inoxbulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian stainless steel products manufacturer and supplier.",
+        "bg": "Български производител и доставчик на продукти от неръждаема стомана."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 110,
+      "organization": "gss.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian IT services and technology solutions provider.",
+        "bg": "Български доставчик на IT услуги и технологични решения."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 111,
+      "organization": "fpleague.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian fantasy sports league and gaming platform for football predictions.",
+        "bg": "Българска платформа за фантази спортни лиги и игри за футболни прогнози."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 112,
+      "organization": "forumold.adv-bulgaria.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian advertising and marketing industry forum (old version).",
+        "bg": "Български форум за рекламната и маркетингова индустрия (стара версия)."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 113,
+      "organization": "forum.investor.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian investment and financial discussion forum for stock market, trading, and personal finance topics.",
+        "bg": "Български форум за инвестиции и финанси, обсъждащ фондовия пазар, търговия и лични финанси."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 114,
+      "organization": "en.journey.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian travel and tourism website offering vacation packages, hotel bookings, and travel information.",
+        "bg": "Български уебсайт за пътувания и туризъм, предлагащ ваканционни пакети, резервации на хотели и информация за пътувания."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 115,
+      "organization": "e-uard.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian electronic security and monitoring services platform.",
+        "bg": "Българска платформа за електронни услуги за сигурност и мониторинг."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 116,
+      "organization": "detelina-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian online store for seeds, agricultural products, and gardening supplies.",
+        "bg": "Български онлайн магазин за семена, селскостопански продукти и градински принадлежности."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 117,
+      "organization": "daxy.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian website (specific services unclear from available information).",
+        "bg": "Български уебсайт (конкретните услуги не са ясни от наличната информация)."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 118,
+      "organization": "classroom.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian educational technology platform for online learning and classroom management.",
+        "bg": "Българска образователна технологична платформа за онлайн обучение и управление на класни стаи."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 119,
+      "organization": "careers.unwe.bg",
+      "type": "public",
+      "description": {
+        "en": "Career services portal of the University of National and World Economy (UNWE) in Sofia, connecting students with employers.",
+        "bg": "Портал за кариерни услуги на Университета за национално и световно стопанство (УНСС) в София, свързващ студенти с работодатели."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 120,
+      "organization": "cabinet.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian business services and consulting platform.",
+        "bg": "Българска платформа за бизнес услуги и консултации."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 121,
+      "organization": "bulgaria-shop.de",
+      "type": "private",
+      "description": {
+        "en": "German-based online shop selling Bulgarian products and foods to customers in Germany.",
+        "bg": "Базиран в Германия онлайн магазин, продаващ български продукти и храни на клиенти в Германия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 122,
+      "organization": "boxoffice.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian cinema and movie theater ticket booking platform with film schedules and entertainment information.",
+        "bg": "Българска платформа за резервация на билети за кино и кинозали с филмови програми и развлекателна информация."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 123,
+      "organization": "bis.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian social networking platform and community website.",
+        "bg": "Българска платформа за социални мрежи и общностен уебсайт."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 124,
+      "organization": "bgben.co.uk",
+      "type": "private",
+      "description": {
+        "en": "UK-based Bulgarian media and information service providing news and content for the Bulgarian community in Britain.",
+        "bg": "Базирана в Обединеното кралство българска медийна и информационна услуга, предоставяща новини и съдържание за българската общност в Британия."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 125,
+      "organization": "bg-sail.org",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian sailing community and yacht club website featuring sailing events, training, and water sports activities.",
+        "bg": "Уебсайт на българската общност за ветроходство и яхт клуб с ветроходни събития, обучение и водни спортни дейности."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 126,
+      "organization": "bg-planet.com",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian web portal and community platform.",
+        "bg": "Български уеб портал и общностна платформа."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 127,
+      "organization": "avtomagazin.bg",
+      "type": "private",
+      "description": {
+        "en": "Bulgarian automotive magazine and news website covering car reviews, auto industry news, and vehicle specifications.",
+        "bg": "Български автомобилен журнал и новинарски уебсайт, обхващащ рецензии на коли, новини от автоиндустрията и спецификации на превозни средства."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 128,
+      "organization": "5kmrun.bg",
+      "type": "private",
+      "description": {
+        "en": "5kmrun.bg is Bulgaria's biggest free weekly running community, organizing timed 5 km runs every Saturday in parks across the country.",
+        "bg": "5kmrun.bg е най-голямата безплатна седмична общност за бягане в България, която организира 5 км пробези с време всяка събота в паркове из страната."
+      },
+      "source": "https://bezbedanbalkan.net/thread-1311.html",
+      "images": [
+        "images/380BulgarianDatabases.png"
+      ]
+    },
+    {
+      "id": 129,
+      "organization": "superphone.bg",
+      "type": "private",
+      "description": {
+        "en": "A Bulgarian mobile phone and accessories retailer offering various smartphone brands and related products.",
+        "bg": "Български търговец на дребно за мобилни телефони и аксесоари, предлагащ различни марки смартфони и свързани продукти."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 130,
+      "organization": "smc-bg.com",
+      "type": "public",
+      "description": {
+        "en": "Old website of the Sofia Military Court.",
+        "bg": "Стар уебсайт на Софийския военен съд."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 131,
+      "organization": "ski.bg",
+      "type": "private",
+      "description": {
+        "en": "A comprehensive Bulgarian skiing and snowboarding information portal covering resorts like Bansko, Borovets, and Pamporovo with booking services.",
+        "bg": "Изчерпателен български информационен портал за ски и сноуборд, обхващащ курорти като Банско, Боровец и Пампорово с услуги за резервация."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 132,
+      "organization": "linkstar.bg",
+      "type": "private",
+      "description": {
+        "en": "Online store and importer of mobile phone accessories.",
+        "bg": "Онлайн магазин и вносител на аксесоари за мобилни телефони."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 133,
+      "organization": "dnt.bg",
+      "type": "private",
+      "description": {
+        "en": "Financial Services.",
+        "bg": "Финансови услуги."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 134,
+      "organization": "seajobs.bg",
+      "type": "private",
+      "description": {
+        "en": "A maritime employment website focused on seafaring and shipping industry jobs.",
+        "bg": "Уебсайт за морска заетост, фокусиран върху мореплавателни и корабоплавателни професии."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 135,
+      "organization": "esistore.bg",
+      "type": "private",
+      "description": {
+        "en": "e-commerce for office supplies.",
+        "bg": "Електронна търговия за офис консумативи."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 136,
+      "organization": "knigabg.com",
+      "type": "private",
+      "description": {
+        "en": "An online Bulgarian bookstore selling books, educational materials, games, and gifts.",
+        "bg": "Онлайн българска книжарница, продаваща книги, образователни материали, игри и подаръци."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 137,
+      "organization": "trimonium-bg.com",
+      "type": "private",
+      "description": {
+        "en": "An international recruitment agency specializing in placing Bulgarian professionals in jobs abroad.",
+        "bg": "Международна агенция за набиране на персонал, специализирана в наемането на български професионалисти на работа в чужбина."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 138,
+      "organization": "patient.bg",
+      "type": "private",
+      "description": {
+        "en": "A healthcare-related website for Bulgarian patients.",
+        "bg": "Уебсайт, свързан със здравеопазването за български пациенти."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 139,
+      "organization": "meloman-bg.com",
+      "type": "private",
+      "description": {
+        "en": "Sofia's oldest music store selling vinyl records, CDs, turntables, with thousands of titles available and custom ordering services.",
+        "bg": "Най-старият музикален магазин в София, продаващ винилови плочи, CD-та, грамофони с хиляди налични заглавия и услуги за поръчка по желание."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 140,
+      "organization": "fagor.bg",
+      "type": "private",
+      "description": {
+        "en": "The official Bulgarian importer and distributor of Fagor, Edesa, and Cata household appliances from Spain.",
+        "bg": "Официален български вносител и дистрибутор на домакински уреди Fagor, Edesa и Cata от Испания."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 141,
+      "organization": "walkersbg.org",
+      "type": "private",
+      "description": {
+        "en": "Website of the Bulgarian Pedestrian Foundation.",
+        "bg": "Уебсайт на Българската фондация за пешеходци."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 142,
+      "organization": "rabota.bg",
+      "type": "private",
+      "description": {
+        "en": "A major Bulgarian job search website featuring employment listings, resume creation, and recruitment services across Bulgaria.",
+        "bg": "Голям български сайт за търсене на работа с обяви за заетост, създаване на автобиография и услуги за набиране на персонал в България."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 143,
+      "organization": "ebcbrakes.bg",
+      "type": "private",
+      "description": {
+        "en": "A Bulgarian distributor and online shop for EBC Brakes automotive braking systems and parts.",
+        "bg": "Български дистрибутор и онлайн магазин за EBC Brakes автомобилни спирачни системи и части."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 144,
+      "organization": "carpbg.com",
+      "type": "private",
+      "description": {
+        "en": "A Bulgarian fishing website focused on carp fishing, equipment, and angling community.",
+        "bg": "Български уебсайт за риболов, фокусиран върху шаранджийство, оборудване и риболовна общност."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 145,
+      "organization": "sopko.tu-sofia.bg",
+      "type": "private",
+      "description": {
+        "en": "An e-learning platform (\"SOPKO\") for Technical University Sofia providing distance education courses.",
+        "bg": "Платформа за електронно обучение (\"СОПКО\") на Технически университет София, предоставяща курсове за дистанционно обучение."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 146,
+      "organization": "ironmaiden-bg.com",
+      "type": "private",
+      "description": {
+        "en": "The official Bulgarian Iron Maiden fan club website featuring band news, discography information, and local concert announcements.",
+        "bg": "Официалният български фен клуб на Iron Maiden с новини за групата, дискография и обявления за местни концерти."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 147,
+      "organization": "games.portokal-bg.net",
+      "type": "private",
+      "description": {
+        "en": "An online gaming portal offering free flash games in various categories including puzzles, action, sports, and card games.",
+        "bg": "Онлайн игрален портал, предлагащ безплатни флаш игри в различни категории, включително пъзели, екшън, спортни и карти игри."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
+      "id": 148,
+      "organization": "blog.bg",
+      "type": "private",
+      "description": {
+        "en": "A free Bulgarian blog hosting platform and portal where users can create and maintain personal blogs.",
+        "bg": "Безплатна българска платформа за блогове и портал, където потребителите могат да създават и поддържат лични блогове."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
+      "images": [
+        "images/oldbigdbs.png"
+      ]
+    },
+    {
       "id": 149,
-      "organization": "euroins.bg",
+      "organization": "bgpochivka.eu",
       "type": "private",
       "description": {
-        "en": "Euroins.bg is the official website of one of the leading insurance companies in Bulgaria, allowing users to purchase policies online and manage their insurance services.",
-        "bg": "Euroins.bg е официалният уебсайт на една от водещите застрахователни компании в България, където потребителите могат да сключват полици онлайн и да управляват своите застрахователни услуги."
+        "en": "A Bulgarian vacation and holiday booking website.",
+        "bg": "Български уебсайт за резервация на ваканции и почивки."
       },
-      "source": "https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ",
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/euroins.bg.png",
-        "images/euroins.bg.2.png"
+        "images/oldbigdbs.png"
       ]
     },
-    {    
+    {
       "id": 150,
-      "organization": "bers.bg",
+      "organization": "assoc.pension.bg",
       "type": "private",
       "description": {
-        "en": "bERS Logistics (bers.bg) is a Bulgarian company that provides integrated 3PL (third-party logistics) services, including warehousing, fulfillment, domestic and international transport, and distribution.",
-        "bg": "bERS Logistics (bers.bg) е българска компания, която предоставя интегрирани 3PL (трета страна) логистични услуги, включително складиране, фулфилмънт, вътрешен и международен транспорт и дистрибуция."
+        "en": "Related to the Bulgarian Association of Supplementary Pension Security Companies, dealing with pension fund information.",
+        "bg": "Свързана с Българската асоциация на дружествата за допълнително пенсионно осигуряване, занимаваща се с информация за пенсионни фондове."
       },
-      "source": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw",
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/bers.bg.png"
+        "images/pension.bg.png"
       ]
     },
-    {    
+    {
       "id": 151,
-      "organization": "subra.bg",
+      "organization": "ipmart-bg.com",
       "type": "private",
       "description": {
-        "en": "Subra.bg is a leading Bulgarian chain of over 60 pharmacies and health stores with an online shop, offering pharmaceuticals, cosmetics, and wellness products.",
-        "bg": "Subra.bg е водеща верига от над 60 аптеки и дрогерии в България с онлайн магазин, предлагаща лекарства, козметика и здравословни продукти."
+        "en": "Old bulgarian forum for IT stuff.",
+        "bg": "Стар български форум за IT."
       },
-      "source": "https://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-8",
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/subra.bg.png",
-        "images/subra.bg.2.png"
+        "images/ipmart-bg.com.png"
       ]
     },
     {
       "id": 152,
-      "organization": "air.bg",
+      "organization": "arenabg.com",
       "type": "private",
       "description": {
-        "en": "Bulgaria Air (air.bg) is the national airline of Bulgaria, headquartered in Sofia, providing scheduled and charter passenger flights domestically and internationally.",
-        "bg": "България Ер (air.bg) е националният авиопревозвач на България със седалище в София, който предоставя редовни и чартърни пътнически полети във вътрешен и международен план."
-    },
-      "source": "https://pwnforums.st/Thread-air-bg-internal-personnel",
+        "en": "A Bulgarian torrent tracker website for downloading movies, TV series, and other digital content.",
+        "bg": "Български торент тракер уебсайт за изтегляне на филми, телевизионни сериали и друго цифрово съдържание."
+      },
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/air.bg.png"
+        "images/arenabg.com.png"
       ]
     },
     {
       "id": 153,
-      "organization": "dzi.bg",
+      "organization": "autocatalog.bg",
       "type": "private",
       "description": {
-        "en": "DZI (dzi.bg) is one of the leading insurance companies in Bulgaria, part of the Belgian KBC Group, offering life and non-life insurance, health, property, and motor insurance products.",
-        "bg": "ДЗИ (dzi.bg) е една от водещите застрахователни компании в България, част от белгийската група KBC, предлагаща продукти в областта на живото и общото застраховане, здравно, имуществено и автомобилно застраховане."
+        "en": "An automotive news and information website covering car brands, models, specifications, and motorsports in Bulgarian.",
+        "bg": "Уебсайт за автомобилни новини и информация, обхващащ марки автомобили, модели, спецификации и моторни спортове на български."
       },
-      "source": "https://pwnforums.st/Thread-SELLING-DZI-Insurance-3-1M-Records",
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/dzi.bg.png"
+        "images/autocatalog.bg.png"
       ]
     },
     {
       "id": 154,
-      "organization": "phoenixpharma.bg",
+      "organization": "bulgarianpropertyuk.com",
       "type": "private",
       "description": {
-        "en": "PHOENIX Pharma Bulgaria (phoenixpharma.bg) is a leading pharmaceutical wholesaler and integrated healthcare provider in Bulgaria, distributing medicines and healthcare products to pharmacies and hospitals nationwide.",
-        "bg": "PHOENIX Pharma България (phoenixpharma.bg) е водещ фармацевтичен дистрибутор и интегриран доставчик на здравни услуги в България, който доставя лекарства и здравни продукти на аптеки и болници в цялата страна."
+        "en": "A real estate agency specializing in Bulgarian property sales to UK clients, offering apartments, houses, and hotels primarily in Black Sea resorts like Sunny Beach and Nessebar.",
+        "bg": "Агенция за недвижими имоти, специализирана в продажбата на български имоти на клиенти от Великобритания, предлагаща апартаменти, къщи и хотели предимно в черноморски курорти като Слънчев бряг и Несебър."
       },
-      "source": "https://pwnforums.st/Thread-PHOENIX-Pharma-RS-BG?highlight=bulgaria",
+      "source": "https://darkforums.st/Thread-OLD-BIG-DBS-TOTAL-OF-595-32-GB",
       "images": [
-        "images/phoenixpharma.bg.png"
+        "images/bulgarianpropertyuk.com.png"
       ]
     }
   ]
