@@ -1,10 +1,11 @@
 // Constants
 const COUNTER_DURATION = 1200;
 const COUNTER_STEPS = 60;
-const RANSOMWARE_API = 'https://api-pro.ransomware.live/v2';
-// Injected at deploy time from the GITHUB secret RANSOMWARE_API_KEY (see
-// .github/workflows/deploy.yml) — never commit a real token in its place.
-const RANSOMWARE_API_KEY = '__RANSOMWARE_API_KEY__';
+// The Ransomware.live feed is fetched server-side by a scheduled GitHub
+// Action (see .github/workflows/fetch-feed.yml) and published as this
+// static JSON file — calling api-pro.ransomware.live directly from the
+// browser fails CORS preflight, so no API key ever reaches the client.
+const RANSOMWARE_FEED_FILE = 'ransomware-feed.json';
 const FEED_REFRESH_MS = 60 * 60 * 1000; // 60 minutes
 const FEED_COUNTRY = 'BG';
 const FEED_MAX_ITEMS = 8;
@@ -307,13 +308,13 @@ function renderSources() {
 // ---------------------------------------------------------------
 async function loadRansomwareFeed() {
     try {
-        const response = await fetch(`${RANSOMWARE_API}/recentvictims`, {
-            headers: { 'X-Api-Key': RANSOMWARE_API_KEY }
-        });
-        if (!response.ok) throw new Error(`Ransomware.live API error: ${response.status}`);
-        const items = await response.json();
+        // Cache-bust so the hourly-refreshed static file isn't served stale
+        // from the browser/CDN cache between deploys.
+        const response = await fetch(`${RANSOMWARE_FEED_FILE}?t=${Date.now()}`);
+        if (!response.ok) throw new Error(`Feed file error: ${response.status}`);
+        const payload = await response.json();
 
-        const bgVictims = (Array.isArray(items) ? items : [])
+        const bgVictims = (Array.isArray(payload.victims) ? payload.victims : [])
             .filter(v => (v.country || '').toUpperCase() === FEED_COUNTRY)
             .slice(0, FEED_MAX_ITEMS);
 

@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Refresh the Bulgaria ransomware feed hourly even without a new push
+    - cron: '0 * * * *'
 
 permissions:
   contents: read
@@ -21,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject Ransomware.live API key
+      - name: Fetch Ransomware.live feed (Bulgaria)
         env:
           RANSOMWARE_API_KEY: ${{ secrets.RANSOMWARE_API_KEY }}
         run: |
@@ -29,7 +32,40 @@ jobs:
             echo "::error::RANSOMWARE_API_KEY secret is not set (Settings -> Secrets and variables -> Actions)."
             exit 1
           fi
-          sed -i "s/__RANSOMWARE_API_KEY__/${RANSOMWARE_API_KEY}/" app.js
+
+          # Called server-side so the key never reaches the browser and CORS
+          # (which api-pro.ransomware.live does not support for this route)
+          # never comes into play.
+          http_code=$(curl -s -o recentvictims_raw.json -w "%{http_code}" \
+            "https://api-pro.ransomware.live/v2/recentvictims" \
+            -H "X-Api-Key: ${RANSOMWARE_API_KEY}")
+
+          if [ "$http_code" != "200" ]; then
+            echo "::error::Ransomware.live API returned HTTP ${http_code}"
+            cat recentvictims_raw.json || true
+            exit 1
+          fi
+
+          python3 - <<'EOF'
+          import json
+          from datetime import datetime, timezone
+
+          with open('recentvictims_raw.json', encoding='utf-8') as f:
+              raw = json.load(f)
+
+          victims = raw if isinstance(raw, list) else raw.get('victims', [])
+          bg_victims = [v for v in victims if str(v.get('country', '')).upper() == 'BG'][:8]
+
+          with open('ransomware-feed.json', 'w', encoding='utf-8') as f:
+              json.dump({
+                  'generated': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+                  'victims': bg_victims
+              }, f, ensure_ascii=False, indent=2)
+
+          print(f"Wrote {len(bg_victims)} Bulgarian victim(s) to ransomware-feed.json")
+          EOF
+
+          rm -f recentvictims_raw.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
