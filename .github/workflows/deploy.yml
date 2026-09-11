@@ -33,16 +33,19 @@ jobs:
             exit 1
           fi
 
+          # Correct Pro API base/path confirmed from the official ransomwatch
+          # CLI source (config.py): base https://api-pro.ransomware.live,
+          # victims endpoint is /victims/ and accepts ?country= as a filter.
           # Called server-side so the key never reaches the browser and CORS
-          # (which api-pro.ransomware.live does not support for this route)
-          # never comes into play.
-          http_code=$(curl -s -o recentvictims_raw.json -w "%{http_code}" \
-            "https://api-pro.ransomware.live/v2/recentvictims" \
-            -H "X-Api-Key: ${RANSOMWARE_API_KEY}")
+          # (which api-pro.ransomware.live does not support anyway) never
+          # comes into play.
+          http_code=$(curl -s -o victims_raw.json -w "%{http_code}" \
+            "https://api-pro.ransomware.live/victims/?country=BG" \
+            -H "X-API-KEY: ${RANSOMWARE_API_KEY}")
 
           if [ "$http_code" != "200" ]; then
             echo "::error::Ransomware.live API returned HTTP ${http_code}"
-            cat recentvictims_raw.json || true
+            cat victims_raw.json || true
             exit 1
           fi
 
@@ -50,10 +53,12 @@ jobs:
           import json
           from datetime import datetime, timezone
 
-          with open('recentvictims_raw.json', encoding='utf-8') as f:
+          with open('victims_raw.json', encoding='utf-8') as f:
               raw = json.load(f)
 
           victims = raw if isinstance(raw, list) else raw.get('victims', [])
+          # Already filtered server-side by ?country=BG; re-check defensively
+          # in case the API ever returns unfiltered results, and cap the count.
           bg_victims = [v for v in victims if str(v.get('country', '')).upper() == 'BG'][:8]
 
           with open('ransomware-feed.json', 'w', encoding='utf-8') as f:
@@ -65,7 +70,7 @@ jobs:
           print(f"Wrote {len(bg_victims)} Bulgarian victim(s) to ransomware-feed.json")
           EOF
 
-          rm -f recentvictims_raw.json
+          rm -f victims_raw.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
