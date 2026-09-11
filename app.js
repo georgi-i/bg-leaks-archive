@@ -1,6 +1,13 @@
 // Constants
-const COUNTER_DURATION = 2000;
+const COUNTER_DURATION = 1200;
 const COUNTER_STEPS = 60;
+const RANSOMWARE_API = 'https://api-pro.ransomware.live/v2';
+// Injected at deploy time from the GITHUB secret RANSOMWARE_API_KEY (see
+// .github/workflows/deploy.yml) — never commit a real token in its place.
+const RANSOMWARE_API_KEY = '__RANSOMWARE_API_KEY__';
+const FEED_REFRESH_MS = 60 * 60 * 1000; // 60 minutes
+const FEED_COUNTRY = 'BG';
+const FEED_MAX_ITEMS = 8;
 
 const TRANSLATIONS = {
     noResults: {
@@ -8,7 +15,7 @@ const TRANSLATIONS = {
         bg: 'Не са намерени пробиви, отговарящи на вашите критерии'
     },
     viewSource: {
-        en: 'View Source →',
+        en: 'View source →',
         bg: 'Виж източник →'
     },
     publicLabel: {
@@ -18,6 +25,22 @@ const TRANSLATIONS = {
     privateLabel: {
         en: 'Private',
         bg: 'Частен'
+    },
+    feedLoading: {
+        en: 'Loading live feed…',
+        bg: 'Зареждане на емисията…'
+    },
+    feedError: {
+        en: "Couldn't reach the Ransomware.live API right now.",
+        bg: 'В момента API на Ransomware.live не е достъпно.'
+    },
+    feedEmpty: {
+        en: 'No Bulgarian victims in the most recent disclosures.',
+        bg: 'Няма български жертви сред най-новите разкрития.'
+    },
+    unknownSector: {
+        en: 'Unspecified sector',
+        bg: 'Неуточнен сектор'
     }
 };
 
@@ -54,7 +77,7 @@ async function loadBreachesData() {
 // Show error message
 function showErrorMessage() {
     elements.container.innerHTML = `
-        <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--danger);">
+        <div class="no-results">
             Failed to load breach data. Please try refreshing the page.
         </div>
     `;
@@ -63,11 +86,15 @@ function showErrorMessage() {
 // Cache DOM elements
 function cacheElements() {
     elements.container = document.getElementById('leaks-container');
+    elements.sourcesContainer = document.getElementById('sources-container');
+    elements.feedContainer = document.getElementById('feed-container');
     elements.searchInput = document.getElementById('search-input');
     elements.modal = document.getElementById('image-modal');
     elements.modalImage = document.getElementById('modal-image');
     elements.prevBtn = document.getElementById('prev-img');
     elements.nextBtn = document.getElementById('next-img');
+    elements.navToggle = document.getElementById('nav-toggle');
+    elements.navMobile = document.getElementById('nav-mobile');
 }
 
 // Unified button toggle handler
@@ -90,6 +117,7 @@ function initializeLanguageToggle() {
             state.language = lang;
             updateTranslations();
             renderLeaks();
+            renderFeed(state.lastFeedItems, state.lastFeedStatus);
         }
     });
 }
@@ -118,23 +146,40 @@ function initializeSearch() {
     });
 }
 
+// Initialize mobile nav
+function initializeMobileNav() {
+    elements.navToggle.addEventListener('click', () => {
+        elements.navToggle.classList.toggle('open');
+        elements.navMobile.classList.toggle('open');
+    });
+    elements.navMobile.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            elements.navToggle.classList.remove('open');
+            elements.navMobile.classList.remove('open');
+        });
+    });
+}
+
 // Update statistics
 function updateStats() {
     const { data } = state;
     const stats = {
         total: data.length,
         public: data.filter(leak => leak.type.includes('public')).length,
-        private: data.filter(leak => leak.type === 'private').length
+        private: data.filter(leak => leak.type === 'private').length,
+        sources: getUniqueDomains(data).length
     };
 
     animateCounter('total-leaks', stats.total);
     animateCounter('public-leaks', stats.public);
     animateCounter('private-leaks', stats.private);
+    animateCounter('sources-count', stats.sources);
 }
 
 // Animate counter
 function animateCounter(elementId, targetValue) {
     const element = document.getElementById(elementId);
+    if (!element) return;
     const stepValue = targetValue / COUNTER_STEPS;
     let currentValue = 0;
 
@@ -152,10 +197,8 @@ function animateCounter(elementId, targetValue) {
 // Filter leaks
 function getFilteredLeaks(searchTerm = '') {
     return state.data.filter(leak => {
-        // Type filter
         const typeMatch = state.filter === 'all' || leak.type.includes(state.filter);
 
-        // Search filter
         const searchMatch = !searchTerm ||
             `${leak.organization} ${leak.description.en} ${leak.description.bg} ${leak.source}`
             .toLowerCase()
@@ -170,11 +213,7 @@ function renderLeaks(searchTerm = '') {
     const filteredLeaks = getFilteredLeaks(searchTerm);
 
     if (filteredLeaks.length === 0) {
-        elements.container.innerHTML = `
-            <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-secondary);">
-                ${t('noResults')}
-            </div>
-        `;
+        elements.container.innerHTML = `<div class="no-results">${t('noResults')}</div>`;
         return;
     }
 
@@ -182,7 +221,7 @@ function renderLeaks(searchTerm = '') {
         .map(leak => createLeakCard(leak))
         .join('');
 
-    // Event delegation for images
+    elements.container.removeEventListener('click', handleImageClick);
     elements.container.addEventListener('click', handleImageClick);
 }
 
@@ -205,10 +244,11 @@ function createLeakCard(leak) {
         <div class="leak-images">
             ${leak.images.map((img, index) => `
                 <img src="${img}"
-                     alt="${leak.organization}"
+                     alt="${escapeHtml(leak.organization)}"
                      class="leak-image-thumb"
                      data-leak-id="${leak.id}"
-                     data-image-index="${index}">
+                     data-image-index="${index}"
+                     loading="lazy">
             `).join('')}
         </div>
     ` : '';
@@ -216,16 +256,127 @@ function createLeakCard(leak) {
     return `
         <div class="leak-card">
             <div class="leak-header">
-                <div class="leak-org">${leak.organization}</div>
+                <div class="leak-org">${escapeHtml(leak.organization)}</div>
                 <div class="leak-type ${typeClass}">${typeLabel}</div>
             </div>
-            <div class="leak-description">${description}</div>
+            <div class="leak-description">${escapeHtml(description)}</div>
             ${imagesHTML}
             <a href="${leak.source}" target="_blank" rel="noopener noreferrer" class="leak-source">
                 ${t('viewSource')}
             </a>
         </div>
     `;
+}
+
+function escapeHtml(str = '') {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+// ---------------------------------------------------------------
+// Sources section — unique domains referenced across all entries
+// ---------------------------------------------------------------
+function getUniqueDomains(data) {
+    const domains = new Set();
+    data.forEach(leak => {
+        try {
+            const host = new URL(leak.source).hostname.replace(/^www\./, '');
+            if (host) domains.add(host);
+        } catch (e) {
+            // skip malformed URLs
+        }
+    });
+    return Array.from(domains).sort((a, b) => a.localeCompare(b));
+}
+
+function renderSources() {
+    const domains = getUniqueDomains(state.data);
+    if (domains.length === 0) {
+        elements.sourcesContainer.innerHTML = '';
+        return;
+    }
+    elements.sourcesContainer.innerHTML = domains.map(domain => {
+        const isOnion = domain.endsWith('.onion');
+        return `<span class="source-chip${isOnion ? ' onion' : ''}">${escapeHtml(domain)}</span>`;
+    }).join('');
+}
+
+// ---------------------------------------------------------------
+// Live feed — Ransomware.live recent victims, filtered to Bulgaria
+// ---------------------------------------------------------------
+async function loadRansomwareFeed() {
+    try {
+        const response = await fetch(`${RANSOMWARE_API}/recentvictims`, {
+            headers: { 'X-Api-Key': RANSOMWARE_API_KEY }
+        });
+        if (!response.ok) throw new Error(`Ransomware.live API error: ${response.status}`);
+        const items = await response.json();
+
+        const bgVictims = (Array.isArray(items) ? items : [])
+            .filter(v => (v.country || '').toUpperCase() === FEED_COUNTRY)
+            .slice(0, FEED_MAX_ITEMS);
+
+        state.lastFeedItems = bgVictims;
+        state.lastFeedStatus = 'ok';
+        renderFeed(bgVictims, 'ok');
+    } catch (error) {
+        console.error('Error loading Ransomware.live feed:', error);
+        state.lastFeedItems = [];
+        state.lastFeedStatus = 'error';
+        renderFeed([], 'error');
+    }
+}
+
+function formatFeedDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return dateStr;
+    return d.toLocaleDateString(state.language === 'bg' ? 'bg-BG' : 'en-GB', {
+        year: 'numeric', month: 'short', day: 'numeric'
+    });
+}
+
+function renderFeed(items, status) {
+    if (!elements.feedContainer) return;
+
+    if (status === undefined || status === null) {
+        elements.feedContainer.innerHTML = `<div class="feed-loading">${t('feedLoading')}</div>`;
+        return;
+    }
+
+    if (status === 'error') {
+        elements.feedContainer.innerHTML = `<div class="feed-error">${t('feedError')}</div>`;
+        return;
+    }
+
+    if (!items || items.length === 0) {
+        elements.feedContainer.innerHTML = `<div class="feed-empty">${t('feedEmpty')}</div>`;
+        return;
+    }
+
+    elements.feedContainer.innerHTML = items.map(item => {
+        const victim = escapeHtml(item.victim || item.post_title || 'Unknown');
+        const group = escapeHtml(item.group || item.group_name || '—');
+        const sector = escapeHtml(item.sector || t('unknownSector'));
+        const date = formatFeedDate(item.attackdate || item.discovered || item.published);
+        return `
+            <div class="feed-item">
+                <div>
+                    <div class="feed-victim">${victim}</div>
+                    <div class="feed-meta">${sector}</div>
+                </div>
+                <span class="feed-group">${group}</span>
+                <span class="feed-date">${date}</span>
+            </div>
+        `;
+    }).join('');
+}
+
+function initializeLiveFeed() {
+    renderFeed(null, undefined);
+    loadRansomwareFeed();
+    setInterval(loadRansomwareFeed, FEED_REFRESH_MS);
 }
 
 // Modal functionality
@@ -238,7 +389,6 @@ function initializeModal() {
     elements.prevBtn.addEventListener('click', () => navigateImage(-1));
     elements.nextBtn.addEventListener('click', () => navigateImage(1));
 
-    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
         if (!elements.modal.classList.contains('active')) return;
 
@@ -287,6 +437,7 @@ function updateModalNavigation() {
 // Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
     cacheElements();
+    initializeMobileNav();
     const dataLoaded = await loadBreachesData();
     if (dataLoaded) {
         initializeLanguageToggle();
@@ -294,6 +445,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         initializeSearch();
         initializeModal();
         renderLeaks();
+        renderSources();
         updateStats();
     }
+    initializeLiveFeed();
 });

@@ -1,0 +1,48 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Inject Ransomware.live API key
+        env:
+          RANSOMWARE_API_KEY: ${{ secrets.RANSOMWARE_API_KEY }}
+        run: |
+          if [ -z "$RANSOMWARE_API_KEY" ]; then
+            echo "::error::RANSOMWARE_API_KEY secret is not set (Settings -> Secrets and variables -> Actions)."
+            exit 1
+          fi
+          sed -i "s/__RANSOMWARE_API_KEY__/${RANSOMWARE_API_KEY}/" app.js
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
