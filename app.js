@@ -161,6 +161,46 @@ function initializeMobileNav() {
     });
 }
 
+// Initialize dark mode toggle (desktop + mobile buttons stay in sync)
+function initializeThemeToggle() {
+    const toggles = [
+        document.getElementById('theme-toggle'),
+        document.getElementById('theme-toggle-mobile')
+    ].filter(Boolean);
+
+    if (toggles.length === 0) return;
+
+    const setTheme = (theme) => {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    };
+
+    toggles.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+    });
+}
+
+// Show/hide the back-to-top button once the user scrolls past the hero
+function initializeBackToTop() {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+
+    const threshold = 480;
+    const toggleVisibility = () => {
+        btn.classList.toggle('visible', window.scrollY > threshold);
+    };
+
+    window.addEventListener('scroll', toggleVisibility, { passive: true });
+    toggleVisibility();
+
+    btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
 // Update statistics
 function updateStats() {
     const { data } = state;
@@ -439,6 +479,8 @@ function updateModalNavigation() {
 document.addEventListener('DOMContentLoaded', async () => {
     cacheElements();
     initializeMobileNav();
+    initializeThemeToggle();
+    initializeBackToTop();
     const dataLoaded = await loadBreachesData();
     if (dataLoaded) {
         initializeLanguageToggle();

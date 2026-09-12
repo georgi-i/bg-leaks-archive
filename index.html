@@ -6,6 +6,15 @@
     <title>BG Leaks — Bulgarian Data Breach Archive</title>
     <meta name="description" content="A public, searchable record of disclosed data leaks and forum posts referencing Bulgarian organizations.">
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Applied before first paint to avoid a flash of the wrong theme.
+        // Defaults to light regardless of system preference; only an
+        // explicit choice (saved by the toggle) switches it to dark.
+        (function () {
+            var stored = localStorage.getItem('theme');
+            document.documentElement.setAttribute('data-theme', stored || 'light');
+        })();
+    </script>
 </head>
 <body>
 
@@ -23,6 +32,10 @@
                     <button class="lang-btn active" data-lang="en">EN</button>
                     <button class="lang-btn" data-lang="bg">БГ</button>
                 </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 1020.354 15.354z"></path></svg>
+                </button>
                 <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
                     <span></span><span></span><span></span>
                 </button>
@@ -126,6 +139,10 @@
             </div>
         </div>
     </div>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
+    </button>
 
     <script src="app.js"></script>
 </body>
