@@ -2031,6 +2031,19 @@
       "images": [
         "images/bulgarianpropertyuk.com.png"
       ]
+    },
+    {
+      "id": 155,
+      "organization": "konicaminolta.bg",
+      "type": "private",
+      "description": {
+        "en": "Konica Minolta Bulgaria (konicaminolta.bg) is a Bulgaria-based IT services company with its own sales, marketing, and technical structure, reportedly targeted by PANZER ransomware with an alleged 235 GB of data compromised.",
+        "bg": "Konica Minolta България (konicaminolta.bg) е базирана в България ИТ услугова компания със собствена продажбена, маркетингова и техническа структура, за която се твърди, че е засегната от рансъмуер групата PANZER с предполагаемо компрометирани 235 GB данни."
+      },
+      "source": "https://x.com/FalconFeedsio/status/2098388025273450521",
+      "images": [
+        "images/konicaminolta.bg.png"
+      ]
     }
   ]
 }
