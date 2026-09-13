@@ -66,7 +66,11 @@ async function loadBreachesData() {
         const response = await fetch('breaches.json');
         if (!response.ok) throw new Error(`Failed to load breaches.json: ${response.status}`);
         const data = await response.json();
-        state.data = data.breaches;
+        // Rendered by id descending. IDs are numbered in reverse of display
+        // order (highest id = first card), so any future entry — as long as
+        // it gets an id higher than the current maximum — automatically
+        // floats to the top without touching any existing entry.
+        state.data = [...data.breaches].sort((a, b) => b.id - a.id);
         return true;
     } catch (error) {
         console.error('Error loading breaches data:', error);
