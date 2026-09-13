@@ -39,9 +39,17 @@ jobs:
           # Called server-side so the key never reaches the browser and CORS
           # (which api-pro.ransomware.live does not support anyway) never
           # comes into play.
-          http_code=$(curl -s -o victims_raw.json -w "%{http_code}" \
+          http_code=$(curl -sS --http1.1 --retry 3 --retry-delay 2 \
+            -o victims_raw.json -w "%{http_code}" \
             "https://api-pro.ransomware.live/victims/?country=BG" \
-            -H "X-API-KEY: ${RANSOMWARE_API_KEY}")
+            -H "X-API-KEY: ${RANSOMWARE_API_KEY}" \
+            -H "User-Agent: Mozilla/5.0 (compatible; bg-leaks-archive/1.0)") \
+            || curl_exit=$?
+
+          if [ -n "${curl_exit:-}" ]; then
+            echo "::error::curl failed to connect (exit code ${curl_exit}) — this usually means api-pro.ransomware.live is blocking GitHub Actions' IP range, or a TLS/HTTP2 handshake issue. See https://curl.se/libcurl/c/libcurl-errors.html for exit code meaning."
+            exit 1
+          fi
 
           if [ "$http_code" != "200" ]; then
             echo "::error::Ransomware.live API returned HTTP ${http_code}"
