@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| generali.bg | Generali Insurance Bulgaria (Generali Insurance AD, generali.bg) is a major licensed insurance company operating in Bulgaria as part of the global Assicurazioni Generali group. Approximately 1.24 million personal-data records of customers were reportedly dumped from gi-webserver.generali.bg/InsurerWeb, with the breach dated 28 april 2026 | https://pwnforums.st/Thread-SELLING-Generali-Insurance-Bulgaria-1-2M-Records |
 | konicaminolta.bg | Konica Minolta Bulgaria (konicaminolta.bg) is a Bulgaria-based IT services company with its own sales, marketing, and technical structure, reportedly targeted by PANZER ransomware with an alleged 235 GB of data compromised. | https://x.com/FalconFeedsio/status/2098388025273450521 |
 | phoenixpharma.bg | PHOENIX Pharma Bulgaria (phoenixpharma.bg) is a leading pharmaceutical wholesaler and integrated healthcare provider in Bulgaria, distributing medicines and healthcare products to pharmacies and hospitals nationwide. | https://pwnforums.st/Thread-PHOENIX-Pharma-RS-BG |
 | dzi.bg | DZI (dzi.bg) is one of the leading insurance companies in Bulgaria, part of the Belgian KBC Group, offering life and non-life insurance, health, property, and motor insurance products. | https://pwnforums.st/Thread-SELLING-DZI-Insurance-3-1M-Records |
