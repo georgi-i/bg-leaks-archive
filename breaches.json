@@ -2057,6 +2057,19 @@
       "images": [
         "images/generali.bg.png"
       ]
+    },
+    {
+      "id": 157,
+      "organization": "dfz.bg",
+      "type": "public",
+      "description": {
+        "en": "The State Fund Agriculture (DFZ, dfz.bg) Electronic Services System is the official digital administration platform in Bulgaria for agricultural producers to manage national and European Union funding programs. In September 2026, DFZ reportedly suffered a data breach exposing information on 88,450 users.",
+        "bg": "Електронната система за услуги на Държавен фонд \"Земеделие\" (DFZ, dfz.bg) е официалната дигитална административна платформа в България за земеделски производители за управление на национални и европейски програми за финансиране. През септември 2026 г. DFZ претърпя пробив в данните, при който твърдят, че са изтекли данни на 88 450 потребители."
+    },
+      "source": "https://pwnforums.st/Thread-SELLING-State-Fund-Agriculture-88k-Bulgaria",
+      "images": [
+        "images/dfz.bg.png"
+      ]
     }
   ]
 }
