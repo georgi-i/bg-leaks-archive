@@ -2044,6 +2044,19 @@
       "images": [
         "images/konicaminolta.bg.png"
       ]
+    },
+    {
+      "id": 156,
+      "organization": "generali.bg",
+      "type": "private",
+      "description": {
+        "en": "Generali Insurance Bulgaria (Generali Insurance AD, generali.bg) is a major licensed insurance company operating in Bulgaria as part of the global Assicurazioni Generali group. Approximately 1.24 million personal-data records of customers were reportedly dumped from gi-webserver.generali.bg/InsurerWeb, with the breach dated 28.04.2026.",
+        "bg": "Generali Insurance Bulgaria (Generali Insurance AD, generali.bg) е лицензирана застрахователна компания, опериращa в България като част от глобалната група Assicurazioni Generali. Твърди се, че около 1.24 милиона записа с лични данни на клиенти са изтеглени от gi-webserver.generali.bg/InsurerWeb, като пробивът е датиран 28.04.2026."
+      },
+      "source": "https://pwnforums.st/Thread-SELLING-Generali-Insurance-Bulgaria-1-2M-Records",
+      "images": [
+        "images/generali.bg.png"
+      ]
     }
   ]
 }
