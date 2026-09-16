@@ -2070,6 +2070,32 @@
       "images": [
         "images/dfz.bg.png"
       ]
+    },
+    {
+      "id": 158,
+      "organization": "mareshki.com",
+      "type": "private",
+      "description": {
+        "en": "Apteki Mareshki (mareshki.com) is Bulgaria's largest pharmacy chain by outlet count, with 294 pharmacies in 120+ towns as of 2025, built since 1991–92 by Varna businessman Veselin Mareshki. Because Bulgarian law caps one company at 4 pharmacies, the chain operates as dozens of legal entities under the MARESHKI HOLD AD umbrella, franchising the brand from Varnafarma-M and supplied through the wholesaler Farmnet AD.",
+        "bg": "Аптеки Марешки (mareshki.com) е най-голямата аптечна верига в България по брой обекти — 294 аптеки в над 120 града към 2025 г., изградена от 1991–92 г. насам от варненския бизнесмен Веселин Марешки. Тъй като българският закон ограничава едно дружество до 4 аптеки, веригата работи чрез десетки юридически лица под шапката на MARESHKI HOLD AD, франчайзвайки марката от Варнафарма-М и снабдявана чрез търговеца на едро Фармнет АД."
+    },
+      "source": "https://x.com/DailyDarkWeb/status/2099865824878010486/photo/3",
+      "images": [
+        "images/mareshki.com.png"
+      ]
+    },
+    {
+      "id": 159,
+      "organization": "balkanpolymers.com",
+      "type": "private",
+      "description": {
+        "en": "Balkan Polymers (balkanpolymers.com) is a Bulgarian manufacturing company. It was reportedly targeted by the ransomware group \"Thegentlemen,\" with an estimated attack date of 2026-09-14 and the breach discovered on 2026-09-15.",
+        "bg": "Balkan Polymers (balkanpolymers.com) е българска производствена компания. Според твърдения е засегната от рансъмуер групата \"Thegentlemen\", с предполагаема дата на атаката 14.09.2026 г. и разкриване на пробива на 15.09.2026 г."
+      },
+      "source": "https://www.ransomware.live/id/QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg",
+      "images": [
+        "images/balkanpolymers.com.png"
+      ]
     }
   ]
 }
