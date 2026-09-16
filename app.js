@@ -403,7 +403,7 @@ function renderFeed(items, status) {
     elements.feedContainer.innerHTML = items.map(item => {
         const victim = escapeHtml(item.victim || item.post_title || 'Unknown');
         const group = escapeHtml(item.group || item.group_name || '—');
-        const sector = escapeHtml(item.sector || t('unknownSector'));
+        const sector = escapeHtml(item.activity || item.sector || t('unknownSector'));
         const date = formatFeedDate(item.attackdate || item.discovered || item.published);
         return `
             <div class="feed-item">

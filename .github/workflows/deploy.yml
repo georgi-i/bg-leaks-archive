@@ -43,9 +43,9 @@ jobs:
           # Correct Pro API base/path confirmed from the official ransomwatch
           # CLI source (config.py): base https://api-pro.ransomware.live,
           # victims endpoint is /victims/ and accepts ?country= as a filter.
-          # Called server-side so the key never reaches the browser and CORS
-          # (which api-pro.ransomware.live does not support anyway) never
-          # comes into play.
+          # The sector-like field is returned directly on each list item as
+          # "activity" (not "sector" as the ransomwatch package's dataclass
+          # implied) — no extra per-victim detail lookup needed.
           curl_exit=0
           http_code=$(curl -sS --http1.1 --retry 3 --retry-delay 2 \
             -o victims_raw.json -w "%{http_code}" \
@@ -69,19 +69,7 @@ jobs:
 
           python3 - <<'EOF'
           import json
-          import os
-          import time
-          import urllib.error
-          import urllib.parse
-          import urllib.request
           from datetime import datetime, timezone
-
-          API_KEY = os.environ["RANSOMWARE_API_KEY"]
-          BASE = "https://api-pro.ransomware.live"
-          HEADERS = {
-              "X-API-KEY": API_KEY,
-              "User-Agent": "Mozilla/5.0 (compatible; bg-leaks-archive/1.0)",
-          }
 
           with open('victims_raw.json', encoding='utf-8') as f:
               raw = json.load(f)
@@ -90,34 +78,6 @@ jobs:
           # Already filtered server-side by ?country=BG; re-check defensively
           # in case the API ever returns unfiltered results, and cap the count.
           bg_victims = [v for v in victims if str(v.get('country', '')).upper() == 'BG'][:8]
-
-          def fetch_sector(identifier):
-              """The /victims/ list endpoint doesn't include sector — only the
-              /victim/{id} detail endpoint does. Best-effort per-victim lookup;
-              any failure here just leaves that entry without a sector."""
-              if not identifier:
-                  return ''
-              url = f"{BASE}/victim/{urllib.parse.quote(str(identifier), safe='')}"
-              req = urllib.request.Request(url, headers=HEADERS)
-              try:
-                  with urllib.request.urlopen(req, timeout=15) as resp:
-                      data = json.loads(resp.read().decode('utf-8'))
-                  if isinstance(data, list):
-                      data = data[0] if data else {}
-                  return (data or {}).get('sector', '') or ''
-              except Exception as exc:
-                  print(f"  sector lookup failed for {identifier!r}: {exc}")
-                  return ''
-
-          for v in bg_victims:
-              identifier = (
-                  v.get('id') or v.get('victim_id') or v.get('post_id')
-                  or v.get('slug') or v.get('victim')
-              )
-              sector = fetch_sector(identifier)
-              if sector:
-                  v['sector'] = sector
-              time.sleep(0.3)  # be polite to the API between per-victim calls
 
           with open('ransomware-feed.json', 'w', encoding='utf-8') as f:
               json.dump({
