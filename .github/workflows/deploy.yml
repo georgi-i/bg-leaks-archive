@@ -9,7 +9,7 @@ on:
     - cron: '0 * * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -23,14 +23,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Fetch Ransomware.live feed (Bulgaria)
         env:
           RANSOMWARE_API_KEY: ${{ secrets.RANSOMWARE_API_KEY }}
         run: |
+          # Best-effort: any failure here is a WARNING, never a hard error.
+          # ransomware-feed.json already committed in the repo (from the last
+          # successful run) is left untouched and simply gets redeployed as-is,
+          # so a flaky/blocked API never blocks the rest of the site (breach
+          # archive, CSS/HTML changes, etc.) from deploying.
           if [ -z "$RANSOMWARE_API_KEY" ]; then
-            echo "::error::RANSOMWARE_API_KEY secret is not set (Settings -> Secrets and variables -> Actions)."
-            exit 1
+            echo "::warning::RANSOMWARE_API_KEY secret is not set — keeping the last committed ransomware-feed.json."
+            exit 0
           fi
 
           # Correct Pro API base/path confirmed from the official ransomwatch
@@ -39,6 +46,7 @@ jobs:
           # Called server-side so the key never reaches the browser and CORS
           # (which api-pro.ransomware.live does not support anyway) never
           # comes into play.
+          curl_exit=0
           http_code=$(curl -sS --http1.1 --retry 3 --retry-delay 2 \
             -o victims_raw.json -w "%{http_code}" \
             "https://api-pro.ransomware.live/victims/?country=BG" \
@@ -46,20 +54,34 @@ jobs:
             -H "User-Agent: Mozilla/5.0 (compatible; bg-leaks-archive/1.0)") \
             || curl_exit=$?
 
-          if [ -n "${curl_exit:-}" ]; then
-            echo "::error::curl failed to connect (exit code ${curl_exit}) — this usually means api-pro.ransomware.live is blocking GitHub Actions' IP range, or a TLS/HTTP2 handshake issue. See https://curl.se/libcurl/c/libcurl-errors.html for exit code meaning."
-            exit 1
+          if [ "$curl_exit" != "0" ]; then
+            echo "::warning::curl failed to connect (exit code ${curl_exit}) — keeping the last committed ransomware-feed.json. See https://curl.se/libcurl/c/libcurl-errors.html"
+            rm -f victims_raw.json
+            exit 0
           fi
 
           if [ "$http_code" != "200" ]; then
-            echo "::error::Ransomware.live API returned HTTP ${http_code}"
+            echo "::warning::Ransomware.live API returned HTTP ${http_code} — keeping the last committed ransomware-feed.json."
             cat victims_raw.json || true
-            exit 1
+            rm -f victims_raw.json
+            exit 0
           fi
 
           python3 - <<'EOF'
           import json
+          import os
+          import time
+          import urllib.error
+          import urllib.parse
+          import urllib.request
           from datetime import datetime, timezone
+
+          API_KEY = os.environ["RANSOMWARE_API_KEY"]
+          BASE = "https://api-pro.ransomware.live"
+          HEADERS = {
+              "X-API-KEY": API_KEY,
+              "User-Agent": "Mozilla/5.0 (compatible; bg-leaks-archive/1.0)",
+          }
 
           with open('victims_raw.json', encoding='utf-8') as f:
               raw = json.load(f)
@@ -68,6 +90,34 @@ jobs:
           # Already filtered server-side by ?country=BG; re-check defensively
           # in case the API ever returns unfiltered results, and cap the count.
           bg_victims = [v for v in victims if str(v.get('country', '')).upper() == 'BG'][:8]
+
+          def fetch_sector(identifier):
+              """The /victims/ list endpoint doesn't include sector — only the
+              /victim/{id} detail endpoint does. Best-effort per-victim lookup;
+              any failure here just leaves that entry without a sector."""
+              if not identifier:
+                  return ''
+              url = f"{BASE}/victim/{urllib.parse.quote(str(identifier), safe='')}"
+              req = urllib.request.Request(url, headers=HEADERS)
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      data = json.loads(resp.read().decode('utf-8'))
+                  if isinstance(data, list):
+                      data = data[0] if data else {}
+                  return (data or {}).get('sector', '') or ''
+              except Exception as exc:
+                  print(f"  sector lookup failed for {identifier!r}: {exc}")
+                  return ''
+
+          for v in bg_victims:
+              identifier = (
+                  v.get('id') or v.get('victim_id') or v.get('post_id')
+                  or v.get('slug') or v.get('victim')
+              )
+              sector = fetch_sector(identifier)
+              if sector:
+                  v['sector'] = sector
+              time.sleep(0.3)  # be polite to the API between per-victim calls
 
           with open('ransomware-feed.json', 'w', encoding='utf-8') as f:
               json.dump({
@@ -79,6 +129,18 @@ jobs:
           EOF
 
           rm -f victims_raw.json
+
+      - name: Commit updated ransomware feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ransomware-feed.json
+          if git diff --cached --quiet; then
+            echo "No changes to ransomware-feed.json — skipping commit."
+          else
+            git commit -m "chore: update ransomware.live feed [skip ci]"
+            git push
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
