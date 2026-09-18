@@ -879,3 +879,65 @@ html[data-theme="dark"] .back-to-top:hover {
         height: 34px;
     }
 }
+
+/* ---------------------------------------------------------------
+   Risks section
+   --------------------------------------------------------------- */
+.risk-group-title {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+    margin: 40px 0 16px;
+}
+
+.risk-group-title:first-of-type {
+    margin-top: 8px;
+}
+
+.risk-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 14px;
+    margin-bottom: 8px;
+}
+
+.risk-item {
+    background: var(--surface);
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius-m);
+    padding: 18px 20px;
+}
+
+.risk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.risk-org {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.risk-meta {
+    font-size: 12px;
+    color: var(--ink-faint);
+    white-space: nowrap;
+}
+
+.risk-line {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin-top: 8px;
+}
+
+.risk-line strong {
+    color: var(--ink);
+    font-weight: 600;
+}
