@@ -5,8 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # Refresh the Bulgaria ransomware feed hourly even without a new push
-    - cron: '0 * * * *'
+    # Refresh the Bulgaria ransomware feed once a day
+    - cron: '0 3 * * *'
 
 permissions:
   contents: write
