@@ -134,21 +134,15 @@ html[data-theme="dark"] .nav {
 .nav-brand {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
     text-decoration: none;
     color: var(--ink);
     white-space: nowrap;
 }
 
-.nav-brand .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--accent);
-    flex-shrink: 0;
+.nav-brand .brand-logo {
+    height: 36px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
