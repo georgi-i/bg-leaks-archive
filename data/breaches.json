@@ -2044,6 +2044,19 @@
       "images": [
         "assets/images/breaches/konicaminolta.bg.png"
       ]
+    },
+    {
+      "id": 156,
+      "organization": "bonex.bg",
+      "type": "private",
+      "description": {
+        "en": "BONEX (bonex.bg) is a Bulgarian cryptocurrency trading platform. It was reportedly put up for sale on a hacking forum with approximately 26,000 user records exposed.",
+        "bg": "BONEX (bonex.bg) е българска платформа за търговия с криптовалути. Според твърдения данните ѝ са били обявени за продажба на хакерски форум, с приблизително 26 000 изложени потребителски записа."
+    },
+      "source": "https://bf.st/Thread-BONEX-BG-BULGARIAN-CRYPTO-PLATFORM-26K",
+      "images": [
+        "assets/images/breaches/bonex.bg.png"
+      ]
     }
   ]
 }
