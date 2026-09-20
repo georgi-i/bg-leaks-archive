@@ -7,7 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bg-leaks.xyz/breaches.json</loc>
+    <loc>https://bg-leaks.xyz/data/breaches.json</loc>
     <lastmod>2025-11-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

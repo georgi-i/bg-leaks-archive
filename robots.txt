@@ -3,7 +3,7 @@
 
 User-agent: *
 Allow: /
-Allow: /breaches.json
+Allow: /data/breaches.json
 
 # Explicitly allow common search engine crawlers
 User-agent: Googlebot

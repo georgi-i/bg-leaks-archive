@@ -5,7 +5,7 @@ const COUNTER_STEPS = 60;
 // Action (see .github/workflows/fetch-feed.yml) and published as this
 // static JSON file — calling api-pro.ransomware.live directly from the
 // browser fails CORS preflight, so no API key ever reaches the client.
-const RANSOMWARE_FEED_FILE = 'ransomware-feed.json';
+const RANSOMWARE_FEED_FILE = 'data/ransomware-feed.json';
 const FEED_REFRESH_MS = 60 * 60 * 1000; // 60 minutes
 const FEED_COUNTRY = 'BG';
 const FEED_MAX_ITEMS = 8;
@@ -63,7 +63,7 @@ const t = (key) => TRANSLATIONS[key]?.[state.language] || '';
 // Load data from breaches.json
 async function loadBreachesData() {
     try {
-        const response = await fetch('breaches.json');
+        const response = await fetch('data/breaches.json');
         if (!response.ok) throw new Error(`Failed to load breaches.json: ${response.status}`);
         const data = await response.json();
         // Rendered by id descending. IDs are numbered in reverse of display
