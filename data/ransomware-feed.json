@@ -1,6 +1,24 @@
 {
-  "generated": "2026-09-22T08:21:56.229161Z",
+  "generated": "2026-09-23T08:23:45.128569Z",
   "victims": [
+    {
+      "id": "QWJ2QG1lZHVzYWxvY2tlcg==",
+      "discovered": "2026-09-23T07:39:33.505905+00:00",
+      "website": "abv.bg",
+      "country": "BG",
+      "activity": "Other",
+      "description": "Organization with 583 emails extracted. Domain: abv.bg | Sofia, Bulgaria",
+      "post_url": "http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/barayaj/",
+      "ransom": null,
+      "data_size": null,
+      "screenshot": "https://images.ransomware.live/victims/9e82ba523d71247ce7b8048637db1ad8.png",
+      "infostealer": "",
+      "press": null,
+      "permalink": "https://www.ransomware.live/id/QWJ2QG1lZHVzYWxvY2tlcg==",
+      "attackdate": "2026-09-23T07:39:19.606774+00:00",
+      "victim": "Abv",
+      "group": "medusalocker"
+    },
     {
       "id": "QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg==",
       "discovered": "2026-09-15T07:15:09.026597+00:00",
@@ -176,24 +194,6 @@
       "attackdate": "2026-04-22T00:00:00+00:00",
       "victim": "vp-brands.com",
       "group": "lockbit5"
-    },
-    {
-      "id": "Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw==",
-      "discovered": "2026-01-25T21:49:32.756148+00:00",
-      "website": "vitoshaparkhotel.com",
-      "country": "BG",
-      "activity": "Hospitality",
-      "description": "Employee data breach.",
-      "post_url": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/1pB4YVCtJrA9DFc4mFt0fGX0OwZTi4VDSjFBpWKz8b+zmqifIG6bTDtgzX1mgmKTUqxiRxQRdT3MUTWgqFi0VhrblU2ckha",
-      "ransom": null,
-      "data_size": null,
-      "screenshot": "https://images.ransomware.live/victims/de52926ba43cf34421971468b299eeda.png",
-      "infostealer": "",
-      "press": null,
-      "permalink": "https://www.ransomware.live/id/Vml0b3NoYSBQYXJrIEhvdGVsQGFudWJpcw==",
-      "attackdate": "2026-01-25T21:49:03.978558+00:00",
-      "victim": "Vitosha Park Hotel",
-      "group": "anubis"
     }
   ]
 }
