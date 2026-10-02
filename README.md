@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| wildmanbg.com | Brain Cipher ransomware claim - 350k+ files, 80 GB (HR, accounting, contracts) | https://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/wildmanbg |
 | bonex.bg | BONEX (bonex.bg) is a Bulgarian cryptocurrency trading platform. It was reportedly put up for sale on a hacking forum with approximately 26,000 user records exposed. | https://bf.st/Thread-BONEX-BG-BULGARIAN-CRYPTO-PLATFORM-26K |
 | mareshki.com | Apteki Mareshki (mareshki.com) is Bulgaria's largest pharmacy chain by outlet count, with 294 pharmacies in 120+ towns as of 2025, built since 1991–92 by Varna businessman Veselin Mareshki. Because Bulgarian law caps one company at 4 pharmacies, the chain operates as dozens of legal entities under the MARESHKI HOLD AD umbrella, franchising the brand from Varnafarma-M and supplied through the wholesaler Farmnet AD. | https://x.com/DailyDarkWeb/status/2099865824878010486/photo/3 |
 | balkanpolymers.com | Balkan Polymers (balkanpolymers.com) is a Bulgarian manufacturing company. It was reportedly targeted by the ransomware group "Thegentlemen," with an estimated attack date of 2026-09-14 and the breach discovered on 2026-09-15. | https://www.ransomware.live/id/QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg |

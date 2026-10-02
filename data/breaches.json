@@ -2057,6 +2057,19 @@
       "images": [
         "assets/images/breaches/bonex.bg.png"
       ]
+    },
+    {
+      "id": 157,
+      "organization": "wildmanbg.com",
+      "type": "private",
+      "description": {
+        "en": "Wildman Bulgaria (wildmanbg.com) is a Bulgaria-based company reportedly targeted by the Brain Cipher ransomware group, which claims to have exfiltrated more than 350k files (over 80 GB), including HR files (W-2/SSN/benefits/medical/disciplinary), bank reconciliations, treasury and accounting data, client contracts with pricing, invoices, billing and warehouse records. A publication deadline of October 7, 2026 was set.",
+        "bg": "Wildman България (wildmanbg.com) е базирана в България компания, за която се твърди, че е засегната от рансъмуер групата Brain Cipher. Групата твърди, че е изтеглила над 350 хил. файла (над 80 GB), включително HR файлове (W-2/SSN/придобивки/медицински/дисциплинарни), банкови съгласувания, трезор и счетоводни данни, клиентски договори с цени, фактури, билинг и складови записи. Зададен е краен срок за публикуване 7 октомври 2026 г."
+      },
+      "source": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/wildmanbg",
+      "images": [
+        "assets/images/breaches/wildmanbg.com.png"
+      ]
     }
   ]
 }
