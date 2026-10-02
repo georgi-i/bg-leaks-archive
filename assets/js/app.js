@@ -42,6 +42,10 @@ const TRANSLATIONS = {
     unknownSector: {
         en: 'Unspecified sector',
         bg: 'Неуточнен сектор'
+    },
+    feedSource: {
+        en: 'Source →',
+        bg: 'Източник →'
     }
 };
 
@@ -405,11 +409,16 @@ function renderFeed(items, status) {
         const group = escapeHtml(item.group || item.group_name || '—');
         const sector = escapeHtml(item.activity || item.sector || t('unknownSector'));
         const date = formatFeedDate(item.attackdate || item.discovered || item.published);
+        const permalink = item.permalink || '';
+        const sourceLink = permalink
+            ? `<a class="feed-source" href="${escapeHtml(permalink)}" target="_blank" rel="noopener noreferrer">${t('feedSource')}</a>`
+            : '';
         return `
             <div class="feed-item">
                 <div>
                     <div class="feed-victim">${victim}</div>
                     <div class="feed-meta">${sector}</div>
+                    ${sourceLink}
                 </div>
                 <span class="feed-group">${group}</span>
                 <span class="feed-date">${date}</span>

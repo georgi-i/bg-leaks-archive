@@ -653,6 +653,19 @@ html[data-theme="dark"] .leak-card:hover {
     margin-top: 2px;
 }
 
+.feed-source {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.feed-source:hover {
+    text-decoration: underline;
+}
+
 .feed-group {
     font-size: 12px;
     color: var(--ink-soft);
