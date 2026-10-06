@@ -2070,6 +2070,19 @@
       "images": [
         "assets/images/breaches/wildmanbg.com.png"
       ]
+    },
+    {
+      "id": 158,
+      "organization": "mareshki.com",
+      "type": "private",
+      "description": {
+        "en": "Apteki Mareshki (mareshki.com) is Bulgaria's largest pharmacy chain by outlet count, with 294 pharmacies in 120+ towns as of 2025, built since 1991–92 by Varna businessman Veselin Mareshki. Because Bulgarian law caps one company at 4 pharmacies, the chain operates as dozens of legal entities under the MARESHKI HOLD AD umbrella, franchising the brand from Varnafarma-M and supplied through the wholesaler Farmnet AD.",
+        "bg": "Аптеки Марешки (mareshki.com) е най-голямата аптечна верига в България по брой обекти, с 294 аптеки в над 120 града към 2025 г., изградена от 1991–92 г. от варненския бизнесмен Веселин Марешки. Тъй като българското законодателство ограничава една фирма до 4 аптеки, веригата работи като десетки юридически лица под шапката на МАРЕШКИ ХОЛД АД, франчайзира марката от Варнафарма-М и се снабдява чрез търговеца на едро Фармнет АД."
+      },
+      "source": "https://x.com/DailyDarkWeb/status/2099865810793591073",
+      "images": [
+        "assets/images/breaches/mareshki.com.png"
+      ]
     }
   ]
 }
