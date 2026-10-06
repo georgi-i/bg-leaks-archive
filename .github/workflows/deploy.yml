@@ -78,7 +78,19 @@ jobs:
           victims = raw if isinstance(raw, list) else raw.get('victims', [])
           # Already filtered server-side by ?country=BG; re-check defensively
           # in case the API ever returns unfiltered results, and cap the count.
-          bg_victims = [v for v in victims if str(v.get('country', '')).upper() == 'BG'][:8]
+          # Domains the API tags as BG but that are not Bulgarian companies
+          # (e.g. wildmanbg.com: "bg" = Business Group). Filtered out before
+          # the cap so the feed still fills up to 8 entries.
+          EXCLUDED_DOMAINS = {'wildmanbg.com'}
+
+          def is_excluded(v):
+              names = {str(v.get('website', '')).lower(), str(v.get('victim', '')).lower()}
+              return bool(names & EXCLUDED_DOMAINS)
+
+          bg_victims = [
+              v for v in victims
+              if str(v.get('country', '')).upper() == 'BG' and not is_excluded(v)
+          ][:8]
 
           os.makedirs('data', exist_ok=True)
 
