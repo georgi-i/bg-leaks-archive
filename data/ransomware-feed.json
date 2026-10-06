@@ -2,24 +2,6 @@
   "generated": "2026-10-06T08:04:38.714195Z",
   "victims": [
     {
-      "id": "d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg",
-      "discovered": "2026-09-29T15:21:23.788570+00:00",
-      "website": "wildmanbg.com",
-      "country": "BG",
-      "activity": "Other",
-      "description": "[AI generated] N/A",
-      "post_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/wildmanbg",
-      "ransom": null,
-      "data_size": null,
-      "screenshot": "https://images.ransomware.live/victims/b8caeb85a51cff0167ff38d7d2e53916.png",
-      "infostealer": "",
-      "press": null,
-      "permalink": "https://www.ransomware.live/id/d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg",
-      "attackdate": "2026-09-29T15:21:08.725699+00:00",
-      "victim": "wildmanbg.com",
-      "group": "BrainCipher"
-    },
-    {
       "id": "QWJ2QG1lZHVzYWxvY2tlcg",
       "discovered": "2026-09-23T07:39:33.505905+00:00",
       "website": "abv.bg",
