@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-05T10:10:36.055724Z",
+  "generated": "2026-10-06T08:04:38.714195Z",
   "victims": [
     {
-      "id": "d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg==",
+      "id": "d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg",
       "discovered": "2026-09-29T15:21:23.788570+00:00",
       "website": "wildmanbg.com",
       "country": "BG",
@@ -14,13 +14,13 @@
       "screenshot": "https://images.ransomware.live/victims/b8caeb85a51cff0167ff38d7d2e53916.png",
       "infostealer": "",
       "press": null,
-      "permalink": "https://www.ransomware.live/id/d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg==",
+      "permalink": "https://www.ransomware.live/id/d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg",
       "attackdate": "2026-09-29T15:21:08.725699+00:00",
       "victim": "wildmanbg.com",
       "group": "BrainCipher"
     },
     {
-      "id": "QWJ2QG1lZHVzYWxvY2tlcg==",
+      "id": "QWJ2QG1lZHVzYWxvY2tlcg",
       "discovered": "2026-09-23T07:39:33.505905+00:00",
       "website": "abv.bg",
       "country": "BG",
@@ -32,13 +32,13 @@
       "screenshot": "https://images.ransomware.live/victims/9e82ba523d71247ce7b8048637db1ad8.png",
       "infostealer": "",
       "press": null,
-      "permalink": "https://www.ransomware.live/id/QWJ2QG1lZHVzYWxvY2tlcg==",
+      "permalink": "https://www.ransomware.live/id/QWJ2QG1lZHVzYWxvY2tlcg",
       "attackdate": "2026-09-23T07:39:19.606774+00:00",
       "victim": "Abv",
       "group": "medusalocker"
     },
     {
-      "id": "QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg==",
+      "id": "QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg",
       "discovered": "2026-09-15T07:15:09.026597+00:00",
       "website": "balkanpolymers.com",
       "country": "BG",
@@ -50,13 +50,13 @@
       "screenshot": "",
       "infostealer": "",
       "press": null,
-      "permalink": "https://www.ransomware.live/id/QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg==",
+      "permalink": "https://www.ransomware.live/id/QmFsa2FuIFBvbHltZXJzQHRoZWdlbnRsZW1lbg",
       "attackdate": "2026-09-14T15:32:00+00:00",
       "victim": "Balkan Polymers",
       "group": "thegentlemen"
     },
     {
-      "id": "QXB0ZWtpIE1hcmVzaGtpQHRoZWdlbnRsZW1lbg==",
+      "id": "QXB0ZWtpIE1hcmVzaGtpQHRoZWdlbnRsZW1lbg",
       "discovered": "2026-09-15T07:08:57.549988+00:00",
       "website": "mareshki.com",
       "country": "BG",
@@ -78,7 +78,7 @@
         "infostealer_stats": {}
       },
       "press": null,
-      "permalink": "https://www.ransomware.live/id/QXB0ZWtpIE1hcmVzaGtpQHRoZWdlbnRsZW1lbg==",
+      "permalink": "https://www.ransomware.live/id/QXB0ZWtpIE1hcmVzaGtpQHRoZWdlbnRsZW1lbg",
       "attackdate": "2026-09-14T17:04:58+00:00",
       "victim": "Apteki Mareshki",
       "group": "thegentlemen"
@@ -130,7 +130,7 @@
       "group": "krybit"
     },
     {
-      "id": "ZXVyb2lucy5iZ0BrcnliaXQ=",
+      "id": "ZXVyb2lucy5iZ0BrcnliaXQ",
       "discovered": "2026-07-18T16:26:43.627960+00:00",
       "website": "euroins.bg",
       "country": "BG",
@@ -152,13 +152,13 @@
         "infostealer_stats": {}
       },
       "press": null,
-      "permalink": "https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ=",
+      "permalink": "https://www.ransomware.live/id/ZXVyb2lucy5iZ0BrcnliaXQ",
       "attackdate": "2026-07-18T16:26:20.935814+00:00",
       "victim": "euroins.bg",
       "group": "krybit"
     },
     {
-      "id": "YkVSU0BEZWFkbG9jaw==",
+      "id": "YkVSU0BEZWFkbG9jaw",
       "discovered": "2026-07-10T12:53:41.076602+00:00",
       "website": "bers.bg",
       "country": "BG",
@@ -180,7 +180,7 @@
         "infostealer_stats": {}
       },
       "press": null,
-      "permalink": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw==",
+      "permalink": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw",
       "attackdate": "2026-07-10T12:53:39.461073+00:00",
       "victim": "bERS",
       "group": "Deadlock"
