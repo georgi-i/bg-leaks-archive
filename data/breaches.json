@@ -2086,11 +2086,11 @@
     },
     {
       "id": 160,
-      "organization": "Testoup / Testograph",
+      "organization": "tglabs.eu",
       "type": "private",
       "description": {
-        "en": "The user database of Testoup / Testograph (45,965 records with names, emails, phone numbers and addresses) was reportedly put up for sale by TrojaSec, after the owners claimed that only the app, containing nothing but emails, had been affected.",
-        "bg": "Потребителската база на Testoup / Testograph (45 965 записа с имена, имейли, телефони и адреси) според твърдения е обявена за продажба от TrojaSec, след като собствениците твърдят, че е засегнато само приложението, съдържащо единствено имейли."
+        "en": "The user database of tglabs.eu (Testoup / Testograph) (45,965 records with names, emails, phone numbers and addresses) was reportedly put up for sale by TrojaSec, after the owners claimed that only the app, containing nothing but emails, had been affected.",
+        "bg": "Потребителската база на tglabs.eu (Testoup / Testograph) (45 965 записа с имена, имейли, телефони и адреси) според твърдения е обявена за продажба от TrojaSec, след като собствениците твърдят, че е засегнато само приложението, съдържащо единствено имейли."
       },
       "source": "https://bf.st/Thread-DATABASE-LEAK-Testoup-Testograph-—-45-965-user-records",
       "images": [
