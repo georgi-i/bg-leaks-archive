@@ -2070,6 +2070,58 @@
       "images": [
         "assets/images/breaches/mareshki.com.png"
       ]
+    },
+    {
+      "id": 159,
+      "organization": "fitness1.bg",
+      "type": "private",
+      "description": {
+        "en": "fitness1.bg is a Bulgarian fitness website whose full user database of 214,064 records (names, emails, phone numbers and home addresses) was reportedly put up for sale on a hacking forum by the actor TrojaSec.",
+        "bg": "fitness1.bg е български фитнес уебсайт, чиято пълна потребителска база от 214 064 записа (имена, имейли, телефони и домашни адреси) според твърдения е обявена за продажба на хакерски форум от актьора TrojaSec."
+      },
+      "source": "https://bf.st/Thread-LEAK-fitness1-bg-—-214-064-user-records-—-names-emails-phones-addresses",
+      "images": [
+        "assets/images/breaches/fitness1.bg.TrojaSec.png"
+      ]
+    },
+    {
+      "id": 160,
+      "organization": "Testoup / Testograph",
+      "type": "private",
+      "description": {
+        "en": "The user database of Testoup / Testograph (45,965 records with names, emails, phone numbers and addresses) was reportedly put up for sale by TrojaSec, after the owners claimed that only the app, containing nothing but emails, had been affected.",
+        "bg": "Потребителската база на Testoup / Testograph (45 965 записа с имена, имейли, телефони и адреси) според твърдения е обявена за продажба от TrojaSec, след като собствениците твърдят, че е засегнато само приложението, съдържащо единствено имейли."
+      },
+      "source": "https://bf.st/Thread-DATABASE-LEAK-Testoup-Testograph-—-45-965-user-records",
+      "images": [
+        "assets/images/breaches/tglabs.eu.TrojaSec.png"
+      ]
+    },
+    {
+      "id": 161,
+      "organization": "Priem Plovdiv",
+      "type": "public",
+      "description": {
+        "en": "Priem Plovdiv is the school admission system for the city of Plovdiv, whose database of 43,003 records (parents', children's and home address data) was reportedly put up for sale by TrojaSec.",
+        "bg": "Priem Plovdiv е системата за училищен прием на град Пловдив, чиято база от 43 003 записа (данни за родители, деца и домашни адреси) според твърдения е обявена за продажба от TrojaSec."
+      },
+      "source": "https://bf.st/Thread-DATABASE-LEAK-Priem-Plovdiv-—-43-003-records-—-parents-children-addresses",
+      "images": [
+        "assets/images/breaches/priem.plovdiv.bg.TrojaSec.png"
+      ]
+    },
+    {
+      "id": 162,
+      "organization": "econt.bg",
+      "type": "private",
+      "description": {
+        "en": "Econt (econt.bg) is a Bulgarian courier company whose full orders table of 3,196,563 records for 2024-2026 (phone, email, office/address and shortened name) was reportedly put up for sale by TrojaSec.",
+        "bg": "Еконт (econt.bg) е българска куриерска компания, чиято пълна таблица с поръчки от 3 196 563 записа за 2024–2026 г. (телефон, имейл, офис/адрес и съкратено име) според твърдения е обявена за продажба от TrojaSec."
+      },
+      "source": "https://bf.st/Thread-DATABASE-LEAK-EKONT-BG-Bulgaria-—-3-196-563-Orders-2024-2026",
+      "images": [
+        "assets/images/breaches/econt.bg.TrojaSec.png"
+      ]
     }
   ]
 }
