@@ -15,6 +15,7 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 
 | Domain | Description | Source URL |
 |--------|-------------|------------|
+| kindyroo.bg | KindyROO (kindyroo.bg) is a Bulgarian education center platform whose administrative panel and database were reportedly accessed by a threat actor, who claims exposure of parents' and children's personal data, contact details, enrollment and booking records, and the ability to email parents. | https://x.com/CyberPulse56/status/2112013559098163458 |
 | econt.bg | Econt (econt.bg) is a Bulgarian courier company whose full orders table of 3,196,563 records for 2024-2026 (phone, email, office/address and shortened name) was reportedly put up for sale by TrojaSec. | https://bf.st/Thread-DATABASE-LEAK-EKONT-BG-Bulgaria-—-3-196-563-Orders-2024-2026 |
 | Priem Plovdiv | Priem Plovdiv is the school admission system for the city of Plovdiv, whose database of 43,003 records (parents', children's and home address data) was reportedly put up for sale by TrojaSec. | https://bf.st/Thread-DATABASE-LEAK-Priem-Plovdiv-—-43-003-records-—-parents-children-addresses |
 | tglabs.eu | The user database of tglabs.eu (Testoup / Testograph) (45,965 records with names, emails, phone numbers and addresses) was reportedly put up for sale by TrojaSec, after the owners claimed that only the app, containing nothing but emails, had been affected. | https://bf.st/Thread-DATABASE-LEAK-Testoup-Testograph-—-45-965-user-records |

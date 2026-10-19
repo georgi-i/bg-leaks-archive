@@ -2122,6 +2122,19 @@
       "images": [
         "assets/images/breaches/econt.bg.TrojaSec.png"
       ]
+    },
+    {
+      "id": 163,
+      "organization": "kindyroo.bg",
+      "type": "private",
+      "description": {
+        "en": "KindyROO (kindyroo.bg) is a Bulgarian education center platform whose administrative panel and database were reportedly accessed by a threat actor, who claims exposure of parents' and children's personal data, contact details, enrollment and booking records, and the ability to email parents.",
+        "bg": "KindyROO (kindyroo.bg) е българска платформа на образователен център, чийто административен панел и база данни според твърдения са били достъпени от заплашващ актьор, който твърди, че са изложени лични данни на родители и деца, контактни данни, записвания и резервации, както и възможност за изпращане на имейли до родителите."
+      },
+      "source": "https://x.com/CyberPulse56/status/2112013559098163458",
+      "images": [
+        "assets/images/breaches/kindyroo.bg.png"
+      ]
     }
   ]
 }
