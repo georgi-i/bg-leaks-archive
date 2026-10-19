@@ -2099,11 +2099,11 @@
     },
     {
       "id": 161,
-      "organization": "Priem Plovdiv",
+      "organization": "priem.plovdiv.bg",
       "type": "public",
       "description": {
-        "en": "Priem Plovdiv is the school admission system for the city of Plovdiv, whose database of 43,003 records (parents', children's and home address data) was reportedly put up for sale by TrojaSec.",
-        "bg": "Priem Plovdiv е системата за училищен прием на град Пловдив, чиято база от 43 003 записа (данни за родители, деца и домашни адреси) според твърдения е обявена за продажба от TrojaSec."
+        "en": "priem.plovdiv.bg (Priem Plovdiv) is the school admission system for the city of Plovdiv, whose database of 43,003 records (parents', children's and home address data) was reportedly put up for sale by TrojaSec.",
+        "bg": "priem.plovdiv.bg (Priem Plovdiv) е системата за училищен прием на град Пловдив, чиято база от 43 003 записа (данни за родители, деца и домашни адреси) според твърдения е обявена за продажба от TrojaSec."
       },
       "source": "https://bf.st/Thread-DATABASE-LEAK-Priem-Plovdiv-—-43-003-records-—-parents-children-addresses",
       "images": [
