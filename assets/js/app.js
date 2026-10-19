@@ -326,17 +326,32 @@ function escapeHtml(str = '') {
 // ---------------------------------------------------------------
 // Sources section — unique domains referenced across all entries
 // ---------------------------------------------------------------
+// X/Twitter links are grouped per profile (x.com/DailyDarkWeb) rather than
+// collapsed into a single "x.com" source.
+function getSourceLabel(url) {
+    const { hostname, pathname } = new URL(url);
+    const host = hostname.replace(/^www\./, '');
+    if (host === 'x.com' || host === 'twitter.com') {
+        const handle = pathname.split('/')[1];
+        if (handle) return `x.com/${handle}`;
+    }
+    return host;
+}
+
 function getUniqueDomains(data) {
-    const domains = new Set();
+    // Keyed by lowercase so profile handles differing only in case merge
+    const domains = new Map();
     data.forEach(leak => {
         try {
-            const host = new URL(leak.source).hostname.replace(/^www\./, '');
-            if (host) domains.add(host);
+            const label = getSourceLabel(leak.source);
+            if (label && !domains.has(label.toLowerCase())) {
+                domains.set(label.toLowerCase(), label);
+            }
         } catch (e) {
             // skip malformed URLs
         }
     });
-    return Array.from(domains).sort((a, b) => a.localeCompare(b));
+    return Array.from(domains.values()).sort((a, b) => a.localeCompare(b));
 }
 
 function renderSources() {
