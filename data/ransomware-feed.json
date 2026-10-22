@@ -1,6 +1,24 @@
 {
-  "generated": "2026-10-21T08:23:04.288909Z",
+  "generated": "2026-10-22T08:25:32.586032Z",
   "victims": [
+    {
+      "id": "Q29tcGFueSAjMTA3QE4wbg",
+      "discovered": "2026-10-22T07:27:59.233928+00:00",
+      "website": "",
+      "country": "BG",
+      "activity": "Not Found",
+      "description": "fuel trading and construction materials · Bulgaria | [PENDING EXPOSURE]",
+      "post_url": "http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion",
+      "ransom": null,
+      "data_size": null,
+      "screenshot": "https://images.ransomware.live/victims/cd9319ce146401b8763e0b86ae1f7407.png",
+      "infostealer": "",
+      "press": null,
+      "permalink": "https://www.ransomware.live/id/Q29tcGFueSAjMTA3QE4wbg",
+      "attackdate": "2026-10-22T07:27:43.356503+00:00",
+      "victim": "Company #107",
+      "group": "N0n"
+    },
     {
       "id": "QWJ2QG1lZHVzYWxvY2tlcg",
       "discovered": "2026-09-23T07:39:33.505905+00:00",
@@ -166,34 +184,6 @@
       "attackdate": "2026-07-10T12:53:39.461073+00:00",
       "victim": "bERS",
       "group": "Deadlock"
-    },
-    {
-      "id": "dnAtYnJhbmRzLmNvbUBsb2NrYml0NQ",
-      "discovered": "2026-05-09T09:11:26.698694+00:00",
-      "website": "vp-brands.com",
-      "country": "BG",
-      "activity": "Retail & E-Commerce",
-      "description": "We produce quality spirits, evolve brands and push boundaries. As far as it takes.",
-      "post_url": "http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/68fbef4827ab8de327f2455229e94953",
-      "ransom": null,
-      "data_size": null,
-      "screenshot": "https://images.ransomware.live/victims/c94271c977a42287c5236a237e643a91.png",
-      "infostealer": {
-        "update": "2026-05-09T09:11:14",
-        "employees": 3,
-        "users": 0,
-        "thirdparties": 0,
-        "employees_url": 3,
-        "users_url": 0,
-        "last_employee_compromised": null,
-        "last_user_compromised": null,
-        "infostealer_stats": {}
-      },
-      "press": null,
-      "permalink": "https://www.ransomware.live/id/dnAtYnJhbmRzLmNvbUBsb2NrYml0NQ",
-      "attackdate": "2026-04-22T00:00:00+00:00",
-      "victim": "vp-brands.com",
-      "group": "lockbit5"
     }
   ]
 }
