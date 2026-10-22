@@ -2135,6 +2135,19 @@
       "images": [
         "assets/images/breaches/kindyroo.bg.png"
       ]
+    },
+    {
+      "id": 164,
+      "organization": "plesio.bg",
+      "type": "private",
+      "description": {
+        "en": "The plesio.bg database (207,903 unique rows, reportedly including email and password pairs) was reportedly put up for sale on a hacking forum by the actor TrojaSec.",
+        "bg": "Базата данни на plesio.bg (207 903 уникални реда, според твърдения включващи двойки имейл и парола) според твърдения е обявена за продажба на хакерски форум от актьора TrojaSec."
+      },
+      "source": "https://bf.st/Thread-DATABASE-Leak-Plesio-bg-207-903-unique-rows-TrojaSEC",
+      "images": [
+        "assets/images/breaches/plesio.bg.png"
+      ]
     }
   ]
 }
