@@ -2148,6 +2148,21 @@
       "images": [
         "assets/images/breaches/plesio.bg.png"
       ]
+    },
+    {
+      "id": 165,
+      "organization": "toplivo.bg",
+      "type": "private",
+      "description": {
+        "en": "TOPLIVO AD (toplivo.bg) is a Bulgarian company in fuel trading and construction materials, listed in October 2026 as a victim of the n0n ransomware group on its leak site, with the ransom reportedly not paid and the data marked as exposed.",
+        "bg": "ТОПЛИВО АД (toplivo.bg) е българска компания в търговията с горива и строителни материали, обявена през октомври 2026 г. за жертва на рансъмуер групата n0n в нейния сайт за изтичане на данни, като според твърдения откупът не е платен, а данните са отбелязани като публикувани."
+      },
+      "source": "https://socradar.io/free-tools/ransomware-intelligence/victims/toplivo-ad-n0n-a147dbd8",
+      "images": [
+        "assets/images/breaches/toplivo.bg.png",
+        "assets/images/breaches/toplivo.bg.2.png",
+        "assets/images/breaches/toplivo.bg.3.png"
+      ]
     }
   ]
 }
