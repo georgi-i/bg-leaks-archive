@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T07:34:25.812423Z",
+  "generated": "2026-10-25T07:38:11.109561Z",
   "victims": [
     {
       "id": "VE9QTElWTyBBREBOMG4",
@@ -156,6 +156,34 @@
       "attackdate": "2026-07-18T16:26:20.935814+00:00",
       "victim": "euroins.bg",
       "group": "krybit"
+    },
+    {
+      "id": "YkVSU0BEZWFkbG9jaw",
+      "discovered": "2026-07-10T12:53:41.076602+00:00",
+      "website": "bers.bg",
+      "country": "BG",
+      "activity": "Other",
+      "description": "Bers logistics has been providing logistics services and high quality 3pl outsourcing of integrated logistics services.",
+      "post_url": "http://deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion/s3.php?d=d2FzYWJpOmRhdGEtYmVycy5iZ3xldS1jZW50cmFsLTF8NkdYMTNXRkhZQjlGUzAzSklSNVN8ZXRCT01lRzdHQkVnZEVlWnR6aWEzbExVRDFMZFllelJLNVB6OERnSA%3D%3D",
+      "ransom": null,
+      "data_size": null,
+      "screenshot": "https://images.ransomware.live/victims/591298e5067d7a1e882dcedb1bbf8c2b.png",
+      "infostealer": {
+        "update": "2026-07-10T12:53:39",
+        "employees": 0,
+        "users": 1,
+        "thirdparties": 1,
+        "employees_url": 0,
+        "users_url": 1,
+        "last_employee_compromised": null,
+        "last_user_compromised": null,
+        "infostealer_stats": {}
+      },
+      "press": null,
+      "permalink": "https://www.ransomware.live/id/YkVSU0BEZWFkbG9jaw",
+      "attackdate": "2026-07-10T12:53:39.461073+00:00",
+      "victim": "bERS",
+      "group": "Deadlock"
     }
   ]
 }
