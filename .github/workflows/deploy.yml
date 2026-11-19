@@ -78,11 +78,12 @@ jobs:
           victims = raw if isinstance(raw, list) else raw.get('victims', [])
           # Entries to drop from the feed: domains the API tags as BG but that
           # are not Bulgarian companies (e.g. wildmanbg.com: "bg" = Business
-          # Group) and placeholder listings duplicating another victim
-          # ("Company #107" is the early n0n listing of TOPLIVO AD).
+          # Group; systemsoft.info is Spanish, per WHOIS) and placeholder
+          # listings duplicating another victim ("Company #107" is the early
+          # n0n listing of TOPLIVO AD).
           # Matched case-insensitively against the website and victim name,
           # and filtered before the cap so the feed still fills up to 8 entries.
-          EXCLUDED = {'wildmanbg.com', 'company #107'}
+          EXCLUDED = {'wildmanbg.com', 'systemsoft.info', 'company #107'}
 
           def is_excluded(v):
               names = {str(v.get('website', '')).lower(), str(v.get('victim', '')).lower()}
