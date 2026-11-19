@@ -2,34 +2,6 @@
   "generated": "2026-11-18T11:20:45.971354Z",
   "victims": [
     {
-      "id": "U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl",
-      "discovered": "2026-10-31T19:04:42.079141+00:00",
-      "website": "systemsoft.info",
-      "country": "BG",
-      "activity": "Technology",
-      "description": "systemsoft.info",
-      "post_url": "",
-      "ransom": null,
-      "data_size": null,
-      "screenshot": "",
-      "infostealer": {
-        "update": "2026-10-31T19:04:40",
-        "employees": 0,
-        "users": 0,
-        "thirdparties": 3,
-        "employees_url": 0,
-        "users_url": 0,
-        "last_employee_compromised": null,
-        "last_user_compromised": null,
-        "infostealer_stats": {}
-      },
-      "press": null,
-      "permalink": "https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl",
-      "attackdate": "2026-10-31T18:31:03+00:00",
-      "victim": "System Soft",
-      "group": "Vexy Ransomware"
-    },
-    {
       "id": "VE9QTElWTyBBREBOMG4",
       "discovered": "2026-10-25T06:56:34.098354+00:00",
       "website": "",
